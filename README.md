@@ -5,7 +5,7 @@
 ## 访问地址
 
 通过 GitHub Pages 发布：
-`https://<你的 GitHub 用户名>.github.io/ppt-radar`
+`https://daitianhua.github.io/ppt-radar`
 
 ## 项目结构
 
