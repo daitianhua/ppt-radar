@@ -1,1 +1,4 @@
 https://daitianhua.github.io/ppt-radar
+
+2026-08-13 本地已提交 7 条（commit a96f8fe）｜推送失败：GitHub 凭证缺失，待补录凭证后重推
+2026-08-13 已推送 7 条
