@@ -102,7 +102,7 @@
   // header
   document.getElementById("siteName").textContent = DATA.site.name;
   document.getElementById("siteSlogan").textContent = DATA.site.slogan;
-  document.getElementById("siteUpd").textContent = "最后更新：" + DATA.site.updated;
+  document.getElementById("siteUpd").textContent = "最后更新：" + (DATA.site.updatedAt || DATA.site.updated);
 
   function heatClass(h){ return h>=90?"h90":h>=80?"h80":"h70"; }
   function heatColor(h){ return h>=90?"var(--hot)":h>=80?"var(--mid)":"var(--low)"; }

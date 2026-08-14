@@ -2,7 +2,8 @@ window.PPT_RADAR = {
   site: {
     name: "PPT 每日雷达",
     slogan: "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    updated: "2026-08-14"
+    updated: "2026-08-14",
+    updatedAt: "2026-08-14 10:55"
   },
   days: [
     {
