@@ -2,9 +2,98 @@ window.PPT_RADAR = {
   site: {
     name: "PPT 每日雷达",
     slogan: "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    updated: "2026-08-13"
+    updated: "2026-08-14"
   },
   days: [
+    {
+      date: "2026-08-14",
+      items: [
+        {
+          time: "08:50",
+          source: "Microsoft Release Notes（releasebot.io 汇编）",
+          heat: 88,
+          category: "软件更新",
+          title: "PowerPoint Copilot 8 月更新：可直接调用企业 AEM 素材库、网页版首页即生成、可引用联网来源",
+          url: "http://releasebot.io/updates/microsoft",
+          summary: "8 月路线图披露：Copilot 在编辑模式下接入 Adobe Experience Manager 企业素材库（用审批过的官方图）；PowerPoint 网页版首页直接点 Copilot 开新 deck；生成中可引用联网实时来源并标注出处。",
+          tags: ["Copilot", "PowerPoint", "AEM素材库", "联网引用"],
+          reason: "企业最怕两件事——用错图违规、引用无出处。这次更新把'用审批过的素材'和'带来源的生成'都补上了，比单纯会写文字实在一截。",
+          action: "若公司用 M365，让 IT 把 Adobe Experience Manager 素材库接进 Copilot；做对外材料时养成让 Copilot 标注来源的习惯，省去事后补参考文献。"
+        },
+        {
+          time: "09:30",
+          source: "软盟资讯",
+          heat: 86,
+          category: "行业新闻",
+          title: "Canva 可画中国 8/4 上线 MCP：AI 生成内容带完整图层直送画布，打通 Kimi、WorkBuddy 等本土智能体",
+          url: "https://news.softunis.com/66866.html",
+          summary: "Canva 可画在中国市场正式上线 MCP（模型上下文协议）能力，首批对接 Kimi、WorkBuddy、QoderWorkCN 等本土 AI 智能体。AI 生成的文案/图片可保留文字图层级传到 Canva 画布继续编辑与协作，不再是一张'死图'。",
+          tags: ["Canva", "MCP", "本土AI", "图层互通"],
+          reason: "以前 AI 出图导进设计软件就成死图、文字合并没法改，这次打通后'生成—设计—协作'变成一条线，做海报/PPT 的搬运活少一大半。",
+          action: "下次让 AI 写文案或出图后，直接走 MCP 通道送进 Canva 改，而不是复制粘贴；团队共用一套画布，版本和协作都省心。"
+        },
+        {
+          time: "10:15",
+          source: "WPS 365 官方",
+          heat: 84,
+          category: "软件更新",
+          title: "WPS 365 深度整合 Gamma / Canva / iSlide：企业模板统一管控 + 外发审批 + 水印溯源",
+          url: "https://365.wps.cn/content/2c4dafc5baa34a9b854eee143a44980a.html",
+          summary: "WPS 365 通过 AI Hub 原生集成 Gamma、Canva、iSlide 等，AI 一键生成大纲并自动套用行业模板，制作效率提升 60%-90%；配套外发审批、动态水印、下载权限与二级回收站，防核心设计泄露。",
+          tags: ["WPS 365", "Gamma", "企业管控", "水印溯源"],
+          reason: "企业做 PPT 的两大痛点——慢、且设计资产乱飞易泄密，这次用'集成+管控'一起解决，特别适合金融、制造这类强合规行业。",
+          action: "若公司用 WPS 365，让管理员在后台把常用美化资源配好并推全员，同时开启外发审批和水印，重要汇报外发前先过一道。"
+        },
+        {
+          time: "11:00",
+          source: "nesyona · 10 款工具硬测",
+          heat: 82,
+          category: "工具动态",
+          title: "10 款 AI 做 PPT 工具同题实测：Gamma 47 秒出 12 页投资人 deck，价格横评出炉",
+          url: "https://nesyona.com/articles/best-ai-presentation-makers.html",
+          summary: "用同一份 12 页投资人 pitch 提示词测 10 款工具：Gamma 47 秒出稿最快、Beautiful.ai 设计最稳、Plus AI 最适合 Google/PowerPoint 原地改；价格 Gamma $8/月起、Beautiful.ai $22/月、Copilot $20/人月。",
+          tags: ["横评", "Gamma", "Beautiful.ai", "定价"],
+          reason: "把'哪个快''哪个贵'用同题实测摆出来，比厂商自夸靠谱。你选工具前先对一眼这张价格/速度表，少踩'免费变付费'的坑。",
+          action: "把你正在用的那款在表里对一下价格和导出限制；重要对外 deck 别只信最快出稿，先确认能导出干净 .pptx。"
+        },
+        {
+          time: "13:20",
+          source: "unite.ai · 8 月榜单",
+          heat: 80,
+          category: "工具动态",
+          title: "unite.ai 8 月 AI 演示生成器榜：Julius AI 把数据分析和图表直接变成 deck",
+          url: "https://www.unite.ai/is/best-ai-presentation-generators/",
+          summary: "榜单点出几款常被忽略的工具：Julius AI 可上传表格/连数据源，用自然语言出图并把分析结果直接生成演示，适合数据重汇报；Gamma、Plus AI、Beautiful.ai 等仍是主力。",
+          tags: ["Julius AI", "数据驱动", "图表生成", "选型"],
+          reason: "数据多、图表多的汇报一直是大痛点。Julius 这种'先分析再出片'的工具，比只会排版的工具更贴合业务复盘类材料。",
+          action: "下次做经营分析/数据复盘，先试 Julius AI 这类能直接读表出图的工具，把'拉数—画图—写稿'三步合一。"
+        },
+        {
+          time: "14:40",
+          source: "TheOmnibuzz · 设计观察",
+          heat: 80,
+          category: "设计趋势",
+          title: "2026 专业演示趋势：暗色成标配、'不完美设计年'人本反弹、无障碍变硬指标",
+          url: "https://theomnibuzz.com/the-presentation-design-trends-professionals-are-actually-using-in-2026",
+          summary: "三大走向：暗色模式因护眼+投影对比成专业标配；业界出现'Imperfect by Design'人本反弹，刻意避开一眼 AI 味；无障碍（高对比、大字号、alt 文本）从加分项变基线要求，多数 AI 工具已内置检查。",
+          tags: ["暗色模式", "人本设计", "无障碍", "AI味规避"],
+          reason: "观众对'明显 AI 生成'的套版审美已经疲劳。想让材料显得有人味、且任何场合都看得清，这三条是 2026 的默认及格线。",
+          action: "给重要对外 deck 备一套暗色版；刻意保留一两处手工痕迹（手写感标注、非对称留白）；交稿前跑一遍无障碍检查。"
+        },
+        {
+          time: "16:00",
+          source: "LivingSlide · 趋势指南",
+          heat: 78,
+          category: "教程观点",
+          title: "AI 幻灯片 5 大趋势与落地法：建提示词库、用 AI 迭代而非从零造",
+          url: "https://livingslide.com/blog/ai-slides-future-presentation-design",
+          summary: "文章给出 5 个方向（实时协作改编、受众自适应、语音视频集成、数据连接幻灯片、大规模超个性化），并强调最实用的方法：提示词质量决定产出、用 AI 做初稿+人工个性化、攒自己的提示词库、快速生成多版挑优。",
+          tags: ["提示词库", "AI初稿", "迭代", "超个性化"],
+          reason: "很多人把 AI 当'一次性生成器'，结果每回都从空白开始。真正省时间的是把常用提示词沉淀成库，反复迭代而不是重造。",
+          action: "今天就把你最常用的 3-5 类汇报（周报、复盘、立项）各写一条标准提示词存成库，下次直接调，省掉每次重新描述需求。"
+        }
+      ]
+    },
     {
       date: "2026-08-13",
       items: [
