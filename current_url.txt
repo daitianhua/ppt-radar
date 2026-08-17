@@ -4,3 +4,4 @@ https://daitianhua.github.io/ppt-radar
 2026-08-13 已推送 7 条
 2026-08-14 推送失败（自动化 git push 未成功，数据已 commit 4f980f2）
 2026-08-14 已补推成功（手动推送：含 updatedAt 具体时间 + 8/14 共 7 条）
+2026-08-17 已推送 5 条
