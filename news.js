@@ -2,10 +2,75 @@ window.PPT_RADAR = {
   site: {
     name: "PPT 每日雷达",
     slogan: "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    updated: "2026-08-14",
-    updatedAt: "2026-08-14 10:55"
+    updated: "2026-08-17",
+    updatedAt: "2026-08-17 11:55"
   },
   days: [
+    {
+      date: "2026-08-17",
+      items: [
+        {
+          time: "08:22",
+          source: "腾讯新闻（混元动态）",
+          heat: 90,
+          category: "行业新闻",
+          title: "腾讯混元 HY3 实测：PPT 生成等五场景真能替你干活，WorkBuddy 任务成功率 72%→90%",
+          url: "https://new.qq.com/rain/a/20260817A02WGA00?refer=cp_1009",
+          summary: "8/17 实测显示，腾讯新一代旗舰文本模型 HY3（MoE、2950 亿参数、256K 上下文）在表格处理、长文档理解、PPT 生成、代码审计与多步骤 Agent 任务上表现稳定；WorkBuddy 中任务成功率由 72% 升至 90%，免费调用窗口截至 8/31。",
+          tags: ["混元", "HY3", "PPT生成", "Agent"],
+          reason: "你天天用的 WorkBuddy 背后就接了这类模型，成功率涨到 90% 意味着以后让它出 PPT 或资料更靠谱、更少返工。免费窗口到 8/31，值得趁这阵多试。",
+          action: "用 WorkBuddy 做 PPT 或资料时直接提需求，别自己手搓；遇到复杂任务先拆小步让它跑，成功率比之前高。"
+        },
+        {
+          time: "10:05",
+          source: "AIVideoAdvisor",
+          heat: 84,
+          category: "软件更新",
+          title: "SlideSpeak 8 月更新：从 PPT 工具扩展成「视频+课程」工作流，含 AI 主播与 LMS 测验",
+          url: "https://aivideoadvisor.com/slidespeak-august-2026-update-ai-video-presentations-courses",
+          summary: "SlideSpeak 8 月版在 .pptx 生成之上叠加可编辑视频编辑器（逐页时间轴、配音、字幕）、屏上 AI 主播（口型同步）、课程生成器与 LMS 测验导出（QTI 1.2、D2L CSV），从出片工具跨进视频工作流。",
+          tags: ["SlideSpeak", "AI视频", "AI主播", "课程"],
+          reason: "做培训或路演材料的人，以前出完 deck 还得另找工具录视频，现在一条线从幻灯片到带讲解视频再到测验，省一道搬运。",
+          action: "若公司常做培训视频，试 SlideSpeak 把现有 deck 直接转成带 AI 讲解的视频，先小范围验证再铺开。"
+        },
+        {
+          time: "08:22",
+          source: "hqwc.cn",
+          heat: 82,
+          category: "工具动态",
+          title: "2026 横评 6 款 PPT 生成工具：垂直场景（技术方案、项目交付）才是分水岭",
+          url: "http://www.hqwc.cn/a/1051833.html",
+          summary: "实测指出通用 PPT 工具在技术方案、系统架构、项目交付类文档上水土不服；智在PPT 主打垂直场景，支持上传参考图锁定企业配色版式、单页独立调优、图片转 PPT，让死素材重新可编辑。",
+          tags: ["横评", "智在PPT", "垂直场景", "图片转PPT"],
+          reason: "做政企或 IT 类方案最头疼的是品牌规范统一和图表复用，这条给了针对性的选型思路，比泛泛说哪个好用有用。",
+          action: "如果你常出技术方案或交付类 PPT，先看智在PPT 这类垂直工具，上传一张标准色卡让 AI 锁风格，省去逐页改色。"
+        },
+        {
+          time: "09:40",
+          source: "playyy.ai",
+          heat: 80,
+          category: "工具动态",
+          title: "Design Arena 人类偏好榜（8 月）：Playyy 1307、Claude PPTX 1241、Manus 1241、Gamma 1172",
+          url: "https://playyy.ai/blog/best-ai-presentation-maker",
+          summary: "基于约 530 万人盲投的 Design Arena 幻灯片榜单显示，按人类审美偏好排名为 Playyy(1307)、Claude 的 PPTX 模型(1241)、Manus(1241)、Gamma(1172)、SlidesGPT(1017)；结论强调没有万能款，只有匹配需求的款。",
+          tags: ["榜单", "Design Arena", "Playyy", "Gamma"],
+          reason: "榜单用真人盲投而非厂商自夸，参考价值高；Claude 靠写得清楚排第二也点破一个事实——PPT 质量首先是写作问题。",
+          action: "选工具前先对一眼这份人类偏好榜，别只信厂商宣传；文本重的材料可让 Claude 先出结构再美化。"
+        },
+        {
+          time: "11:20",
+          source: "搜狐",
+          heat: 83,
+          category: "教程观点",
+          title: "5 款 AI PPT 横测：内容保真看 ChatPPT、视觉冲击力看 Gamma、模板资源看 iSlide",
+          url: "https://www.sohu.com/a/1062737092_121946611",
+          summary: "2026/8 实测用同一份 2500 字报告生成 20 页 PPT：ChatPPT 做到 32 个数据点原样保留且支持逐元素溯源；Gamma 会压缩数值精度（15.6% 写成近 16%）；iSlide 偏模板资源；MindShow 出框架最快；Tome 胜在叙事但中文本地化弱。",
+          tags: ["横测", "ChatPPT", "Gamma", "数据保真"],
+          reason: "核心提醒很实在：AI 省下的半小时常在返工里加倍偿还。数据严谨的汇报选保真加溯源款，别被快忽悠。",
+          action: "做财务或数据类汇报优先 ChatPPT 这类带溯源的工具；交付前两轮检查——逐字核数据、查版式一致性。"
+        }
+      ]
+    },
     {
       date: "2026-08-14",
       items: [
