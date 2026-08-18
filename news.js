@@ -2,10 +2,87 @@ window.PPT_RADAR = {
   site: {
     name: "PPT 每日雷达",
     slogan: "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    updated: "2026-08-17",
-    updatedAt: "2026-08-17 11:55"
+    updated: "2026-08-18",
+    updatedAt: "2026-08-18 10:07"
   },
   days: [
+    {
+      date: "2026-08-18",
+      items: [
+        {
+          time: "08:40",
+          source: "admin365.blog（Microsoft 365 Copilot 8 月指南）",
+          heat: 90,
+          category: "软件更新",
+          title: "Microsoft 365 Copilot 8 月大更新：PowerPoint Agent Mode 上线、Word/Excel/PPT 智能体搬进聊天框、可选 Claude Opus 4.7",
+          url: "https://admin365.blog/2026/08/14/microsoft-365-copilot-august-2026-new-features",
+          summary: "8 月窗口微软密集推送 Copilot：PowerPoint 新增 Agent Mode，可基于你自己的文件/会议/邮件直接搭出 deck；Word、Excel、PowerPoint 三个智能体直接内嵌 Copilot Chat，不离开对话就能生成或改文件；模型可选 OpenAI GPT-5.6 与 Anthropic Claude Opus 4.7（需企业确认 Anthropic 为子处理方）；Copilot Notebooks 能把一摞笔记直接产出 Word/Excel/PPT 成品+思维导图的。",
+          tags: ["Copilot", "PowerPoint", "Agent Mode", "Claude Opus 4.7"],
+          reason: "重点不在'会写'，而在'基于你真实文件产出成品'——Agent Mode 和聊天框内智能体把做 deck 的链路收进你已在用的环境，少切工具。Claude 默认跑 PPT 智能体也呼应了'写作质量决定幻灯片质量'。",
+          action: "公司用 M365 的，让 IT 确认 Copilot 授权与 Anthropic 子处理方开关；下次做汇报先在 Copilot Chat 里用 PowerPoint 智能体从现有文档直接生成初稿，再人工核。"
+        },
+        {
+          time: "09:25",
+          source: "华为云 OfficeAce 报道（yeyulingfeng.com）",
+          heat: 84,
+          category: "工具动态",
+          title: "华为云 OfficeAce 办公智能体开放个人商业版：对话即操作，AI PPT 在 PresentBench 登顶第一",
+          url: "https://www.yeyulingfeng.com/a/927642.html",
+          summary: "华为云自研桌面级 AI 办公助手 OfficeAce 2026 年 4 月邀测、7 月全面开放、个人商业版已在华为云官网售卖。核心理念'对话即操作'：一句话端到端完成 PPT 制作、文档成文、多表数据分析；AI PPT 支持范本克隆（导入成品复刻风格）、点哪改哪、15 分钟出 10 页可编辑 PPT，官方称在 PresentBench 榜单以 70.8 分登顶。",
+          tags: ["华为云", "OfficeAce", "AI PPT", "对话即操作"],
+          reason: "国产桌面级 Agent 又多一个能直接操控本地办公软件的选手，且强调'全要素可编辑'而非导出死图，对强合规、怕数据出境的政企场景是 Gamma/Copilot 之外的本土替代。",
+          action: "若公司对数据出境敏感、又想要 AI 出片，试 OfficeAce 的范本克隆：丢一份过往标准汇报让它复刻风格，比从空白 prompt 起步更稳。"
+        },
+        {
+          time: "10:15",
+          source: "cognitivefuture.ai（NotebookLM 指南）",
+          heat: 82,
+          category: "工具动态",
+          title: "NotebookLM（已并入 Gemini Notebook）能基于你上传的资料直接出 deck 并导出 PPTX，全程不编造",
+          url: "https://cognitivefuture.ai/notebooklm-for-presentations",
+          summary: "2026 年起 NotebookLM 在 Studio 面板选 Slide Deck，约一分钟基于你上传的 PDF/文档/网页/视频生成结构化 deck，并导出 .pptx；内容完全锚定你的资料，每页可溯源到原文段落，不会凭空生成。2026 年中谷歌把它并入 Gemini 品牌（Gemini Notebook），能力不变。适合研究汇报、尽调、任何不容出错的场合。",
+          tags: ["NotebookLM", "Gemini", "来源锚定", "导出PPTX"],
+          reason: "这是把'AI 会编造'的风险正过来的工具——它只从你给的证据里说话，导出还能进 PowerPoint 继续精修。做数据严谨或要背书材料的汇报，比纯 prompt 生成器靠谱。",
+          action: "下次做靠数据说话的汇报（复盘、尽调、学术），先把原始文档传进 NotebookLM 出 grounded 初稿，导成 PPTX 后再用设计工具美化。"
+        },
+        {
+          time: "11:30",
+          source: "thecodew.com（Tech M&A Watch）",
+          heat: 83,
+          category: "行业新闻",
+          title: "AI 并购分成两条赛道：基础模型公司抢应用层（OpenAI 收 NextSlide 为代表），安全/基础设施公司买平台",
+          url: "https://www.thecodew.com/2026/08/tech-m-watch-why-companies-are-buying.html",
+          summary: "8 月 Tech M&A 观察：AI 收购战裂成两路——模型公司（OpenAI 三年 17 起收购，含 NextSlide）买应用层团队来占有'文档/表格/幻灯片'等日常办公面；基础设施与安全公司（Google 320 亿收 Wiz、Palo Alto 250 亿收 CyberArk、Accenture 41.75 亿收 Dragos 等）买平台。文章指'离用户和数据最近的层'现在比内容或基础设施更值钱。",
+          tags: ["并购", "OpenAI", "应用层", "行业格局"],
+          reason: "NextSlide 被收不是孤例，是巨头抢'你每天用什么工具'的信号。意味着演示生成会更快被塞进你已在用的套件，单一 PPT 工具的生存空间在压缩——也提醒你别把重要材料锁死在某一个小平台。",
+          action: "选型时优先看'能否导出干净 PPTX/留底'，别重度依赖某个可能被收编或停服的小工具；重要 deck 本地留一份。"
+        },
+        {
+          time: "14:00",
+          source: "inkbotdesign.com（专业服务公司演示设计）",
+          heat: 80,
+          category: "设计趋势",
+          title: "2026 演示设计铁律：每页一句'结论式断言'+单项视觉证据，deck 是你被看得最多的品牌资产",
+          url: "https://inkbotdesign.com/presentation-design-process/",
+          summary: "面向专业服务公司的设计指南强调 assertion-evidence 结构：每页只放一个完整句子的结论，下面用一张图/表做证据；密集堆砌的 deck 现在反而像'拿不定主意'。文章提醒 deck 是被转发、被投屏次数最多的品牌资产，改品牌时先改 deck 系统；AI 拉平了排版门槛，差异化回到'信息架构+品牌辨识度'。",
+          tags: ["assertion-evidence", "品牌资产", "信息架构", "少即是多"],
+          reason: "和之前'标题即结论'呼应但更进一层：不是标题写结论，而是整页只服务一个结论+一张证据。对外路演、投标这类'决定在不在你这'的场合，这条最顶用。",
+          action: "挑你最常用的投标/汇报模板，把每页改成'一句话结论（大字号）+ 一张支撑图'，删掉所有装饰性内容；公司换 VI 时先重做 deck 母版。"
+        },
+        {
+          time: "15:20",
+          source: "掘金（PPT 提效实战）",
+          heat: 82,
+          category: "教程观点",
+          title: "PPT 提效别只盯'一键生成'：先定位你卡在资料整理还是排版；字节 TraeWork 把全链路收进一个面板",
+          url: "https://juejin.cn/post/7673816823687168046",
+          summary: "文章把 PPT 工具按'你卡在哪一步'分类：资料散落/逻辑未定优先验证综合任务型平台（如字节 TraeWork，把信息搜集、素材整理、生成、评论修改验收全收进一个面板，产出 PPTX）；深绑 WPS/M365 的用套件内置 AI 衔接成本最低；重设计感选 Gamma 类但要先验证导出兼容性。核心：先看清时间花在哪，再选工具。",
+          tags: ["工作流", "TraeWork", "选型", "瓶颈定位"],
+          reason: "很多人把'快'等同于'一键生成'，但真耗时常在前期理资料和后期改版。先诊断瓶颈比盲试工具省时间——你之前清 C 盘、做日报这类重复活，正适合用综合平台把链路打通。",
+          action: "下次做 PPT 前先花 2 分钟写：我卡在查资料/搭结构/美化哪一环？对应去试 TraeWork（全链路）或 WPS AI/Copilot（套件内）或 Gamma（设计），别一上来就换工具。"
+        }
+      ]
+    },
     {
       date: "2026-08-17",
       items: [
