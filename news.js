@@ -2,10 +2,87 @@ window.PPT_RADAR = {
   site: {
     name: "PPT 每日雷达",
     slogan: "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    updated: "2026-08-18",
-    updatedAt: "2026-08-18 10:07"
+    updated: "2026-08-19",
+    updatedAt: "2026-08-19 09:26"
   },
   days: [
+    {
+      date: "2026-08-19",
+      items: [
+        {
+          time: "08:30",
+          source: "masternodeai.com（Canva 估值与 AI 成本分析）/ Sovereign Magazine（Perkins 访谈）",
+          heat: 92,
+          category: "行业新闻",
+          title: "Canva 估值被砍 71 亿美元：AI 推理成本击穿 SaaS 零边际成本神话，同时战略转向'AI 平台'",
+          url: "https://www.masternodeai.com/en/news/canva-valuation-cut-ai-costs-break-saas-economics",
+          summary: "8/14 澳金融科技评论披露，Canva 老股东 Blackbird、Airtree 将其估值从 420 亿美元砍到 349 亿（-17%，合 71 亿美元）；公司内部估值一年内从 389 亿降到 310 亿。直接原因是 AI 推理成本：每多服务一个用户都带算力账单，'零边际成本'模型破了。CEO Perkins 同期重申 Canva 正从'带 AI 工具的设计平台'转向'带设计工具的 AI 平台'，AI 产出必须回到可编辑的 Canva 文件而非成品图，并给前百万用户送每月 100 美元的 AI pass 试玩。",
+          tags: ["Canva", "估值下调", "AI成本", "SaaS经济"],
+          reason: "这不是 Canva 一家的事——Figma 五天后的 Q2 自由现金流利润率从 27% 掉到 14%、股价跌 16%，亚马逊跑 Claude 任务超预算 860%。信号很明确：把 AI 当免费加成的工具，迟早要重新定价。对你选工具的直接影响是——别只看功能，要看它的计费会不会哪天突然涨或砍功能。",
+          action: "采购或续费任何带 AI 的 SaaS（含 PPT 工具）前，问一句'推理成本怎么摊、会不会限次/涨价'；重要 deck 别依赖某家可能随时调价的免费 AI 额度，本地留底。"
+        },
+        {
+          time: "09:00",
+          source: "MWPRO（Microsoft 365 消息中心 MC1434582）",
+          heat: 84,
+          category: "软件更新",
+          title: "PowerPoint Copilot 自定义技能上线：把常用改稿指令存成 SKILL.md 放 OneDrive，侧边栏直接调用",
+          url: "https://mwpro.co.uk/blog/2026/08/03/mc1434582-powerpoint-copilot-adds-onedrive-based-custom-skills-and-manage-skills-interface",
+          summary: "微软消息中心 MC1434582 确认，PowerPoint Copilot 已支持用户把自定义技能（含 SKILL.md 的文件夹）上传到指定 OneDrive 位置，自动出现在 Copilot 技能菜单；新增 Manage Skills 界面可从三点菜单里单独开/关某个技能。8 月初完成全球推送，无需管理员部署，个人即可用。等于把'月度汇报模板''公司 VI 配色规范'这类重复指令沉淀成可复用的个人技能。",
+          tags: ["Copilot", "PowerPoint", "自定义技能", "OneDrive"],
+          reason: "之前 8 月更新里 Copilot 的 Brand Kit、联网引用、AEM 素材都偏'管理员配置'，这条是少数普通用户自己就能玩起来的——把你的私房改稿经验固化成技能，下次一句话调用，比每次重新描述需求省事。",
+          action: "把最常用的 1-2 类汇报（如周报、复盘）的改稿要求写成 SKILL.md 存进 OneDrive，在 PowerPoint Copilot 的 Manage Skills 里启用；团队可让 IT 先出几个合规样本技能供大家套用。"
+        },
+        {
+          time: "09:40",
+          source: "itechguides.com（9 款最佳 AI PPT 工具 2026）",
+          heat: 82,
+          category: "工具动态",
+          title: "2026 九款 AI 做 PPT 工具横向盘点：免费额度、PPT 原生编辑、导出质量才是真分水岭",
+          url: "https://www.itechguides.com/9-best-free-and-paid-ai-tools-to-create-powerpoint-presentations-ppt-slides/",
+          summary: "截至 2026-08-08 的实用榜：Copilot 胜在原生 PowerPoint 编辑（但需付费授权）；Gamma 400 初始积分但'不续杯'；Canva Magic Design 免费可用但高阶素材付费；Google Slides+Gemini 需付费套餐；Plus AI 7 天试用走 API/MCP；SlidesAI 每年 12 份免费；Beautiful.ai 14 天试用（试用不含可编辑 PPT 导出）；Pitch 100 次非续费积分带水印；Prezi AI 500 积分但导出变静态。",
+          tags: ["横评", "免费额度", "PPT导出", "选型"],
+          reason: "和之前几版'谁生成快'横评不同，这版把'免费是不是真免费''导出后还能不能改'摆到了台面。结论很实在——选型先看你最终文件要去哪，要可编辑 PPT 就选原生工具，纯线上展示才考虑网页派。",
+          action: "对照这张表核对你正在用的工具：免费额度和导出限制到底卡在哪；凡要交正式 .pptx 的，优先 Copilot/Plus AI/SlidesAI 这类原生或强导出款。"
+        },
+        {
+          time: "10:20",
+          source: "accio.com（2026 演示模板趋势分析）",
+          heat: 80,
+          category: "设计趋势",
+          title: "2026 演示设计趋势：神经包容成硬指标、Liquid Layouts 自动重排、复原色板用 Teal 点缀、混合多格式 deck",
+          url: "https://www.accio.com/business/trendy-presentation-template",
+          summary: "趋势要点：①无障碍从加分变基线，出现'神经包容'（照顾 ADHD/阅读障碍/视觉敏感），工具内置对比度/alt 文本审计；②Liquid Layouts（液态布局）随内容量自动重排保视觉平衡；③配色走暖中性+大地绿+深紫，用'Transformative Teal'一处高亮关键信息；④同一份 deck 要适配 16:9 演讲、9:16 手机、高密度 PDF 三种形态，靠模块化组件实现；⑤真实影像替代通用 stock 图，'不完美设计'继续流行。",
+          tags: ["神经包容", "Liquid Layouts", "混合格式", "无障碍"],
+          reason: "比'暗色/人本'更进了一步——2026 的关键词是'自适应'：内容多寡自动排版、同一稿三端适配、照顾不同认知方式的人。对企业来说，这意味着模板要按'系统'而非'单页'去设计。",
+          action: "升级公司母版时加一条无障碍检查（对比度、字号层级、alt 文本）；把常用页型做成模块化组件，一份源稿自动适配投屏/手机/PDF。"
+        },
+        {
+          time: "11:00",
+          source: "ImagineLayout（现代 PPT 实操指南）",
+          heat: 80,
+          category: "教程观点",
+          title: "做出现代感 PPT 的四件事：先定网格、字号即层级、图表留标线、动画只为论证",
+          url: "https://imaginelayout.com/blog/how-to-make-a-modern-powerpoint-presentation",
+          summary: "实操四原则：①动手前先开参考线和网格，统一页边距/标题基线/安全区，多数 deck 是在半夜赶工的中间页把网格搞崩的；②字体只两套但靠尺度拉开层级（标题 40pt 对正文 16-18pt），密集行业宁可拆两页也不要缩字；③图表别追求'零元素'——每根柱一个数据标签+浅基线网格才叫可读，不是越空越好；④过渡动画基本过时，只在'去掉后更难懂'时才保留（如逐条揭示、图表按时间生长）。",
+          tags: ["网格系统", "字号层级", "图表克制", "动画适度"],
+          reason: "很多人把'现代感'理解成'少字+暗色'，这篇点破：真正显旧的是没有系统——网格乱、字号没层级、动画乱飞。做好这四件不起眼的事，用哪个软件做的都不显老。",
+          action: "下次做 deck 前先固定网格和字号梯度（写进模板）；图表保留必要数据标签；删掉所有'去掉也不影响理解'的转场动画。"
+        },
+        {
+          time: "14:30",
+          source: "Microsoft PowerPoint 官方博客（中文）",
+          heat: 78,
+          category: "教程观点",
+          title: "PowerPoint 官方中文博客：用结构化版式 + Copilot 聊天调色布局，把创意演示讲清楚",
+          url: "https://powerpoint.cloud.microsoft/create/zh-hans/blog/the-best-creative-presentation-ideas-topics-layouts-and-designs",
+          summary: "官方给出的创意演示框架：标题页（加库存图/拆分长标题加粗关键词/用动画先抛问题再揭标题）、简介页（业务演示用短文本框+图形讲使命，或用钩子句+痛点视觉）、执行摘要页（异步分享神器，用 AI 摘要生成要点+图标增强）。强调用 Copilot 据内容和上下文智能推荐版式（如开头建议议程页/时间线），也可直接聊天调整颜色布局和文案。",
+          tags: ["官方教程", "Copilot", "版式结构", "创意演示"],
+          reason: "这是微软自己教你怎么用它的 AI 做演示，等于官方最佳实践。结构（标题→简介→议程→问题或方案→结论）和之前'标题即结论'一脉相承，但给了可直接套的页型套路。",
+          action: "做新 deck 时先按'标题/简介/议程/问题或方案/结论'搭骨架，再用 Copilot 聊天微调配色和布局，别从空白页硬憋。"
+        }
+      ]
+    },
     {
       date: "2026-08-18",
       items: [
