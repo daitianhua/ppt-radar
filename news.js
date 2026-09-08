@@ -2,10 +2,99 @@ window.PPT_RADAR = {
   site: {
     name: "PPT 每日雷达",
     slogan: "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    updated: "2026-08-19",
-    updatedAt: "2026-08-19 09:26"
+    updated: "2026-09-08",
+    updatedAt: "2026-09-08 15:17"
   },
   days: [
+    {
+      date: "2026-09-08",
+      items: [
+        {
+          time: "08:30",
+          source: "PRNewswire / AAP News（Sembly AI 官方发布）",
+          heat: 88,
+          category: "工具动态",
+          title: "Sembly 发布 3.0：对话式 AI 执行层，文档+会议+CRM 直接产出品牌化演示",
+          url: "https://aapnews.aap.com.au/news/cision20260907AE39113",
+          summary: "9/8 Sembly AI 推出 3.0，定位为企业 AI 执行层：用户只说目标（如帮我卖服务）和客户提供方网站，系统自动从企业文档、会议记录、CRM 内容里拉料、推导品牌、研究客户，数分钟产出定制化的品牌化 pitch deck、提案、案例和报告，支持 45+ 语言。早期用户称报告类材料节省 2-3 周工时。",
+          tags: ["Sembly", "Agentic AI", "品牌化", "对话式"],
+          reason: "和之前 NextSlide、OfficeAce 一个路子——巨头和应用层都在把做 deck 收进一个对话入口，你描述目标、它跑完整链路。区别在于 Sembly 强调不让你学怎么跟 AI 说话、只说想达成什么，对不想写 prompt 的业务岗更友好。",
+          action: "如果你常做客户提案或投标，试一次说目标+给客户网址的对话式生成，对比传统从空白页搭；注意产出仍要人工核品牌与数据再外发。"
+        },
+        {
+          time: "09:10",
+          source: "AiPPT 更新日志（aippt.com/log-update）",
+          heat: 80,
+          category: "工具动态",
+          title: "AiPPT 上线专家画廊：内容与设计分离，选专家定结构、选模板定视觉",
+          url: "https://www.aippt.com/log-update",
+          summary: "9/1 AiPPT 推出 Expert Gallery：把内容专家和视觉模板拆开——专家决定方法论、故事线、大纲与质量基准，模板决定配色、版式、字体与风格，两者可自由组合、单独或搭配选用。同一输入下换专家或换模板等于换一版思路，减少反复重做。",
+          tags: ["AiPPT", "专家画廊", "模板分离", "工作流"],
+          reason: "这条把先想清楚说什么、再想怎么好看的产品化掉了。很多人 AI 出片翻车不是因为丑，是因为结构和文案先乱了——把专家层单独拎出来，等于给常用汇报类型配了隐形参谋。",
+          action: "做 deck 前先选对应场景的专家（如融资、复盘、培训），再挑模板；把最常用的 2-3 个专家+模板组合存成默认，省掉每次重新描述需求。"
+        },
+        {
+          time: "10:00",
+          source: "Storyboard18 / AdTechEdge / Gadgets360（Canva 官方发布）",
+          heat: 92,
+          category: "软件更新",
+          title: "Canva 2026 第 100 项 Visual Suite 升级：AI 图表、整页文档、自动演讲备注",
+          url: "https://www.storyboard18.com/amp/brand-makers/canva-rolls-out-100-visual-suite-upgrades-with-ai-charts-full-page-docs-and-auto-notes-109684.htm",
+          summary: "Canva 宣布 2026 年累计推出超 100 项 Visual Suite 升级（约每两天一项）。Presentations 月活破 1 亿，成全球前三演示工具；Sheets 新增 AI 数据分析转图表；Docs 加整页布局与自动分页；Presentations 加预计演讲计时、一键放映与自动生成演讲备注；Whiteboards 可一键转成演示。 Fortune 500 中 98% 已用 Canva。",
+          tags: ["Canva", "Visual Suite", "AI图表", "演示生态"],
+          reason: "Canva 在从设计工具往办公套件靠，把白板到文档到表格到演示的切换做成无缝。对你这种常做汇报的人，意味着以后 brainstorm、写稿、出片可能一个平台内走完，不用在多个软件间搬运。",
+          action: "下次做汇报试试全线走通：白板列提纲到 Docs 写稿到 Sheets 出数据图到一键转 Presentations，留意自动生成的演讲备注能否直接当提词。"
+        },
+        {
+          time: "11:00",
+          source: "MWPRO（MC1463509）/ Microsoft Tech Community",
+          heat: 86,
+          category: "软件更新",
+          title: "PowerPoint Copilot 8 月更新：组织级技能 + 严格品牌遵循 + 翻译搬进 Copilot",
+          url: "https://mwpro.co.uk/blog/2026/08/28/mc1463509-copilot-for-powerpoint-gets-organizational-skills-support-and-admin-management-controls",
+          summary: "微软 8 月给 PowerPoint Copilot 加组织级技能：IT 可在 M365 管理后台建并共享企业专属技能，员工在 Web/Win/Mac 端直接调用；新增 Strict brand adherence（严格品牌遵循）锁定母版、禁止 Copilot 自造版式；备注里写自然语言指令（Note steering）逐页管 AI；翻译功能也搬进 Copilot 并自动调整文本框大小。组织级技能 8 月底至 9 月初灰度。",
+          tags: ["Copilot", "PowerPoint", "组织级技能", "品牌遵循"],
+          reason: "企业最怕两件事——员工乱用 AI 把版式搞崩、品牌走样。这次严格品牌遵循和组织级技能正好对症：IT 先把合规套路固化成技能，普通人调不出来也能用对模板，比纯个人版 Copilot 更贴企业实际。",
+          action: "若公司用 M365，让 IT 在后台配几个共享技能（如季度汇报母版、合规话术）并开严格品牌遵循；重要对外 deck 用此模式生成，版式不会跑偏。"
+        },
+        {
+          time: "13:30",
+          source: "ChatSlide 指南（引述 OpenAI 9/3 发布）",
+          heat: 90,
+          category: "行业新闻",
+          title: "OpenAI GPT-6 Astra 发布，首次把做幻灯片列为旗舰模型头条能力",
+          url: "https://www.chatslide.ai/guides/gpt-6-slides",
+          summary: "9/3 OpenAI 发布 GPT-6 Astra，罕见地把演示文稿列为旗舰能力：官方称其为遵循既有模板、产出排版工整、用结构化叙事讲清要点的幻灯片最佳模型。亮点在 template adherence（模板遵循）——AI 套用企业母版的版式、密度、语气一直是弱项，这次被点名。Astra 分批灰度，API 暂未全量。",
+          tags: ["GPT-6", "OpenAI", "模板遵循", "幻灯片"],
+          reason: "以前大模型发布会只吹数学和代码，现在幻灯片被写进 headline，说明出片已是高频刚需。但文章点破关键：模型再强也救不了烂模板——排版、字体、导出保真仍靠工具本身。对你选工具是个提醒：模板质量比模型版本更决定成品。",
+          action: "别被 GPT-6 能做 PPT 带节奏，落地前先确认你用的工具模板质量；等 Astra 全量后，把遵循公司母版作为选型硬指标再测一轮。"
+        },
+        {
+          time: "14:40",
+          source: "Slidesgo / SlideEgg 2026 趋势分析",
+          heat: 82,
+          category: "设计趋势",
+          title: "2026 设计趋势定调：Bento 网格、暗色基线、80pt+ 大字、玻璃拟态、数据故事化",
+          url: "https://slidesgo.com/slidesgo-school/ai-presentations/presentation-design-trends-2026",
+          summary: "Slidesgo 基于 10 万+ 模板下载归纳 2026 实操趋势：Bento 便当盒网格把图表、引语、图放一页不乱；暗色成默认基线、用青绿（Transformative Teal，年度色）一处高亮；80pt+ 粗体标题下载量涨 300%；玻璃拟态（磨砂面板）替代扁平；数据故事化——每图一个洞察、标题即结论、配注释。强调设计放大好信息、救不了烂内容。",
+          tags: ["Bento网格", "暗色基线", "大字排版", "数据故事化"],
+          reason: "趋势年年有，能直接抄的不多。这条最实的三条：暗色加一处亮色已是从业默认及格线；大字标题下载暴涨说明一眼看懂比信息全更值钱；数据故事化（每图一洞察）和咱们一直推的标题即结论完全同频。",
+          action: "给常用汇报模板加一套暗色版加青绿高亮；把每页标题改成带结论的完整句；图表保留一图一洞察，删掉所有装饰性堆砌。"
+        },
+        {
+          time: "15:50",
+          source: "Moranalytics / Prospeo 2026 实操指南",
+          heat: 78,
+          category: "教程观点",
+          title: "做 deck 的底层纪律：每页一个想法、白空不是浪费、数据讲故事而非堆砌",
+          url: "https://moranalytics.com/modern-presentation-design-trends-and-best-practices-for-2026/",
+          summary: "两篇 2026 实操指南共识：每页只传达一个清晰信息，密集堆数据等于制造困惑；白空（留白）引导视线、不是浪费；用箭头或高亮框等视觉线索组织信息；数据可视化做简化图表加结论式标题加注释，避免 chart junk；无障碍（高对比、字号、alt 文本）已成基线。Prospeo 更点出：超过 15 页基本是在 data dumping。",
+          tags: ["每页一想法", "留白", "数据故事", "无障碍"],
+          reason: "AI 让出片变便宜后，副作用是大家开始做更多没人看的 deck。这条把少而准从审美拉成纪律——动手前先问这页要讲清哪一件事，答不上来就拆或砍。和 GPT-6 那条的模板质量呼应：内容纪律比工具高级。",
+          action: "下次做 deck 前先写每页一句话结论清单，超过 15 页就逼自己合并；交付前跑一遍无障碍检查（对比度、字号、alt 文本）。"
+        }
+      ]
+    },
     {
       date: "2026-08-19",
       items: [
