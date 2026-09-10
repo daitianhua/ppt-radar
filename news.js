@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-09-09",
-    "updatedAt": "2026-09-09 10:41"
+    "updated": "2026-09-10",
+    "updatedAt": "2026-09-10 13:39"
   },
   "days": [
+    {
+      "date": "2026-09-10",
+      "items": [
+        {
+          "time": "09:10",
+          "source": "MPUG 报道 + Microsoft 365 路线图 557256",
+          "heat": 86,
+          "category": "软件更新",
+          "title": "PowerPoint Live 新技能：放映时参会者选中文字即可让 Copilot 现场解释",
+          "url": "https://mpug.com/copilot-in-powerpoint-live-now-explains-your-slides-to-attendees",
+          "summary": "微软 8/25 发布的 Copilot 更新（路线图 557256，Windows 端）让 PowerPoint Live 会议里的参会者可直接选中幻灯片上的文字并向 Copilot 提问，解释回在侧边栏、不打断演示。这是'参会者能力'而非'演示者能力'，范围限于 PowerPoint Live（Teams 中以幻灯片渲染而非屏幕共享的模式）。对常做项目状态汇报的人，把'SPI 是什么''这个黄灯代表什么'这类定义性问题挪出会议主线，省回前 15 分钟。注意：Copilot 只解释片面上写的，不懂你们项目的治理惯例——内部黑话仍可能被它自信地读错，所以片面上的缩写要先写清楚。",
+          "tags": [
+            "PowerPoint Live",
+            "Copilot",
+            "解释幻灯片",
+            "参会者"
+          ],
+          "reason": "和之前 Copilot 的'阅读指南/评论指派'一脉相承，但这次把 AI 放到'接收端'——看的人自己解惑，不占用汇报人的时间。对你这种常被拉去听别人 deck 的人，意味着以后遇到看不懂的缩写能当场问；对你自己做汇报，则要反向提醒：片面上的内部黑话先展开，别让 AI 替你读出错的解释。",
+          "action": "下次会议状态汇报把屏幕共享换成 Teams 的 PowerPoint Live，让参会者能选中文字问 Copilot；同时审计一遍常用 deck，凡是参会者可能误读的缩写（SPI、RAG 状态等）先补齐定义。"
+        },
+        {
+          "time": "10:20",
+          "source": "腾讯云开发者社区（WPS 2026 版本说明）",
+          "heat": 83,
+          "category": "软件更新",
+          "title": "WPS 2026 v26.9.0 发布（9/7）：AI 深度集成，多文档问答、图表理解、原生 Markdown",
+          "url": "https://cloud.tencent.com/developer/article/2739923",
+          "summary": "WPS 2026 最新正式版 v26.9.0（9/7 更新）围绕 AI 深度集成、格式兼容与本地体验：多文档问答可跨多篇文档提问并综合对比；AI 阅读助手新增识别文档内表格/图表、直接回答数据问题；PPT 智能布局模式提供简约/商务/创意/学术等风格、支持单页独立重新生成；结构化全文总结自动切成核心观点/关键数据/结论建议；自然语言一句话完成表格分析、公式与图表。格式上原生支持 Markdown（左编右显双屏预览，可导出 Word/PDF），全端无广告，单应用打开 26 种文字/13 种表格/11 种演示格式，兼容 OFD 等国产格式。",
+          "tags": [
+            "WPS 2026",
+            "多文档问答",
+            "图表理解",
+            "Markdown"
+          ],
+          "reason": "你日常就在 WPS 里干活，这版把'问文档''读图表''出 PPT'收进一个客户端，且国产格式 OFD 兼容对政企场景是硬需求。和之前 Mac 端的秋季更新不同，这是 Windows 主力版的 9/7 大版本，功能更全。",
+          "action": "更新到 v26.9.0 后，试把几份散落文档丢进多文档问答做综合对比；做汇报前用 PPT 智能布局的'单页独立重生成'救急某页；长文用结构化全文总结一键出核心观点。"
+        },
+        {
+          "time": "11:30",
+          "source": "商传媒 / ChatSlide.ai 官方（9/1 发布）",
+          "heat": 82,
+          "category": "工具动态",
+          "title": "ChatSlide 3.0 发布：引用来源保留（Citation-Preserving），学术/教育简报自动带引文与参考文献",
+          "url": "https://sunmedia.tw/news/technology/1788304839-AI工具ChatSlide 3.0發布 具學術引用功能助研究者簡報",
+          "summary": "ChatSlide.ai 9/1 推出 3.0，主打'引用来源保留'：上传学术论文/研究报告（PDF）后，AI 不只生成结构化大纲与幻灯片，还会自动保留正文引用标示、建立完整参考文献，并可从 PubMed 等医学库检索相关文献做证据整合；用 Chart.js/D3.js 直接从数据集出可视化图。可处理 200+ 页论文（含扫描版 OCR），导出 PowerPoint/PDF/Google Slides 且导出前均可编辑。教育侧两分钟把讲义/课本转成带讲稿的结构化幻灯片，还能转成含 AI 语音旁白的有声视频课，支持 30+ 语言。全球已有 200+ 大学、2.5 万研究者、1.8 万教育者使用。",
+          "tags": [
+            "ChatSlide",
+            "学术引用",
+            "参考文献",
+            "教育"
+          ],
+          "reason": "AI 做学术/教育简报一直卡在'编造引用'，这条把引用保留做成底层能力，对做研究汇报、培训课件的人是刚需——内容和出处同时给你，可溯源。和你'重要材料要可核验'的原则同频。",
+          "action": "若你做培训/带教/技术分享类材料，试 ChatSlide 3.0 把讲义转成带讲稿幻灯片再导 PPTX；研究类汇报用它保引用，导出后再用设计工具美化，别让 AI 替你编参考文献。"
+        },
+        {
+          "time": "13:00",
+          "source": "Microsoft 365 消息中心 MC1466323 / MWPRO 解读",
+          "heat": 84,
+          "category": "工具动态",
+          "title": "PowerPoint Copilot 内置'Sharpen slide titles'技能（9 月初 Frontier 灰度）：一键把标题改写成结论句",
+          "url": "https://mwpro.co.uk/blog/2026/09/03/mc1466323-powerpoint-copilot-gets-built-in-skill-to-sharpen-slide-titles-on-windows-desktop",
+          "summary": "微软消息中心 MC1466323（及网页端 MC1466322）确认，PowerPoint Copilot 9 月初起在 Frontier 灰度内置'Sharpen slide titles'技能：把幻灯片标题改写成'takeaway 陈述句'——直接说出结论，让扫一眼标题的人就能拿到论点。桌面（Windows）与网页（PowerPoint for the web）两端同期推，无需管理员配置，仅需 Copilot 许可证。同期还有'Explain this presentation'技能（MC1466328）读完整 deck 回 impartial 指南：主旨、关键数字、演讲备注、待决问题。两者都属微软把'标题即结论''阅读指南'固化为开箱即用的内置技能。",
+          "tags": [
+            "Copilot",
+            "Sharpen titles",
+            "结论句",
+            "内置技能"
+          ],
+          "reason": "这把咱们一直推的'标题即结论'从人工纪律变成 Copilot 一键技能——你写完 deck 跑一遍 Sharpen，所有标题自动改写成带结论的整句，异步转发时材料自己会说话。和之前'阅读指南'互补：一个管写、一个管读。",
+          "action": "公司用 M365 且已开 Copilot 的，做完 deck 在 Copilot 里调'Sharpen slide titles'把每页标题改成结论句；收别人 deck 用'Explain this presentation'快速抓重点再决定改哪几页。"
+        },
+        {
+          "time": "14:10",
+          "source": "Global Market Statistics《Presentation Software Market 2026-2035》",
+          "heat": 81,
+          "category": "行业新闻",
+          "title": "演示软件市场报告：2025 年 79.5 亿美元→2026 年 90.2 亿，AI 幻灯片自动化采用率 51%",
+          "url": "https://www.globalmarketstatistics.com/market-reports/presentation-software-market-17766",
+          "summary": "Global Market Statistics 报告：演示软件市场 2025 年估值 79.5 亿美元，2026 年底将达 90.2 亿，2026-2035 年 CAGR 13.46%；73% 企业已将演示软件嵌入日常流程，云部署占 68%；2025 年 AI 幻灯片自动生成功能被 46% 用户采用、2026 年 AI 幻灯片自动化采用率升至 51%，AI 设计建议把人工排版工时降 33%、多语翻译采用率增 37%；北美占 39% 份额。报告同时点出阻力：44% 企业顾虑数据安全与隐私、38% 遇兼容限制、34% 卡在旧办公系统对接。",
+          "tags": [
+            "市场报告",
+            "AI采用率",
+            "云部署",
+            "数据安全"
+          ],
+          "reason": "数字印证咱们一直说的趋势：AI 出片已成主流（过半采用），但企业落地卡在安全和兼容——这正好解释为什么国企/政企更倾向 WPS、OfficeAce 这类本地/可控工具，而非纯网页派。对你选型是硬参考。",
+          "action": "给公司选型或写汇报依据时，引用这组数字：AI 出片已是标配、但优先看数据安全与旧系统兼容；重要材料仍走可控/本地工具，不押单一云端。"
+        },
+        {
+          "time": "15:20",
+          "source": "Sophisticated Cloud《Beyond Static Slides》",
+          "heat": 80,
+          "category": "设计趋势",
+          "title": "动态视频与 AI 动效正在取代静态幻灯片：动效做锚点、只留给高潮时刻",
+          "url": "https://www.sophisticatedcloud.com/all-blogs/beyond-static-slides-how-dynamic-video-and-ai-motion-are-transforming-modern-presentations",
+          "summary": "文章主张现代演示正从静态要点列表走向沉浸式电影感 deck：用微妙背景动效、微交互把视线引向关键数字/图表/价值点；抽象工作流、数据管道用流畅动效图形变直观；高保真动效传达前沿与专业感。最佳实践：动效服务信息不抢戏，核心文字数据保持清晰可读；用 WebM/优化 MP4 轻量格式防卡顿；配色/光感/节奏跨视频片段与模板一致；全屏动态视觉只留给问题陈述、产品揭晓、结尾行动号召等高潮页。展望：模板+生成视觉+动效融合，把 pitch 从普通幻灯片升级为可视化叙事。",
+          "tags": [
+            "动态视频",
+            "AI动效",
+            "电影感",
+            "高潮时刻"
+          ],
+          "reason": "动效是 2026 设计趋势里最容易做过头的一项——满屏转场反而显廉价。这篇文章给的纪律最实用：动效只做锚点、只留给高潮页。对你做重要路演/答辩类材料，适当加一处电影感动态能拉档，但日常汇报别滥用。",
+          "action": "只在'问题陈述/产品揭晓/结尾号召'这三处用全屏动态视觉，其余页保持静态清晰；用轻量 WebM/MP4 防现场卡顿；动效节奏和模板配色统一。"
+        },
+        {
+          "time": "16:30",
+          "source": "PPT Design《How to Build a Presentation From Scratch》10 步工作流",
+          "heat": 78,
+          "category": "教程观点",
+          "title": "从零搭 deck 的 10 步：软件放最后，先定受众决策、写一句话信息、纸面大纲",
+          "url": "https://ppt-design.com/blog/how-to-build-a-presentation-from-scratch",
+          "summary": "文章给专业搭 deck 的 10 步顺序，核心是把软件推到结尾：①定受众与决策（谁在房间、要他们走时做什么）；②写一句话信息（含建议+主因，之后每页要么支撑它要么砍）；③纸面大纲（3-5 个章节、每节一句点题）；④纸面故事板（一页一框、一图一意）；⑤先定主题/母版再填内容（绝不手调单页格式）；⑥只写标题搭骨架、翻一遍标题能否自证结构；⑦加内容证据优先（图表/图先上，文字最后且越少越好）；⑧纯视觉走查（对齐网格、对比度、每页一焦点）；⑨删——丢掉一句话信息不需要的页、'以防问到'挪附录，目标砍掉 1/5；⑩演练≥3 次再打包。",
+          "tags": [
+            "10步工作流",
+            "先定决策",
+            "纸面大纲",
+            "删减"
+          ],
+          "reason": "很多人一开水就做页，结果要重做两遍。这条把'动手前先想清楚'产品化成了可照做的顺序，且第⑨步'砍掉 1/5'是反直觉但最值钱的纪律——和之前'超过 15 页基本在 data dumping'呼应。",
+          "action": "下次做 deck 严格按顺序：先写'谁在房间+要他们做什么'+一句话信息，纸面大纲过关再开 PowerPoint；成稿后强制删 1/5，'以防问到'的内容全挪附录。"
+        }
+      ]
+    },
     {
       "date": "2026-09-09",
       "items": [
