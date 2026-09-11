@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-09-10",
-    "updatedAt": "2026-09-10 13:39"
+    "updated": "2026-09-11",
+    "updatedAt": "2026-09-11 11:33"
   },
   "days": [
+    {
+      "date": "2026-09-11",
+      "items": [
+        {
+          "time": "09:15",
+          "source": "Microsoft 365 消息中心 MC1470415 / MWPRO 解读",
+          "heat": 85,
+          "category": "软件更新",
+          "title": "PowerPoint Copilot 上线 Brand Kit 模板级开关：Notes Steering + Strict Mode，品牌规范锁进模板",
+          "url": "https://mwpro.co.uk/blog/2026/09/11/mc1470415-microsoft-365-copilot-in-powerpoint-adds-notes-steering-and-strict-brand-adherence-settings",
+          "summary": "微软 9/11 在消息中心发布 MC1470415，给 PowerPoint Copilot 的 Brand Kit 模板新增两个设置：Notes Steering（允许在模板演讲备注里写指令引导 Copilot 生成，如强制包含某页、保留品牌内容、维持页序、控制文字密度、按受众调内容）与 Strict Mode（严格品牌遵循，只允许 Copilot 用已审批的模板与母版版式，禁止自造占位符或新布局）。两者可独立或组合使用，由 Brand Kit 所有者/品牌管理员在模板上配置，现在可用。意义是把品牌规范从用户每次 prompt 里重复说，固化成模板自身属性——客户-facing、高管、监管类关键汇报最受益。",
+          "tags": [
+            "Copilot",
+            "Brand Kit",
+            "Notes Steering",
+            "Strict Mode"
+          ],
+          "reason": "之前几次更新把严格品牌遵循当组织级能力推，这次把它落到 Brand Kit 模板的可配置开关上，且允许用备注指令把固定套路写进模板——你最常用的汇报母版可以自带必须包含封面、必须保留免责页、文字别太密这类规矩，普通人调不出来也能用对。对你们强流程、强合规的国企场景特别对口。",
+          "action": "让 IT/品牌管理员在常用汇报母版上开 Notes Steering 和 Strict Mode，把必须含合规页、保持品牌顺序写进模板备注；以后任何人用 Copilot 出这类 deck 都自动合规，省掉反复人工核版式。"
+        },
+        {
+          "time": "10:30",
+          "source": "Microsoft 365 Copilot 更新日志 / reconn-ai LLM Changelog",
+          "heat": 84,
+          "category": "软件更新",
+          "title": "PowerPoint Copilot 增强：可跨多个组织资产库(OAL)拉品牌图，选中图片/形状即让 Copilot 解释",
+          "url": "https://reconn-ai.com/llm-changelog.php?p=6",
+          "summary": "Copilot for PowerPoint 两项更新：①Edit with Copilot 现在可访问分布在多个 SharePoint 组织资产库(OAL)的企业图片——此前只能从单一 OAL 拉图，现在能跨多个库取审批过的品牌视觉，提升品牌一致性与内容质量（Insert>Picture>Brand Images 选库）；②新增 Explainer：选中图片让 Copilot 总结画面内容，选中形状解释其在图示中的作用，用于准备演讲备注或打磨页面。两者 Windows/Web/Mac 通用。",
+          "tags": [
+            "Copilot",
+            "组织资产库",
+            "品牌图",
+            "Explainer"
+          ],
+          "reason": "你们常做带品牌规范的汇报，这条把用对图从手动找变成 Copilot 跨库自动取审批过的素材，且 Explainer 能帮你快速给图示写备注——对不擅长写图注的人很实用。和之前联网引用、AEM 素材库一脉相承，企业品牌资产正在被 AI 自动调用。",
+          "action": "确认公司 SharePoint 组织资产库已建好并分类；下次让 Copilot 出片时直接说用我们 OAL 里的品牌图，别再手动塞图；图示页用 Explainer 一键生成演讲备注初稿。"
+        },
+        {
+          "time": "11:20",
+          "source": "IT之家 / 微软 X 公告（9/8）",
+          "heat": 90,
+          "category": "工具动态",
+          "title": "微软 Project Opal：可连续跑数天的 AI 智能体，能自动找素材、做表、生成 PPT、发 Teams",
+          "url": "https://www.163.com/dy/article/L6AMAB9R0511B8LM.html",
+          "summary": "纳德拉 9/7 在 X 宣布为 Microsoft 365 Copilot 推出 Project Opal：在可控、可追踪环境里规划和执行长周期复杂任务的 AI 智能体。用户交代任务后，它可连续工作数小时或数天，自动走完找素材、做表格、生成 PPT、发给同事的完整链路——演示案例中它分析一个月户外相机影像、截取动物片段、汇入电子表格、生成概述用的 PowerPoint，再分享到 Teams 供审核。早期应用含季度合规审计、入职等；审计场景工程师每周最高省 20 小时。入口在 Copilot 的 Frontier 模块，会启动专用 Windows 365 Cloud PC 由推理模型调度浏览器操作。",
+          "tags": [
+            "Project Opal",
+            "智能体",
+            "长周期任务",
+            "生成PPT"
+          ],
+          "reason": "这是 Copilot 从问答助手跳到委派执行的关键一步——你给目标，它连跑几天把含 PPT 的成品交回来。和 Sembly 3.0 的目标即产出一个方向，但 Opal 在 M365 可控环境内、可审计，对企业更友好。对你这种有月度固定汇报的人，意味着未来把每月拉数出 QBR 整体委托给它。",
+          "action": "关注 Project Opal 在 Frontier 的灰度进度；先把最机械、最固定的月度汇报流程（数据源+模板+发送对象）梳理成可在 Opal 里描述的任务，等开放后先小范围试跑并保留人工复核。"
+        },
+        {
+          "time": "13:00",
+          "source": "金山办公 / 希鸥网（WPS AI 升级报道）",
+          "heat": 83,
+          "category": "工具动态",
+          "title": "WPS AI 升级为办公智能体：项目级上下文记忆 + 跨应用执行，原生格式可逐页编辑",
+          "url": "https://xiouwang.cn/webnews/12420.html",
+          "summary": "金山办公 WPS AI 全面升级，定位从生成草稿转向深度协作的办公智能体：AI 能力原生嵌入文字/表格/演示/PDF，构建需求理解-文档解析-结构生成-深度润色闭环；五大核心能力含 AI 帮我写/改、文档一键转 PPT、自然语言数据问答、长文档解析、语音速记；并具备项目级上下文记忆与跨应用执行能力。所有生成内容保持原生格式、可逐字逐页编辑，打破外部工具复制粘贴的格式壁垒；企业侧支持权限管控、开放接口、安全合规。Gartner/IDC 数据称 68% 知识员工受 PPT 耗时与排版粗糙困扰。",
+          "tags": [
+            "WPS AI",
+            "办公智能体",
+            "跨应用",
+            "原生格式"
+          ],
+          "reason": "你就在 WPS 里干活，这次项目级上下文记忆是实打实的点——它记得你这个项目的背景，跨文档/表格/PPT 连续干活，不像单纯的 AI 生成器每次从空白开始。原生格式可逐页改也正中你们重要材料要可核验、不留死图的底线。",
+          "action": "更新 WPS 后试文档一键转 PPT 把长文汇报直接转初稿，再用项目级记忆让它在同一项目里连续补数据；重要对外材料仍走人工复核，别让智能体替你签字。"
+        },
+        {
+          "time": "14:10",
+          "source": "RuntimeWire（9/9）",
+          "heat": 86,
+          "category": "行业新闻",
+          "title": "Gamma 进入 Anthropic Claude Marketplace：企业可用既有 Claude 承诺额度买 Gamma 等 Claude 驱动产品",
+          "url": "https://runtimewire.com/article/anthropic-claude-marketplace-spacex-cursor-vercel-crowdstrike",
+          "summary": "Anthropic 9/9 把 Cursor、CrowdStrike、Factory、Gamma、Vercel 加入 Claude Marketplace。企业客户可把既有 Anthropic 消费承诺的一部分，用于购买这些 Claude 驱动的合作伙伴产品，由 Anthropic 统一开票，省去单独采购流程。Gamma 在其中定位生成演示文稿、文档与网站；报道指这是 Anthropic 把合同预算变成软件分发渠道的举动。Claude Marketplace 3/6 上线，本次扩展更深地切入软件开发、安全与内容创作。",
+          "tags": [
+            "Gamma",
+            "Claude Marketplace",
+            "Anthropic",
+            "企业采购"
+          ],
+          "reason": "这条信号有两层：一是头部 AI 演示工具（Gamma）正在被塞进大模型的采购货架，离用户更近；二是巨头在抢你公司预算走哪的入口。对你选工具的含义和之前 OpenAI 收 NextSlide、Gamma 收 Lica 一致——演示生成会更快被收编进大平台，小工具停服或被吞风险仍在，重要材料别只锁一家。",
+          "action": "持续关注 Gamma 是否会因进 Claude Marketplace 推出企业打包价；同时坚持重要 deck 导出干净 PPTX 本地留底，不把身家押在单一在线平台。"
+        },
+        {
+          "time": "15:20",
+          "source": "BLISSAM 视觉设计教程（9/8）",
+          "heat": 80,
+          "category": "设计趋势",
+          "title": "电影大片感 PPT：用脚本式分页（开场/铺垫/高潮/收束）讲一段有镜头节奏的视觉叙事",
+          "url": "https://www.blissam.com/news/20260824-40228075.shtml",
+          "summary": "文章主张电影感 PPT 不是堆黑底发光字和特效，而是把内容设计成有镜头节奏的视觉叙事：先把整份核心表达写成一句话（决定图片/标题/转场），再分四阶段——开场造期待、中段展事实与冲突、高潮突出核心发现、收束给结论或行动；每页只担一个任务。视觉上建立统一语言：16:9、一组主色+辅助色+强调色，深色底+低饱和主色+高亮强调色（如炭黑底+灰白字+橙色标关键数字）；字体不超两种，标题/正文/注释有清晰字号层级。封面用一张能表达主题关系的主图而非好看风景图。",
+          "tags": [
+            "电影感",
+            "脚本式分页",
+            "视觉叙事",
+            "强调色"
+          ],
+          "reason": "动态视频/电影感是 2026 趋势里最容易做过头的一项。这篇给的纪律最实用：先用一句话核心+四段式脚本把信息顺序定死，再上视觉——避免页面看起来像电影却没逻辑。对你做重要路演/答辩类材料，加一处电影感动态能拉档，但前提是叙事骨架先立住。",
+          "action": "重要对外汇报先写一句核心表达+四段脚本（开场/铺垫/高潮/收束），每页只压一个任务；视觉用深色底+一个高亮强调色标关键数字，封面用主题关系图而非装饰风景图。"
+        },
+        {
+          "time": "16:30",
+          "source": "今日头条 实战帖（一句话生成 PPT 3h→10min）",
+          "heat": 78,
+          "category": "教程观点",
+          "title": "别让 AI 直接生成整份 PPT：把汇报拆成结构、内容、视觉、校验四步，3 小时压到 10 分钟",
+          "url": "https://www.toutiao.com/a7682343095924458025",
+          "summary": "帖子核心：做 PPT 最耗时的不是排版，而是没想清这次要讲什么。四步法：①先让 AI 当汇报策划——给对象/目的/手头材料/期望决定，只输出核心结论、页面目录、每页一句话观点；②每页用问题—结论—证据结构，每页≤3 要点+建议图表；③内容定稿后再统一交给 AI 做视觉（16:9、商务简洁、每页≤80 字、图表化、少装饰）；④最后 10 分钟只做 3 项人工检查——核数字（回原始材料）、核结论（只看标题能否懂主线）、核敏感信息（内部数据别传未批准外部工具）。强调 AI 消灭机械劳动，不替你承担汇报责任。",
+          "tags": [
+            "四步法",
+            "先结构后视觉",
+            "人工校验",
+            "AI辅助"
+          ],
+          "reason": "很多人一开水就让 AI 出整份 PPT，结果要返工两遍。这条把动手前先想清楚产品化成了四步，且第④步的三核是反直觉但最值钱的纪律——和咱们一直推的标题即结论、数据要可核验完全同频。对你日常汇报最实用的是：先把逻辑搭对，再让 AI 美化。",
+          "action": "下次做汇报严格按四步：先让 AI 出核心结论+目录+每页一句观点，结构过关再开做页面；交付前强制跑核数字/核结论/核敏感三检，外部 AI 工具不上传未批准的内部数据。"
+        }
+      ]
+    },
     {
       "date": "2026-09-10",
       "items": [
