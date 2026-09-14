@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-09-11",
-    "updatedAt": "2026-09-11 11:33"
+    "updated": "2026-09-14",
+    "updatedAt": "2026-09-14 09:08"
   },
   "days": [
+    {
+      "date": "2026-09-14",
+      "items": [
+        {
+          "time": "09:30",
+          "source": "Microsoft 365 消息中心 MC1470885 / MWPRO 解读",
+          "heat": 88,
+          "category": "软件更新",
+          "title": "PowerPoint/Word/Excel 的 Copilot 按钮新增直接输入框：选中内容即出上下文提示",
+          "url": "https://mwpro.co.uk/blog/2026/09/12/mc1470885-microsoft-365-copilot-adds-direct-prompt-input-to-copilot-button-in-word-excel-and-powerpoint",
+          "summary": "微软 9/12 发布消息中心公告 MC1470885：在 Word、Excel、PowerPoint 的 Copilot 按钮上新增一个直接输入框，用户无需打开 Copilot 侧边栏即可输入或口述指令；选中内容时还会出现上下文提示（如 Rewrite、Shorten）。Windows 快捷键 Alt+C，Mac 为 Command+Control+I。9 月起全球逐步推送，预计 12 月底完成，默认对符合条件的 M365 Copilot 用户开启，现有管理控制仍适用。",
+          "tags": [
+            "Copilot",
+            "直接输入",
+            "上下文提示",
+            "MC1470885"
+          ],
+          "reason": "之前每次用 Copilot 都得点开右侧面板，现在直接在按钮上敲字就能让它干活，选中一段文字还自动弹「改写/精简」建议——做汇报润色更快，少切来切去。对你这种天天和 PPT 打交道的人，等于把 AI 入口从二级菜单提到了按钮本身。",
+          "action": "更新给团队的培训材料，告诉大家 Alt+C（Mac 上 Command+Control+I）直接唤起 Copilot；写稿时选中段落让它一键精简或改写，比开面板顺手。"
+        },
+        {
+          "time": "10:15",
+          "source": "Microsoft 365 Copilot 更新日志 / reconn-ai LLM Changelog",
+          "heat": 82,
+          "category": "软件更新",
+          "title": "PowerPoint 接入 Black Forest Lab FLUX.2 Flex 图像模型：出图文字与版式更准",
+          "url": "https://reconn-ai.com/llm-changelog.php?p=6",
+          "summary": "PowerPoint 现在支持 Black Forest Lab 的 FLUX.2 Flex 文生图模型，用户生成幻灯片配图时可选择该模型，产出更高质量、文字与版式渲染更准的视觉素材；适合做幻灯片背景或带文字元素的图片。与现有 DALL·E 等并列，给用户更多创作控制权。",
+          "tags": [
+            "FLUX.2 Flex",
+            "图像生成",
+            "PowerPoint",
+            "Copilot"
+          ],
+          "reason": "之前用 AI 出图最怕文字糊、版式乱，FLUX.2 Flex 在文字和布局渲染上明显更强——你做带标题背景图、信息图配图时成功率更高。多一个模型选项，等于多一种风格兜底。",
+          "action": "下次需要幻灯片背景或带字配图时，生成图片那步手动选 FLUX.2 Flex；出几版对比挑最贴合主题的一张。"
+        },
+        {
+          "time": "11:00",
+          "source": "DEV Community / TechSifted 横评",
+          "heat": 80,
+          "category": "工具动态",
+          "title": "2026 AI 演示工具横评：Gamma 居首，Beautiful.ai 胜在品牌一致",
+          "url": "https://dev.to/techsifted/best-ai-presentation-tools-in-2026-ranked-for-people-who-actually-have-to-present-3a2k",
+          "summary": "一份面向「真要上台讲」的人的 2026 六款 AI 演示工具横评：Gamma（从想法到成稿 <1 分钟，9.1/10）居首；Beautiful.ai（品牌一致、团队母版锁定，8.7）适合强品牌团队；Tome 偏叙事；Canva AI 性价比高；Pitch 协作出色；PowerPoint+Copilot 适合已有 M365 的企业用户（7.5）。评测强调工具能提速但救不了烂思路。",
+          "tags": [
+            "Gamma",
+            "Beautiful.ai",
+            "横评",
+            "AI工具"
+          ],
+          "reason": "这份榜把「成稿质量经不经得起客户挑剔」作为第一标准，和你用法对路——你是企业人，要的是拿得出手不是花哨。Gamma 快但导出 PPTX 弱、品牌弱；Beautiful.ai 慢一点但母版锁死不跑偏。按场景选比追新重要。",
+          "action": "内部快速草稿用 Gamma 抢时间；对外/强品牌正式汇报走 Beautiful.ai 或你们母版；别指望一个工具通吃。"
+        },
+        {
+          "time": "11:45",
+          "source": "Okara AI 增长复盘 / DataStudios / TipRanks",
+          "heat": 92,
+          "category": "行业新闻",
+          "title": "Gamma 用户破 1 亿、ARR 过 1 亿美元且盈利，估值 21 亿美元",
+          "url": "https://okara.ai/blog/how-gamma-grew",
+          "summary": "Gamma 增长复盘显示：2026 年 6 月用户突破 1 亿，ARR 超 1 亿美元且自 2023 年起持续盈利；2025 年 11 月完成 6800 万美元 B 轮、估值 21 亿美元（a16z、Accel、Uncork 参投）。团队仅约 50–421 人（不同口径），靠把「成品展示」外包给模型厂商、轻自有算力实现盈利，是少数盈利的 AI 应用独角兽。",
+          "tags": [
+            "Gamma",
+            "融资",
+            "ARR",
+            "盈利"
+          ],
+          "reason": "这是 AI 演示赛道最硬的信号：不是烧钱换增长，而是用外包模型+小团队跑通盈利。说明「网页原生卡片式」路线被市场验证。对你意味着——这类工具会长期活下来、持续迭代，可以放心纳入工作流，不用怕它哪天倒闭。",
+          "action": "把 Gamma 当长期生产力工具而非尝鲜；关注其 Teams/API 能力，等有团队共享需求时直接上企业版。"
+        },
+        {
+          "time": "13:30",
+          "source": "Accio 趋势分析 / Canva 设计趋势",
+          "heat": 84,
+          "category": "设计趋势",
+          "title": "2026 演示设计趋势：清晰极简、数据叙事、真实影像、无障碍优先",
+          "url": "https://www.accio.com/business/trendy-presentation-template",
+          "summary": "2026 演示设计呈现几条主线：①清晰胜于装饰——一页一观点、大留白、短标题；②数据叙事取代数据堆砌，用可视化与标注讲洞察；③沉浸真实影像（全屏图、短视频、定制插画）替代通用图库；④粗体几何字体当主角；⑤无障碍成硬指标（正文 24–32pt、标题 44–64pt、强对比）；⑥AI 辅助设计但保留人审；⑦暖中性+大地绿+深紫配色，点缀「变革青」。Canva 同期推「不完美设计」风（手绘、混排字体、Raw 视觉）。",
+          "tags": [
+            "设计趋势",
+            "极简",
+            "数据叙事",
+            "无障碍"
+          ],
+          "reason": "今年评审好 PPT 的标准很统一：少即是多、每页只说一件事、字大对比强。和你们国企「信息密、字小」的老习惯正好相反——可以拿这条当说服领导瘦身版式的依据。无障碍（大字号强对比）也顺带照顾会议室后排和手机看的人。",
+          "action": "新做汇报套「一页一结论+大留白+强对比」三件套；图能用真实照别用塑料感图库；母版字号下限按正文 24pt 卡。"
+        },
+        {
+          "time": "14:20",
+          "source": "博思 AIPPT / pptgo.cn",
+          "heat": 79,
+          "category": "教程观点",
+          "title": "PPT 数据故事怎么讲：从图表堆砌到 SCQA 叙事说服",
+          "url": "https://pptgo.cn/article/ppt-data-storytelling/",
+          "summary": "文章给出可复用方法：判断标准——遮住图表标题观众仍能抓到核心，才是数据故事而非摆数据。底层框架用 SCQA（背景—冲突—疑问—答案）或金字塔原理（结论先行）。四个动作：①一页一结论，标题写成结论句（如「6 月起销售额连续三月环比增长」而非「月度销售趋势」）；②做减法——删次要数据、网格线、杂色，用基准线/高亮锚定视线；③选对图表类型；④先想清故事再决定图表，别先拉图再硬凑结论。",
+          "tags": [
+            "数据故事",
+            "SCQA",
+            "结论先行",
+            "减法和解"
+          ],
+          "reason": "你们单证/物流月度汇报全是数据，最容易犯的错就是「把表贴上去」。这套 SCQA+结论先行直接可抄：每页标题先给结论，图表只服务那一个观点。领导看汇报要的是「所以呢」，不是「数据在这儿」。",
+          "action": "改月度数据页：标题改成结论句、每页只讲一个洞察、删掉花哨网格线和杂色；用一条基准线标行业均值。下次例会用这版对比老版，差距一眼可见。"
+        },
+        {
+          "time": "15:10",
+          "source": "FeedWorldTech / Listrovert 实务指南",
+          "heat": 77,
+          "category": "教程观点",
+          "title": "AI 辅助职场怎么做可信演示：先定决策动作，AI 只打草稿",
+          "url": "https://listrovert.com/how-to-create-more-effective-business-presentations",
+          "summary": "指南给出 11 步：先定义受众要做的决策/动作，再研究受众、选单一故事结构（如 SCQA、What-So What-Now What）、先写大纲后做页、每页一个主意、用视觉层级引导视线、把数据变成一句结论、为现场与异步（录屏/邮件/手机）双场景设计、用「fresh-reader 测试」自查。核心：AI 能加速初稿但判断/准确/语气仍归人；视觉漂亮不能替你掩盖逻辑漏洞。",
+          "tags": [
+            "演示方法",
+            "AI协作",
+            "决策导向",
+            "自查"
+          ],
+          "reason": "这篇把「AI 出稿快但标准更高」说透了——人人都能一分钟出草稿，反而显得你的判断值钱。最实用的是 fresh-reader 测试：隔一天当陌生人重读，哪里卡住就从哪改。和你「先做再迭代」的 60 分哲学一致。",
+          "action": "出稿后加一道 fresh-reader 自查（遮标题能否抓重点、每页是否一个动作）；AI 生成内容必须人工核对来源与口径再上会。"
+        }
+      ]
+    },
     {
       "date": "2026-09-11",
       "items": [
