@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-09-14",
-    "updatedAt": "2026-09-14 09:08"
+    "updated": "2026-09-16",
+    "updatedAt": "2026-09-16 09:01"
   },
   "days": [
+    {
+      "date": "2026-09-16",
+      "items": [
+        {
+          "time": "08:45",
+          "source": "ChatSlide 发布文章 / 风投公开披露",
+          "heat": 80,
+          "category": "行业新闻",
+          "title": "AI 融资超级周：48 小时内三家公司合计募资 61.3 亿美元",
+          "url": "https://www.chatslide.ai/articles/chatslide-3-gpt-6-astra-tech-biggest-week",
+          "summary": "9 月 8–9 日，Cognition（自主编程智能体）募 20 亿美元、估值 480 亿；Mistral AI（欧洲前沿模型）募 30 亿欧元（约 35.8 亿美元）；Harvey（法律 AI）等合计募资 61.3 亿美元，投后估值合计约 875 亿美元。斯坦福科技评论称这一周行业「同时宣布了 AGI、给它定价、为它融资、又对它发出警告」。演示与办公 AI 工具的底层模型与资金正以前所未有的速度集中。",
+          "tags": [
+            "AI融资",
+            "Cognition",
+            "Mistral",
+            "行业资本"
+          ],
+          "reason": "钱往哪走，工具就往哪长。这波融资主要灌进底层模型与智能体，意味着明年你用的 PPT 工具背后的「脑子」会更强、更便宜。看懂资本方向，比追单点功能更新更能预判半年后的工具格局。",
+          "action": "把这条当作行业背景存一下；选型时优先盯着拿到大钱、模型迭代快的团队（如 Mistral、Cognition 生态），它们大概率会把能力更快塞进办公工具。"
+        },
+        {
+          "time": "09:30",
+          "source": "腾讯云开发者社区 / WPS 2026 更新说明",
+          "heat": 82,
+          "category": "软件更新",
+          "title": "WPS 2026 v26.9.0 更新：新增 PPT 智能布局模式与多文档问答",
+          "url": "https://cloud.tencent.com/developer/article/2739923",
+          "summary": "WPS 2026 最新正式版 v26.9.0（9 月 7 日更新）核心围绕 AI 深度集成：PPT 智能布局模式提供简约/商务/创意/学术等排版风格，支持单页独立重新生成，视觉效果接近人工设计；AI 阅读助手新增图表数据理解，可直接回答文档内表格/图表的问题；多文档问答支持跨多篇文档综合对比；并原生支持 Markdown 左编右显与 26 种文字/13 种表格/11 种演示格式，兼容 OFD 等国产格式。",
+          "tags": [
+            "WPS 2026",
+            "AI布局",
+            "多文档问答",
+            "国产办公"
+          ],
+          "reason": "这是国产办公栈里少数把「AI 生成 PPT」做进主程序的更新：单页重排、图表理解这些正好是国企日常做材料最耗时的活。OFD 兼容也对应你的单证/公文场景，少一层格式转换就少一层出错。",
+          "action": "把常用汇报模板在 WPS 2026 里试一遍「智能布局」；做月度数据汇报时让 AI 阅读助手直接读图表答数，省掉自己翻表。"
+        },
+        {
+          "time": "10:00",
+          "source": "NextDocs 2026年9月 AI 演示工具盘点",
+          "heat": 85,
+          "category": "工具动态",
+          "title": "Genspark 发布专用幻灯片模型 Gen-1 Slides：把深度调研直接变成可讲的结构",
+          "url": "https://www.nextdocs.io/blogs/best-ai-presentation-makers-september-2026-update",
+          "summary": "Genspark 于 9 月 10 日发布专用的幻灯片生成模型 Gen-1 Slides。与其他「在通用大模型上套一层」的 AI 演示工具不同，它把幻灯片当作一等公民——模型本身理解分页、版式与叙事结构，配合 Genspark 既有的智能体式深度调研能力，能从一堆资料里自动梳理出可汇报的 deck。同篇盘点还提到 Canva Design Model（4 月）、Adobe Acrobat AI 从 PDF 生成总结幻灯片等跨界蚕食的趋势。",
+          "tags": [
+            "Genspark",
+            "Gen-1 Slides",
+            "专用模型",
+            "AI演示"
+          ],
+          "reason": "之前大部分 AI 做 PPT 工具都是在通用大模型外面套壳，分頁和逻辑经常翻车；Genspark 直接训练了一个「懂幻灯片」的模型，等于从根上解决结构问题。对你这种要拿得出手的企业汇报，这种「先有骨架再填肉」的思路比纯生成图漂亮更实用。",
+          "action": "下次要做资料综述类汇报时，可以把原始文档丢给 Genspark 试试 Gen-1 Slides；重点看它分页的叙事逻辑合不合你意，再手动微调。"
+        },
+        {
+          "time": "11:00",
+          "source": "ChatSlide 官方 / What's New + 发布文章",
+          "heat": 84,
+          "category": "工具动态",
+          "title": "ChatSlide 3 上线：GPT-6 Astra 驱动 + World Lab 把照片变可探索 3D 场景",
+          "url": "https://www.chatslide.ai/articles/chatslide-3-gpt-6-astra-tech-biggest-week",
+          "summary": "ChatSlide 于 9 月初发布 3.0：Ultimate 方案接入 OpenAI GPT-6 Astra（105 万 token 上下文，9 月 4 日上线），长文档、多语言、密集型技术 deck 用最强推理引擎；World Lab 实验把单张照片重建成可在 deck 里直接使用的可探索 3D 世界；同时支持日元/新台币/新元/港币本地定价、克隆头像用自己的声音、网页或 YouTube 链接作为 deck 来源。官方把它定位为「前沿模型发布到团队真正能用，只隔一天」。",
+          "tags": [
+            "ChatSlide 3",
+            "GPT-6 Astra",
+            "World Lab",
+            "3D场景"
+          ],
+          "reason": "两个亮点对你都有用：GPT-6 Astra 长上下文意味着塞一整份项目资料进去它也能不乱；World Lab 的 3D 场景适合做现场/园区/流程类汇报的视觉亮点，比静态截图高级。",
+          "action": "重型技术汇报或带空间场景的议题，试用 ChatSlide 3 的 Astra 模型 + World Lab 出 3D 配图；先出一页样张看观感。"
+        },
+        {
+          "time": "13:15",
+          "source": "Microsoft 365 消息中心 MC1461152",
+          "heat": 81,
+          "category": "软件更新",
+          "title": "PowerPoint Copilot 新技能「创建交互式幻灯片」：Windows 已上线、Mac 跟进",
+          "url": "https://mc.merill.net/message/MC1461152",
+          "summary": "微软消息中心 MC1461152：PowerPoint 新增「创建交互式幻灯片」（Create interactive slides）Copilot 技能，Windows 桌面已可用，Mac 于 9 月初陆续推送。它帮助用户为复杂概念、时间线、对比、系统与关系、数据可视化生成整页交互式视觉，无需手动搭建，减少重复劳动；属 Frontier 预览能力，无需管理员提前动作。适合把「讲不清」的东西直接做成可看的交互页。",
+          "tags": [
+            "PowerPoint",
+            "Copilot",
+            "交互式幻灯片",
+            "MC1461152"
+          ],
+          "reason": "复杂流程、时间线、对比这些最难的页，以前得手动拼图标和箭头；现在 Copilot 一键出整页交互视觉，等于把「讲不清」的页面外包给 AI 搭骨架。你做物流/流程类汇报直接能用。",
+          "action": "在 Windows 版 PowerPoint 里找「创建交互式幻灯片」技能，挑一张流程/对比页试生成；先出一页看它骨架合不合理，再补内容。"
+        },
+        {
+          "time": "14:00",
+          "source": "SlideEgg 博客（基于 10 万+ 模板下载数据分析）",
+          "heat": 86,
+          "category": "设计趋势",
+          "title": "2026 演示设计七大趋势：Bento 网格、暗色模式、巨字排版、数据叙事领跑",
+          "url": "https://www.slideegg.com/blog/presentation-tips/the-7-presentation-design-trends-dominating-2026-data-backed/",
+          "summary": "SlideEgg 分析其免费模板库超 10 万次下载，总结出 2026 七大趋势：①Bento 网格（模块化矩形块组织复杂信息）②暗色模式成默认（深炭底+霓虹强调色，低光房间更护眼）③巨字排版（80pt+ 粗无衬线标题下载量涨 300%）④数据叙事替代 Excel 截图（用甜甜圈/桑基/简化漏斗）⑤玻璃拟态（磨砂质感渐变）⑥竖屏/移动优先（9:16 增长最快）⑦非线性交互菜单（可点击跳转）。核心结论：设计门槛更高，但别从模板追新，先想清楚每页要传达的一件事。",
+          "tags": [
+            "设计趋势",
+            "Bento网格",
+            "暗色模式",
+            "数据叙事"
+          ],
+          "reason": "这些不是花活，是观众口味变了：信息密度高但每页只讲一件事、暗色在 LED 屏上更清楚、竖屏是因为领导在手机上看你的 deck。你做汇报时按这套调，比套老模板更「像 2026 年的样子」。",
+          "action": "下次做季度汇报，挑 1–2 个落地：标题用 80pt+ 巨字直接甩结论；数据页换成一张简化图+一句洞察，别再贴 Excel 截图。"
+        },
+        {
+          "time": "15:30",
+          "source": "GreatPPT 2026 AI 演示入门指南",
+          "heat": 78,
+          "category": "教程观点",
+          "title": "用 AI 做 PPT 的「五柱提示词」框架：类型、受众、语气、大纲、视觉一次说清",
+          "url": "https://www.greatppt.com/how-to-create-presentations-with-ai-in-2026-guide-for-beginners",
+          "summary": "GreatPPT 给出新手可直接套用的提示词框架：①类型与目标（如「12 页投资人路演」）②受众（如「看重数据与可扩张性的 VC」）③语气风格（专业/有说服力）④内容大纲（给 AI 路线图，它出活更准）⑤视觉指令（极简/高对比/多图）。文章还推荐「ChatGPT 深度研究写长文 → 导出 docx → 导入 Gamma 生成 deck」的三段式工作流，先有扎实研究再转视觉，避免空壳漂亮页。",
+          "tags": [
+            "提示词框架",
+            "AI工作流",
+            "ChatGPT",
+            "Gamma"
+          ],
+          "reason": "很多人用 AI 做 PPT 翻车，是因为提示词就一句「做个关于 XX 的 deck」。这五根柱子一次补齐，AI 才知道你要啥；尤其「先研究后转视觉」那段，专门治「页面好看但没内容」的病。",
+          "action": "以后让 AI 出汇报，先把这五项写成一段 brief 再发；重型材料走「长文→docx→Gamma」流水线，质量比直接生成稳。"
+        }
+      ]
+    },
     {
       "date": "2026-09-14",
       "items": [
