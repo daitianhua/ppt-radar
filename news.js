@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-09-16",
-    "updatedAt": "2026-09-16 09:01"
+    "updated": "2026-09-17",
+    "updatedAt": "2026-09-17 08:58"
   },
   "days": [
+    {
+      "date": "2026-09-17",
+      "items": [
+        {
+          "time": "08:30",
+          "source": "Microsoft 消息中心 / MWPro 解读",
+          "heat": 92,
+          "category": "软件更新",
+          "title": "PowerPoint Copilot 新增组织级 Brand Skill：品牌经理可上传 Markdown 技能统一规范生成",
+          "url": "https://mwpro.co.uk/blog/2026/09/17/mc1473166-powerpoint-copilot-gets-brand-skill-support-for-organization-published-presentation-guidance",
+          "summary": "微软 9 月 17 日发布消息中心公告 MC1473166：PowerPoint 的 Brand Kit 现支持品牌经理上传自定义「演示技能」(.md 或 .zip)，发布后组织内使用 Copilot 的同事即可套用这套经审批的 reusable 指导来生成演示文稿。Frontier 9 月中起、GA 9 月底铺开。相当于把企业的品牌与叙事规则写成可复用指令，嵌进 Copilot 生成流程，而不是每次在 prompt 里重述。",
+          "tags": [
+            "PowerPoint",
+            "Copilot",
+            "Brand Kit",
+            "Brand Skill"
+          ],
+          "reason": "这是把「企业品牌治理」从模板层面推进到「指令层面」的一步。以前靠模板锁样式，现在能直接写一份 Markdown 规则让 Copilot 照着讲——对国企、对要统一对外口径的部门很实用，省掉每个人重复交代「要用什么语气、什么结构」。",
+          "action": "若你管品牌/模板，先在测试环境写一份演示技能（如「每页须有数据来源脚注、节标题统一用 XX 体」），小范围验证后再发布；使用侧暂时无感，等品牌经理发布即可。"
+        },
+        {
+          "time": "10:30",
+          "source": "网易科技 / 播客复盘",
+          "heat": 86,
+          "category": "工具动态",
+          "title": "Gamma CPO 复盘：1 亿用户后开始「拆护栏」，9 月将推 agentic 编辑与 API",
+          "url": "https://www.163.com/dy/article/L6R2T7P705561FZD.html",
+          "summary": "Gamma 联合创始人兼 CPO Jon Noronha 在播客中复盘：当年为弱模型立的严密护栏（字体/颜色/字号系统控）现在反而压低了创作上限，团队正「不断做减法、放松限制、让 AI 承担更多」。他同时预告 9 月有大动作——大幅升级核心编辑体验、扩展视觉多样性，并推出 agentic 编辑（用对话让 AI 把 5 页扩成 20 页、重做某段视觉）与面向工作流的 API。",
+          "tags": [
+            "Gamma",
+            "agentic editing",
+            "API",
+            "产品复盘"
+          ],
+          "reason": "Gamma 从「套壳限制」转向「放手给 AI」，说明底层模型已强到不需要那么多护栏。它要推的 API 意味着「CRM 进、定制 pitch 出」会变成标配——你以后做客户提案可能不再打开工具，而是让系统自动跑。",
+          "action": "关注 Gamma 9 月 API 上线；若有「新客户进来自动出提案」的需求，先把现有提案模板和 CRM 字段梳理好，等接口开放即可接。"
+        },
+        {
+          "time": "11:00",
+          "source": "Recode / 行业报道",
+          "heat": 80,
+          "category": "行业新闻",
+          "title": "Tome 用 AI pitch 层悄悄蚕食 Beautiful.ai 的销售基本盘",
+          "url": "https://recodenews.com/tomes-ai-pitch-layer-is-quietly",
+          "summary": "报道指出 Tome 正从创意画布转向销售工作流：自动生成公司调研、拉入 CRM 上下文、按客户量身生成 deck，且单座价格低于 Beautiful.ai。Beautiful.ai 的「智能模板自动排版」优势在「AI 从一行 brief 直接生成整份结构」面前显得过时。销售团队切换成本低，正以「一个团队试用→口口相传」的方式缓慢侵蚀 Beautiful.ai 续费。",
+          "tags": [
+            "Tome",
+            "Beautiful.ai",
+            "销售演示",
+            "竞争格局"
+          ],
+          "reason": "演示工具的主战场正从「排版美不美」转向「能不能替我想清楚卖给谁」。对做汇报/提案的你，这提示一个判断标准：选工具别只看模板好看，要看它能不能接你的业务数据、按受众生成。",
+          "action": "若团队在评估 AI 演示工具，把「能否接入 CRM/业务数据做个性化」列为硬指标，而非只看默认主题漂不漂亮。"
+        },
+        {
+          "time": "11:30",
+          "source": "Imagine Layout / 横向评测",
+          "heat": 78,
+          "category": "行业新闻",
+          "title": "Plus AI 没失败，只是被原生 AI 吞了：Gemini in Slides 与 Copilot Agentic Mode 免费内置",
+          "url": "https://imaginelayout.com/blog/gamma-vs-beautiful-ai-vs-tome-vs-plus-ai",
+          "summary": "文章分析：Plus AI 作为 PowerPoint/Google Slides 第三方插件活得挺好、过 SOC 2，但它赖以生存的「在现有工具里生成尊重模板的 deck」这一缺口，正被 Google Gemini in Slides（整份多页生成+风格一致）和 PowerPoint Copilot Agentic Mode（重排版式+套品牌包）以免费原生能力一点点填平。这是一种比 Tome 关停更安静的「被吞噬」。",
+          "tags": [
+            "Plus AI",
+            "Gemini",
+            "Copilot",
+            "原生AI"
+          ],
+          "reason": "第三方「套壳增强」的护城河越来越浅——大厂把 AI 直接做进自家软件还免费。对你意味着：别过早押注小工具，优先吃透 PowerPoint/Google Slides 自带的 Copilot/Gemini，迁移成本最低。",
+          "action": "先把 PowerPoint Copilot、Google Gemini in Slides 的原生能力用熟，第三方插件按需补位，别让订阅绑死在单一小厂。"
+        },
+        {
+          "time": "14:00",
+          "source": "Microsoft 官方 PowerPoint 设计博客",
+          "heat": 84,
+          "category": "设计趋势",
+          "title": "Microsoft 官方 2026 PPT 设计趋势：暖色极简、3D 图标主流、Copilot 生成 AI 图像",
+          "url": "https://powerpoint.cloud.microsoft/create/zh-hans/blog/powerpoint-design-ideas",
+          "summary": "微软官方设计博客总结 2026 趋势：极简仍是主流，但纯白被暖色调、柔和形状与有意强调色取代；3D 图标/插画从新奇变主流风格；Copilot 可直接在聊天里按描述生成匹配概念/情绪的 AI 图像并下载到幻灯片。同时强调「每张幻灯片一个想法」「保留有意留白」「为小屏与异步阅读设计」「用模板约束排版」等可落地的版式纪律。",
+          "tags": [
+            "设计趋势",
+            "极简",
+            "3D图标",
+            "AI图像"
+          ],
+          "reason": "官方亲自下场定调，等于给你一份「不会翻车」的审美基准。暖色极简+3D 是今年安全地好看的组合；「每张一想法」「为小屏设计」两条尤其适合你现在天天发的企业汇报——领导常手机看。",
+          "action": "下次做月度汇报，试着把纯白底换成暖灰/米色，配 3D 风格图标；每页只讲一件事，标题用有力短句，顺手用 Copilot 生成一张主题配图。"
+        },
+        {
+          "time": "15:00",
+          "source": "Venison Magazine / 销售演示指南",
+          "heat": 80,
+          "category": "教程观点",
+          "title": "数字销售团队 2026 演示提升 7 招：极简、交互、AI 洞察、个性化、用数据背书",
+          "url": "https://www.venisonmagazine.com/trends-and-techniques-for-digital-sales-teams-elevating-presentations-in-2026",
+          "summary": "文章给出 2026 年有效销售演示的实操清单：拥抱极简（留白+清晰层级）、加入交互元素（实时 demo/可点原型/嵌入投票）、用 AI 洞察动态贴合受众痛点、销售与营销共建统一素材、定期更新内容避免引用过时数据、按客户个性化、用第三方研究/内部数据给主张背书。核心：简化设计、加深交互、借 AI、常更新、接地气。",
+          "tags": [
+            "销售演示",
+            "极简",
+            "交互",
+            "个性化"
+          ],
+          "reason": "这 7 招对企业内部汇报同样成立——尤其是「定期更新、用数据背书、按受众个性化」。很多人把一份 deck 用半年不换，数据过期还在讲，最掉信任。",
+          "action": "给常用汇报建一个「数据源+案例」更新清单，每月刷新一次；对外汇报前用一条第三方数据或内部真实数字给核心主张兜底。"
+        },
+        {
+          "time": "16:00",
+          "source": "Imagine Layout / 工具横评",
+          "heat": 79,
+          "category": "教程观点",
+          "title": "专家对 Gamma/Beautiful.ai/Tome/Plus AI 降温：选对「层」比选响亮品牌重要",
+          "url": "https://imaginelayout.com/blog/gamma-vs-beautiful-ai-vs-tome-vs-plus-ai",
+          "summary": "文章指出四款头部 AI 演示工具的共同短板：没有一款能产出「明显、刻意像人设计」而非「千人一面的模板拼装」的 deck；投资人看 pitch 时首页注意力是后续页两倍以上、总审阅时长逐年缩短——所以一个像模板的开场页，在内容被看到前就丢了那两秒。结论：prompt-to-deck 引擎优化的是「快出草稿」，专业模板库优化的是「打开像没人用过」；按你要解决的层选工具，而非按两年前最响的品牌。",
+          "tags": [
+            "工具选型",
+            "差异化",
+            "AI演示",
+            "避坑"
+          ],
+          "reason": "对你最直接的提醒：AI 出初稿快，但「看起来像你/像你们单位」这层 AI 补不了。别迷信某个工具的宣传，先想清楚你要的是「快」还是「独特」，再选。",
+          "action": "把 AI 定位成「出 80% 初稿」，最后 20% 的独特性（自有模板、单位 VI、个性化开场）留给自己；选工具时先列你要解决的具体问题，再对照功能。"
+        }
+      ]
+    },
     {
       "date": "2026-09-16",
       "items": [
