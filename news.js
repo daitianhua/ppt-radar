@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-09-18",
-    "updatedAt": "2026-09-18 09:01"
+    "updated": "2026-09-19",
+    "updatedAt": "2026-09-19 12:16"
   },
   "days": [
+    {
+      "date": "2026-09-19",
+      "items": [
+        {
+          "time": "10:00",
+          "source": "Gamma 官方 / Gamma Blog",
+          "heat": 95,
+          "category": "工具动态",
+          "title": "Gamma 3.0 正式发布：全球首个「AI 设计伙伴」+ Gamma Agent + 开放 API",
+          "url": "https://gamma.app/insights/introducing-gamma-3-0",
+          "summary": "2026年9月19日，Gamma 正式推出 3.0。核心是全球首个 AI 设计伙伴与 Gamma Agent：可联网检索并抓取引用支撑观点、把链接/截图无缝并入并可视化、用一句话重设计整份风格、审阅并修改完善演示；9月向所有付费用户开放无限次使用。同时发布 Gamma API，可接入 Zapier、Make 或任意数据源，把 Zoom 纪要转成会议总结、把 CRM 数据变成定制 pitch deck，并支持 60+ 语言翻译。智能图表、主题与布局也在本次大幅扩展。",
+          "tags": [
+            "Gamma",
+            "Gamma 3.0",
+            "Agent",
+            "API"
+          ],
+          "reason": "这不只是一次版本号更新，是把「做 deck」从单人劳动变成「你下指令、Agent 跑全流程」。对你这种常要快速出提案/汇报的，等于多了一个不睡觉的设计搭子——丢个链接它就帮你把素材吃进去出初稿。",
+          "action": "重要提案/汇报先用 Gamma 3.0 出 0.8 版初稿，再用 Agent 追问「这页结构太散、把第三节扩成 20 页、换种视觉风格」；对外正式版记得导出 .pptx 在 PowerPoint/WPS 里收尾（Gamma 的 PPTX 导出保真度一直有争议）。"
+        },
+        {
+          "time": "11:00",
+          "source": "AI Pro Playbook / Anthropic",
+          "heat": 90,
+          "category": "工具动态",
+          "title": "Anthropic 上线 Claude Slides 公测版：一句话出 deck，可直接演示或导出 PowerPoint/PDF",
+          "url": "https://aiproplaybook.com/tools/claude-slides",
+          "summary": "2026年9月16日，Anthropic 随 Claude Docs 上线、并把 Claude Cowork 合并进主界面，一并推出 Claude Slides（公测）。它把一个请求直接变成可编辑的演示文稿：可继续对话改稿，也能在 Claude 内直接演示，或导出 PowerPoint / PDF；所有产物挂在单个可分享链接上，并能继承上下文对话里的研究与文件。目前为付费档（Pro/Max）功能，企业版需管理员开启。",
+          "tags": [
+            "Claude",
+            "Claude Slides",
+            "Anthropic",
+            "PPT导出"
+          ],
+          "reason": "和 ChatGPT、Copilot 一样，Claude 也补齐了「直接产出可上台文件」这最后一里路。它最强的一点是能继承你已经在对话里喂过的研究和文件——你不用把背景再讲一遍。对你这种已经在用 AI 搭稿的人，又多一个顺手的选择。",
+          "action": "若你用 Claude 做前期调研，试试让它直接出 Slides 初稿并导出 .pptx，再进 WPS/PowerPoint 精修；企业环境先确认管理员是否已开启该功能。"
+        },
+        {
+          "time": "13:00",
+          "source": "NextDocs",
+          "heat": 84,
+          "category": "软件更新",
+          "title": "ChatGPT、Claude、Copilot 现在都能做 PowerPoint：2026年9月各自定位与兼得用法",
+          "url": "https://www.nextdocs.io/blogs/chatgpt-claude-copilot-powerpoint-what-each-is-for",
+          "summary": "NextDocs 梳理 2026年9月三大助手做 PPT 的现状：ChatGPT 5月推 PowerPoint 加载项测试版（免费档可用，可在 PowerPoint 内搭建/编辑，初期模板字体处理尚弱），企业版 ChatGPT Work（7月）可从连接应用起草演示；Claude 在对话中直接生成真实 .pptx/.docx/.xlsx/.pdf（Fable 5.1 / Opus 5 驱动，单文件上限 30MB）；M365 Copilot 的 Agent Mode（4月22日商用）可在 PowerPoint 内创建幻灯片、重构结构、加演讲者备注、翻译整份。三家都只给一份稿再对话改，真正多版对比仍靠专业文档工具。",
+          "tags": [
+            "ChatGPT",
+            "Claude",
+            "Copilot",
+            "PowerPoint"
+          ],
+          "reason": "选哪个不再是非此即彼。Claude 胜在直接给可编辑真文件、Copilot 胜在能读你邮件/Teams/文档做企业内部稿、ChatGPT 胜在生态广。对个人快速出稿，Claude/Copilot 更顺；对企业内部材料，Copilot 更懂你的上下文。",
+          "action": "别只绑一个：内部材料用 Copilot（接公司上下文），对外/跨工具初稿用 Claude 或 ChatGPT 生成 .pptx 再精修；关键数据页务必自己核对，三家都会幻觉。"
+        },
+        {
+          "time": "14:00",
+          "source": "EIN Presswire / Shufflrr",
+          "heat": 80,
+          "category": "软件更新",
+          "title": "Shufflrr 推出 AI Blob：让演示「跟着对话走」的企业级实时方案（不生成、零幻觉）",
+          "url": "https://www.einpresswire.com/article/940581629/shufflrr-launches-ai-blob-the-presentation-that-follows-the-conversation",
+          "summary": "2026年9月9日，企业演示管理厂商 Shufflrr 发布 AI Blob——一个实时 AI 演示服务器，随会议讨论自动从 SharePoint 调取已审批内容并呈现，话锋一转演示就跟着变，无需搜索也不产生新内容。它刻意不走「生成式」路线：只调用受治理的已批准材料（私有隔离环境、完整会话回放与审计），规避幻觉与合规风险，面向金融、医疗、法律与高 stakes 销售场景，直接集成 Microsoft 365。",
+          "tags": [
+            "Shufflrr",
+            "AI Blob",
+            "企业治理",
+            "实时演示"
+          ],
+          "reason": "主流都在卷「AI 生成 deck」，Shufflrr 反向押注「不生成、只调取已审内容」——这对受监管行业是真需求：合规与法务要的是可控、可审计，而不是又一台会编故事的机器。对你所在国企场景，这种「内容可控」的路线比自由生成更对路。",
+          "action": "若部门要做对外/合规演示，优先评估「内容来自已审批库、可审计」的工具（如 Shufflrr 类），而非纯生成式；把核心素材先沉淀成受治理的资料库，AI 只负责调取与排版。"
+        },
+        {
+          "time": "15:00",
+          "source": "Atlassian Blog / Rovo",
+          "heat": 83,
+          "category": "行业新闻",
+          "title": "Gamma 牵手 Atlassian：Jira / Confluence 里的 Agent 直接出 deck（Atlassian MCP）",
+          "url": "https://www.atlassian.com/blog/rovo/gammapartnership",
+          "summary": "Atlassian 与 Gamma 深度集成，借 Atlassian Rovo MCP（v2）把 Jira、Confluence 的结构化上下文喂给 Gamma。实际玩法：在 Jira 工作项里调用 Gamma Agent，一键把状态/阻塞项草稿成视觉化汇报、发布简报或更新；用 Confluence Remix 把 Gamma 内容直接拉进 Wiki 页重塑；还能从大纲一键生成 Confluence 页并挂好关联 Jira。双方强调「Atlassian 把故事串起来，Gamma 帮团队讲出来」。",
+          "tags": [
+            "Gamma",
+            "Atlassian",
+            "MCP",
+            "集成"
+          ],
+          "reason": "这是「AI 演示」从孤立工具走向「长在 workflow 里」的信号。你不用再开新标签页把 Jira 状态复制进 PPT——Agent 直接从你已经在用的系统里取上下文出稿。对做项目管理、周报月报的人，省的是来回搬运的功夫。",
+          "action": "若团队用 Jira/Confluence，留意 Gamma 的 Atlassian 集成；把汇报来源固定到这些系统，以后「出 deck」可以是一条从工作项直接发起的指令，而不是手工汇总。"
+        },
+        {
+          "time": "16:00",
+          "source": "FlowVella / ReflectMind 2026 设计趋势",
+          "heat": 85,
+          "category": "设计趋势",
+          "title": "2026 演示设计趋势：移动优先 9:16、暗色+单色强调、AI 成默认起点、无障碍成基线",
+          "url": "https://flowvella.com/s/5tbx/2026-Presentation-Design-Trends",
+          "summary": "多家 2026 设计趋势报告指向同一组方向：①竖屏 9:16 成增长最快格式——高管常先在手机看 deck，只做 16:9 等于先服务错设备；②暗色模式+单一醒目强调色成高端默认，降眼疲劳又显现代；③AI 辅助设计成默认起点（2026 市场 47 亿美元、同比 +52%，企业采用破 60%）；④无障碍（对比度≥4.5:1、每图 alt text、字幕）从加分项变基线；⑤动效要「挣位置」——只为解释顺序，不为炫技；⑥一页一结论、用数据讲故事取代子弹墙。",
+          "tags": [
+            "设计趋势",
+            "移动优先",
+            "暗色模式",
+            "无障碍"
+          ],
+          "reason": "趋势不是追皮肤，是贴合「屏幕沟通+数据表达+AI 协作」的真需求。对你常做的汇报，最该立刻用的是「标题写结论、一页一观点、关键数据给洞察」——哪怕不换视觉风格，说服力也立马上来。",
+          "action": "下次做 PPT 先自检：标题是不是结论？每页是不是只讲一件事？投屏和手机上是否都清晰？动效是否只为解释顺序？把这四条过一遍，比追任何流行皮肤都值。"
+        },
+        {
+          "time": "17:00",
+          "source": "Presenton Blog",
+          "heat": 84,
+          "category": "教程观点",
+          "title": "AI 演示 Agent 实操框架：研究→规划→构建→检查→导出，人是目标与闸门的设定者",
+          "url": "https://blog.presenton.ai/blogs/ai-presentation-agent-powerpoint-2026",
+          "summary": "Presenton 提出可落地的「AI 演示 Agent」五阶段：①研究——限定权威来源、产出「主张-来源-日期-置信度」证据地图；②规划——先写每页一句话职责，重复就合并、一页多职就拆；③构建——在可编辑设计系统（真实 PPT 模板常比时髦主题更稳）里生成；④检查——渲染、跑定义好的校验；⑤导出——交付可编辑、带审查轨迹的文件。关键不是「自主」，而是「迭代」：人定目标、权限、证据边界与审批闸。",
+          "tags": [
+            "AI Agent",
+            "工作流",
+            "可编辑",
+            "人控"
+          ],
+          "reason": "很多人把 Agent 当「一次性出稿神器」，结果拿到的东西逻辑散、事实飘。这篇把流程拆成可复用的五步，核心一句：Agent 负责跑，你负责定目标和把关。对我们这种要结果负责的岗位，这套框架能直接套。",
+          "action": "下次让 AI 做 PPT，别只丢主题。先给：受众+要支持的决策+已批准素材+必须包含的章节+模板/品牌规则+输出格式。让它先出证据地图和每页一句话职责，你确认后再生成，质量会稳很多。"
+        }
+      ]
+    },
     {
       "date": "2026-09-18",
       "items": [
