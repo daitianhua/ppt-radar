@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-09-19",
-    "updatedAt": "2026-09-19 12:16"
+    "updated": "2026-09-23",
+    "updatedAt": "2026-09-23 09:08"
   },
   "days": [
+    {
+      "date": "2026-09-23",
+      "items": [
+        {
+          "time": "09:30",
+          "source": "Microsoft Copilot 9月更新解读 / aitrendwave",
+          "heat": 92,
+          "category": "软件更新",
+          "title": "Copilot 9月大更：PowerPoint 可建交互式幻灯片、Copilot 技能可共享打包",
+          "url": "https://aitrendwave.com/articles/microsoft-copilots-september-2026-update-6-new-features-worth-learning-and-how-to-use-them",
+          "summary": "微软在 9月3日 release notes 后的功能陆续落地：PowerPoint 中 Copilot 可建「交互式幻灯片」——受众能直接点选回应、Copilot 即时重构内容；Copilot Chat 答案卡片化（日期/负责人/数字/链接一目了然）；Notebooks UI 重建可单项目 pin 文件集；最实用的是能把「提示词+配置」打包成可共享技能发给同事，解决「会用的人不会教」的采纳难题；另有 Cowork 成本控件与 Word/Excel 细修。",
+          "tags": [
+            "Copilot",
+            "PowerPoint",
+            "交互式幻灯片",
+            "共享技能"
+          ],
+          "reason": "09-17 写过「按钮直接输入框」、09-19 写过三大助手对比，但「交互式幻灯片」和「可共享技能」是这次才真正落地的生产力增量——前者把静态墙变可点选，后者让团队知识可复用。",
+          "action": "有 M365 Copilot 的，本周先试交互式幻灯片（Copilot 面板描述时带 interactive 一词）；把团队常用提示词打包成技能共享，比在群里贴提示词文本靠谱。"
+        },
+        {
+          "time": "10:00",
+          "source": "WPS 官方学院 / WPS+ 博客",
+          "heat": 85,
+          "category": "软件更新",
+          "title": "WPS AI Slides 2026：可上传自有 PPTX 模板让 AI 套版、自动配版权图、$4.99/月对标 Gamma",
+          "url": "https://www.wps.com/academy/wps-ai-slides-guide-quick-tutorials-1898624",
+          "summary": "WPS AI Slides 2026 指南列出核心能力：一句话从想法生成整份 PPT；Word/PDF 转大纲可视化页；Copilot 对话改文字/换语气；上传自有 PPTX 模板后 AI 自动适配字体配色版式；按主题自动匹配无版权图/图表/图标；完整 PPT 级编辑（动画/图层/多人协作）；导出干净 PPTX/PDF；订阅 $4.99/月约为竞品一半。6月还加了意图澄清（生成前先问对象/风格）和边聊边改。",
+          "tags": [
+            "WPS",
+            "WPS AI",
+            "自定义模板",
+            "PPTX导出"
+          ],
+          "reason": "09-18 写过 WPS 思维导图转 PPT/风格克隆，这次补的是「自有模板套版」和「低价」——对国企/企业内网用户，WPS 本就深度集成，能直接吃进公司 VI 模板是 Gamma 做不到的。",
+          "action": "公司有统一汇报模板的，把模板 PPTX 上传到 WPS AI Slides 试生成一版；注意 Windows 桌面端功能最全，Mac/Web 会裁剪部分高级项。"
+        },
+        {
+          "time": "11:00",
+          "source": "BuildMVPFast 2026 演示工具横评",
+          "heat": 78,
+          "category": "工具动态",
+          "title": "新面孔 Alai：比一次性生成器更强的逐页可控编辑，2026 横评点名「值得关注」",
+          "url": "https://www.buildmvpfast.com/articles/best-llms-2026-guide/presentations-ai",
+          "summary": "2026 演示工具横评把 Alai 列为「值得关注的新工具」：相比多数一次性生成器，它给到更多 slide 级控制，早期用户信号显示其迭代质量强。同榜 Gamma 3/Gamma Agent 仍综合第一（web deck/提案/报告最强），Plus AI 因原生 PPT/Slides 可编辑排位上升，Canva 仍是模板生态最佳入门。",
+          "tags": [
+            "Alai",
+            "新工具",
+            "可编辑设计",
+            "横评"
+          ],
+          "reason": "大家眼睛都盯着 Gamma/Claude，但「逐页可控+可编辑」正是企业交付最缺的环节。Alai 这个定位正好补 Gamma 的 PPTX 短板，值得先 mark。",
+          "action": "需要「既快又有版式控制权、导出还能改」的，去 Alai 领免费额度试两页；重要对外稿仍走原生 PPT/Slides 工具收尾。"
+        },
+        {
+          "time": "13:00",
+          "source": "AiToolsRadar / ToolsBrief 2026 复测",
+          "heat": 84,
+          "category": "工具动态",
+          "title": "Tome 已退出 AI 演示产品、品牌被收购；2026 复测共识：PPTX 原生可编辑才是交付王道",
+          "url": "https://aitoolsradar.io/gamma-vs-beautiful-ai-vs-tome-vs-plus-ai-2026-which-ai-presentation-tool-is-actually-best",
+          "summary": "2026 复测指出 Tome 在 2025 已 pivot 离开演示产品、品牌被收购，前用户流向 Gamma（叙事/web）或 Beautiful.ai/Plus AI（传统 slide）。评测共识：最常用模式是「Gamma 出快稿 + Beautiful.ai/Plus AI 做品牌收尾与导出」；Plus AI 真正优势是保留既有模板/母版/协作历史，不丢已有投资。Tome 免费档已无 AI 能力。",
+          "tags": [
+            "Tome",
+            "Plus AI",
+            "原生插件",
+            "选型"
+          ],
+          "reason": "09-16 写过「Gamma 居首横评」，这次关键是「Tome 退场」和「原生插件反超」——给明确信号：别把预算押在会转型的工具上，要押能进你现有 PPT/Slides 工作流的。",
+          "action": "团队已在 PPT/Slides 里有沉淀模板的，优先 Plus AI 这类原生插件；别为「好看第一稿」牺牲可编辑性，最后返工更贵。"
+        },
+        {
+          "time": "14:30",
+          "source": "VC Tavern / Beautiful.ai",
+          "heat": 80,
+          "category": "行业新闻",
+          "title": "Beautiful.ai 获 4500 万美元增长轮：押注 context-aware AI 与企业管理集成",
+          "url": "https://vctavern.com/beautiful-ai-raises-45m-led-by-general-catalyst-to-expand-ai-powered-presentation-platform/",
+          "summary": "Beautiful.ai（2016 成立，10万+组织、累计生成 1 亿+ slide）完成 4500 万美元增长轮，由 General Catalyst 领投，资金用于国际化、企业渗透、context-aware AI 与 API/集成扩展。此前累计融资约 1600 万美元。其「smart slide」自动布局引擎是品牌一致性的核心卖点。",
+          "tags": [
+            "Beautiful.ai",
+            "融资",
+            "General Catalyst",
+            "企业AI"
+          ],
+          "reason": "09-18 写过 Flam 4000万 B 轮，这次是老牌 Smart Slide 玩家拿到大钱——说明「品牌一致性自动化」在企业市场是真需求、能赚钱，不是噱头。",
+          "action": "对外/合规类、需要几十份 deck 统一风格的团队，可把 Beautiful.ai 列入候选评估；注意它无永久免费档。"
+        },
+        {
+          "time": "15:30",
+          "source": "ToolForte / aitrendwave（交互式幻灯片）",
+          "heat": 82,
+          "category": "设计趋势",
+          "title": "2026 演示设计新基线：可点击交互 + PPTX 导出保真度，美观要让位可交付",
+          "url": "https://toolforte.com/blog/ai-presentation-maker-tools-2026",
+          "summary": "2026 设计/选型趋势从「好看」转向「可交付」：Copilot 交互式幻灯片、Decktopus/Storydoc 交互 deck 把「可点击回应」变成新标准；同时横评普遍把「PPTX 导出保真度」列为头号选型因素——web 原生工具（Gamma 卡片式）导出常需二次清理，原生插件（Plus AI/Copilot/Gemini）反成企业首选。一句话：交互化 + 可编辑 > 静态美观。",
+          "tags": [
+            "交互式",
+            "PPTX导出",
+            "设计趋势",
+            "可交付"
+          ],
+          "reason": "09-19 写过「移动优先 9:16/暗色单色/AI 默认起点/无障碍」趋势，这次补的是「交互化+可交付」这层——对你常做汇报的，意味着以后评委/领导可能直接在 deck 里点选，且你交的 .pptx 必须能改。",
+          "action": "重要汇报尝试加一页交互式（Copilot 或 Decktopus）；对外正式版一定导出 .pptx 在 PowerPoint/WPS 里过一遍版式再发。"
+        },
+        {
+          "time": "16:30",
+          "source": "ToolForte / ARWriter（AI pitch deck 2026）",
+          "heat": 80,
+          "category": "教程观点",
+          "title": "别被 AI 骗了：它拿走 3 小时格式，拿不走 20 分钟信息；pitch deck 先写文字再选视觉",
+          "url": "https://arwriterai.com/en/blog/create-pitch-deck-with-ai-2026",
+          "summary": "两条 2026 共识：①ToolForte 一针见血——AI 演示工具只修「字体/对齐/配图」三小时活，修不了「我们在哪、红线在哪、我要你做什么」那二十分钟内容；跳过内容的 deck 比丑的还糟。②ARWriter 的 pitch deck 法则：文字先于视觉（先有你信的文案再套模板）；并做人工真实性校验——防幻觉数字、防泄密（别把客户名单贴进消费级 AI）、防「数字漂移」（同一指标三页三个数）、防过时市场论断。",
+          "tags": [
+            "AI局限",
+            "内容优先",
+            "人机校验",
+            "pitch deck"
+          ],
+          "reason": "天天被各种「AI 一键出神稿」洗脑，这条是清醒剂。对你这种要为企业出汇报的，信息真实和结构清晰才是命门，AI 只是把排版苦力外包。",
+          "action": "用 AI 出 0.8 版后，强制做一次「人工真实度 pass」：通读对照 4 分钟计时、每个数字溯源、找公司外一人复述「问题/方案/诉求」；关键数据绝不进消费级 AI。"
+        }
+      ]
+    },
     {
       "date": "2026-09-19",
       "items": [
@@ -254,7 +378,6 @@ window.PPT_RADAR = {
         }
       ]
     },
-
     {
       "date": "2026-09-17",
       "items": [
