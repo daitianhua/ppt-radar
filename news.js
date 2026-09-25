@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-09-23",
-    "updatedAt": "2026-09-23 09:08"
+    "updated": "2026-09-25",
+    "updatedAt": "2026-09-25 11:52"
   },
   "days": [
+    {
+      "date": "2026-09-25",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "NextDocs 2026年9月 AI 演示工具实测跟进",
+          "heat": 88,
+          "category": "工具动态",
+          "title": "半年实测复盘：15 款 AI 演示工具大洗牌——Tome 已停、办公套件原生入局、智能体普及",
+          "url": "https://www.nextdocs.io/blogs/best-ai-presentation-makers-september-2026-update",
+          "summary": "NextDocs 对 2 月实测的 15 款工具做 9 月跟进：Tome（tome.app 已 404）创始人 9/9 为 AI CRM 公司 Lightfield 筹 4700 万，正式退出赛道；Google Slides（6/30 起）、M365 Copilot Agent Mode（4/22）、ChatGPT（5 月 PPT 插件）、Claude（原生 pptx/docx）等办公套件原生入局自建幻灯片；智能体普及——Pitch（5 月 Agent+8 月 MCP）、Plus AI、Prezi Swoop、Genspark 9/10 发专用幻灯片模型 Gen-1 Slides；Canva Design Model（4 月）与 Adobe Acrobat AI 跨界蚕食。",
+          "tags": [
+            "AI演示工具",
+            "Tome退场",
+            "办公套件入局",
+            "智能体"
+          ],
+          "reason": "09-23 写过'Tome 已退出 + 原生插件反超'，但这次是完整的 15 款半年横评数据源，把'办公套件原生生成 PPT'这一结构性变化讲透了——对国企用户，Office/微软阵营的原生能力比第三方工具更稳。",
+          "action": "别再找独立 AI PPT 工具了——先看你已有的 M365 Copilot / WPS AI，原生生成的 PPTX 可编辑、不泄密，比 Gamma 导出更省心。"
+        },
+        {
+          "time": "10:00",
+          "source": "Microsoft 365 消息中心 MC1478961（MWPro 解读，9/25）",
+          "heat": 90,
+          "category": "软件更新",
+          "title": "PowerPoint（Windows）新增组织级技能：管理员上传共享、集中治理 Copilot 技能",
+          "url": "https://mwpro.co.uk/blog/2026/09/25/mc1478961-microsoft-365-copilot-in-powerpoint-for-windows-adds-organization-skill-support-for-admin-governed-skill-sharing",
+          "summary": "微软 9/25 发 MC1478961，把 PPT Copilot 的'shareable skills'升级为'Organization skill support'：管理员可在 Microsoft 365 管理中心按 schema 上传组织级技能并发布，用户在 PowerPoint（Windows）中即可调用，且由 admin 集中治理分发。GA 9 月初起、月底完成。取代早前的 tenant-wide 共享技能措辞，治理与权限更清晰。",
+          "tags": [
+            "Copilot",
+            "PowerPoint",
+            "组织级技能",
+            "治理"
+          ],
+          "reason": "09-17 写过'组织级 Brand Skill（品牌经理传 Markdown）'、09-23 写过'可共享技能打包'，这次 MC1478961 把技能从'个人共享'升级为'管理员集中治理'——对企业 IT 是合规关键节点。",
+          "action": "IT/管理员现在可去 M365 管理中心规划'哪些技能可全租户发布'，先定治理流程；普通用户暂时等 admin 发布，别自己乱传技能文件。"
+        },
+        {
+          "time": "11:00",
+          "source": "WPS 官方学院《WPS AI 功能全解析 2026新版》",
+          "heat": 82,
+          "category": "软件更新",
+          "title": "WPS AI 2026 新版：PPT 智能配色 + AIPPT 提示词一键优化，配色丑也能秒变设计",
+          "url": "https://www.wps.cn/article/wps-wps-ai-2026-UJINJI4f.html",
+          "summary": "WPS 官方 2026 新版功能解析列出演示相关能力：'智能生成配色'——AI 按文稿内容生成个性化专业配色，入口在演示→设计→配色方案；AIPPT 独立站首页主题生成支持'一键优化用户输入提示词'，帮用户把简单输入表达到位。另有表格公式一键更正、筛选超 1 万行、PDF 全文+图片翻译、AI 格式复用等跨模块更新。",
+          "tags": [
+            "WPS",
+            "WPS AI",
+            "智能配色",
+            "提示词优化"
+          ],
+          "reason": "09-18/09-23 写过 WPS AI Slides 自有模板套版、思维导图转 PPT，这次补的是'智能配色'和'AIPPT 提示词优化'两个低门槛能力——对不懂设计配色的汇报人最直接。",
+          "action": "做汇报 PPT 时先点'智能生成配色'统一全篇视觉；AIPPT 生成前用'一键优化提示词'，比自己憋一句话高效。"
+        },
+        {
+          "time": "12:00",
+          "source": "Superintelligence News / TechCrunch 报道（9/10–9/11 更新）",
+          "heat": 80,
+          "category": "行业新闻",
+          "title": "Salesforce 拟约 20 亿美元收购 Listen Labs（语音 AI 访谈→报告+演示），后者放弃 1.25 亿 C 轮",
+          "url": "https://superintelligencenews.com/applications/ai-research-startup-listen-labs-1-5b-deal-shift",
+          "summary": "语音 AI 研究创业公司 Listen Labs 据报道放弃已签署的 1.25 亿美元 C 轮（Menlo 领投、估值 15 亿），转向与 Salesforce 的约 20 亿美元收购谈判。其用语音 AI 做客户访谈并产出'演示就绪'报告，客户含 Microsoft、Canva、Anthropic、Sweetgreen，年化收入约 3000 万。若谈判破裂，预计以更高估值回市场。此前 1 月已完成 6900 万 B 轮（估值 5 亿）。",
+          "tags": [
+            "Listen Labs",
+            "Salesforce",
+            "并购",
+            "语音AI"
+          ],
+          "reason": "09-23 写过 Beautiful.ai 4500 万增长轮、09-18 写过 Flam 4000 万 B 轮——这次是演示/研究赛道头部买家'买而非建'的典型案例，且客户名单里就有 Microsoft、Canva、Anthropic，行业整合信号强。",
+          "action": "关注 Salesforce 这笔收购若落地，企业客户访谈→演示的链路会被进一步打通；做调研汇报的可留意 Listen Labs 式'语音访谈自动出 deck'能力何时进大厂产品。"
+        },
+        {
+          "time": "14:00",
+          "source": "Slidesgo《Presentation Trends 2026》",
+          "heat": 76,
+          "category": "设计趋势",
+          "title": "2026 演示设计十大趋势：粗体几何字、柔形软曲线、无障碍基线、玩味童趣、视频优先叙事",
+          "url": "https://slidesgo.com/presentation-trends",
+          "summary": "Slidesgo 列出 2026 十大趋势：①简单形状与柔形软曲线（降认知负荷）②无障碍即设计（正文 24–32pt、标题 44–64pt、AA 对比）③玩味童趣（贴纸/涂鸦/友好图标，每页限一个强调）④多感官视频优先叙事（三段式+极简文字）⑤数据叙事简化（一图一洞察、标题即结论）⑥真实/怀旧/超现实摄影 ⑦粗体几何字当主角 ⑧非对称有景深布局 ⑨治愈系青绿点缀调色板 ⑩极简与极繁并存。AI 自动排版让柔形/间距更易落地。",
+          "tags": [
+            "设计趋势",
+            "无障碍",
+            "粗体几何字",
+            "视频优先"
+          ],
+          "reason": "09-19/09-23 写过'极简/暗色/Bento/交互化'，这次 Slidesgo 给的是更全的 10 条清单，特别把'无障碍基线'和'玩味童趣'提上来——对面向大众/培训的汇报更实用。",
+          "action": "内部培训/科普类 deck 可试'玩味童趣+柔形软曲线'降低距离感；但所有 deck 先把字号和对比度拉到无障碍基线，别让后排看不清。"
+        },
+        {
+          "time": "15:00",
+          "source": "Position Is Everything / AI is Practical 教程合集",
+          "heat": 78,
+          "category": "教程观点",
+          "title": "AI 做 PPT 的'人类主导'工作流：先定受众目标，分阶段生成，导出前跨设备测一遍",
+          "url": "https://www.positioniseverything.net/how-to-create-ppt-using-ai/?__v=AO-win",
+          "summary": "多篇 2026 教程汇总出通用工作流：①动手前先定受众、目的、格式、期望产出（如'12 页 B2B SaaS 投资人 pitch，自信简洁'远胜'做个公司介绍'）；②把过程拆成大纲→文案→视觉→备注分阶段，先审结构再写内容；③每页一核心信息，删多余 bullet；④视觉用图表/时间线/对比，不为填空加装饰图；⑤导出 PPTX/PDF 在另一设备测字体与版式；⑥事实/数据/引用全部回原始来源核对。结论：AI 负责前 70%，人补后 30% 的可信度与叙事。",
+          "tags": [
+            "AI工作流",
+            "人类主导",
+            "事实核对",
+            "导出测试"
+          ],
+          "reason": "09-23 写过'AI 修格式不修信息 + 文字先于视觉'，这次把'分阶段生成 + 跨设备导出测试 + 事实回源'补成一套可执行的闭环——恰好是企业交付最该养成的纪律。",
+          "action": "下次用 AI 出 deck，强迫自己先写一句话 brief 再生成；导出后一定在另一台电脑/手机打开看版式有没有跑，别临讲才发现字体崩了。"
+        },
+        {
+          "time": "16:00",
+          "source": "AI Tool Notes《Best AI Tools for Slides and Presentations in 2026》",
+          "heat": 77,
+          "category": "工具动态",
+          "title": "2026 选工具框架：要 web 分享选 Gamma，要可编辑 PPTX 选 Copilot/Plus AI，要品牌一致选 Beautiful.ai",
+          "url": "https://aitoolnotes.com/ai-technology/best-ai-tools-for-slides-and-presentations-2026",
+          "summary": "AI Tool Notes 给出按'交付格式'选工具的实用框架：商务人士若用 M365，Copilot 工作流最顺；要简单便宜跨平台选 Plus AI；学生/预算有限选 Canva 免费；创业 pitch 多、常做链接分享选 Gamma；要品牌强制一致选 Beautiful.ai；研究员/顾问要可编辑 PPTX 选 Plus AI 或 Beautiful.ai。关键提醒：Gamma 导出可能把版式压成不可编辑图片，Copilot/Plus AI 产出完全可编辑文件。",
+          "tags": [
+            "选工具框架",
+            "Gamma",
+            "Copilot",
+            "可编辑PPTX"
+          ],
+          "reason": "09-19 写过'三大助手对比'、09-23 写过'Alai 逐页可控'，这次是一份'按交付物反向选工具'的决策表——企业人最常问'到底用哪个'，这篇直接给答案。",
+          "action": "先想清楚交付物是'链接分享'还是'可编辑 PPTX'再选工具：要发给领导改的，用 Copilot/Plus AI 保可编辑；纯对外展示的，Gamma 出链接最快。"
+        }
+      ]
+    },
     {
       "date": "2026-09-23",
       "items": [
