@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-09-25",
-    "updatedAt": "2026-09-25 11:52"
+    "updated": "2026-10-16",
+    "updatedAt": "2026-10-16 13:45"
   },
   "days": [
+    {
+      "date": "2026-10-16",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "AI & Tech News / 今日头条 报道（10/7）",
+          "heat": 92,
+          "category": "工具动态",
+          "title": "Gamma 5 正式发布：重构编辑器+AI 智能体，专治 AI 演示“千篇一律”",
+          "url": "https://www.aiandtech.news/article/gamma-launches-version-5-to-reduce-ai-presentation-sameness",
+          "summary": "Gamma 于 10/6–10/7 推出重构版 Gamma 5，针对用户“布局重复、图像通用、AI 味重”的抱怨，重做编辑器、增强 AI 智能体、扩充视觉风格库（人工+AI 混合，模板达数千个）。整合 20+ AI 模型（Anthropic/OpenAI/Google 等）与约 20 个连接器（Slack、Fireflies、Fathom 等），智能体在沙盒中可写代码、绘图、查网、自检（解决文本溢出/图像裁剪）。导入 PowerPoint/PDF 视觉保真率从约 30% 升至 97%+，制作耗时从 8–10 小时缩至约 30 分钟；官方称注册用户约 1.1 亿、累计融资 9000 万美元。",
+          "tags": [
+            "Gamma 5",
+            "AI演示",
+            "去AI味",
+            "智能体"
+          ],
+          "reason": "09-19 写过“Gamma 3.0 正式发布”、09-25 提过其 API 与企业集成，这次是 5.0 大版本重构，核心变化是“从生成器转向有设计品味的智能体”，直接回应国企用户最在意的“AI 味”与“可编辑性”。",
+          "action": "做对外/重要汇报前，可在 Gamma 5 里先和智能体聊大纲、再生成，最后导出 PPTX 二次编辑；但关键数据务必自己核对——它再聪明也不是你的责任人。"
+        },
+        {
+          "time": "10:00",
+          "source": "OpenAI 官方《GPT-6 for everyone》（10/7）",
+          "heat": 85,
+          "category": "工具动态",
+          "title": "GPT-6 携 Intelligent UI 上线：对话里直接长出对比图、图表、计算器，PPT 不再是唯一载体",
+          "url": "https://openai.com/index/gpt-6-for-everyone",
+          "summary": "OpenAI 10/7 全球推送 GPT-6（Plus/Pro/Business/Enterprise 用 Sol，Free/Go 用 Luna）与 Intelligent UI：ChatGPT 可自动组合文字、视觉与交互元素——对比图、图表、账单拆分器、小游戏等，并能在你还在读时就开始回答、边想边补。PPT 场景含义：把“一句话出图表/结构化可视化”前置到对话层，临时汇报素材不必先开 PowerPoint。",
+          "tags": [
+            "GPT-6",
+            "Intelligent UI",
+            "可视化",
+            "ChatGPT"
+          ],
+          "reason": "09 月多次写过 Copilot/Gamma 在 PPT 内做生成，这次是“对话即界面”的趋势——AI 主动按问题形态选格式，做汇报前用 ChatGPT 攒图表/结构比开空白 PPT 快。",
+          "action": "要快速要一张对比图或数据图表，直接在 ChatGPT 里说清楚受众和指标，让它出可视化；导出后贴进 PPT，比手画文本框省半小时。"
+        },
+        {
+          "time": "11:00",
+          "source": "Microsoft 365 消息中心 MC1479277（10/12 更新）",
+          "heat": 88,
+          "category": "软件更新",
+          "title": "Microsoft Copilot 大改：统一 Home，Chat 可直接生成 Word/PowerPoint/Excel/PDF/HTML 文件",
+          "url": "https://msmessagecenter.com/MC1479277",
+          "summary": "微软 10/12 更新 MC1479277：Copilot 应用改为统一 Home（Chat 与 Cowork 同屏），Chat 可完成长链条知识工作——起草邮件、管会议、整理 OneDrive/SharePoint 文件，并直接创建 Word、PowerPoint、Excel、PDF、HTML 文件（敏感动作需用户批准）；新增 Code（按量计费）、常驻代理 Autopilot（原 Scout）；Chat 还会在生成时显示用到的 Skills，提升透明度。10 月起向 Frontier 用户灰度。",
+          "tags": [
+            "Copilot",
+            "PowerPoint",
+            "Home",
+            "文件生成"
+          ],
+          "reason": "09-17/09-23 写过 PPT 组织级技能与可共享技能，这次是 Copilot 应用层整体重构——Chat 直接建 PPT 文件意味着“在 Copilot 里一句话出 deck”离国企 M365 用户更近了。",
+          "action": "M365 用户留意 10 月灰度；IT 先去管理中心配置“用量计费/支出策略”，普通用户等入口出现后再试“让 Chat 直接生成 PPT”，别在没批准的动作上踩线。"
+        },
+        {
+          "time": "12:00",
+          "source": "Microsoft 365 消息中心 MC1484008（10/1 发布）",
+          "heat": 80,
+          "category": "软件更新",
+          "title": "微软推 Plugin Registry：Word/PowerPoint/Excel 的 Agents 按钮将统一换成 Plugins",
+          "url": "https://msmessagecenter.com/MC1484008",
+          "summary": "微软 10/1 发布 MC1484008：引入统一插件注册表，把 agents、skills、connectors、MCP server 打包成 plugin，在 Copilot 体验与 Word/PowerPoint/Excel 等 M365 应用间集中发现、发布与治理。最晚 11 月底，应用内 Agents / Agents & Skills / Customize 按钮统一替换为 Plugins 按钮，管理员在 M365 管理中心统一管控。无需迁移，但建议更新内部文档与培训材料。",
+          "tags": [
+            "Plugin Registry",
+            "PowerPoint",
+            "治理",
+            "M365"
+          ],
+          "reason": "09-25 MC1478961 是“管理员上传组织级技能”，这次 MC1484008 把治理对象从技能扩展到 plugin（含 MCP），PowerPoint 等应用入口也将改名——对企业 IT 是合规与培训节点。",
+          "action": "IT/管理员现在可盘点“哪些 plugin 该全租户开放”，并提前改内部手册里的“Agents 按钮”说法；普通用户暂不受影响，等 11 月按钮改名后自然过渡。"
+        },
+        {
+          "time": "14:00",
+          "source": "AI & Tech News / Gamma 5 发布报道（10/7）综合",
+          "heat": 82,
+          "category": "行业新闻",
+          "title": "AI 演示赛道拐点：从“能生成”卷到“有品味+企业集成+智能体”，独立工具靠重构求生",
+          "url": "https://www.aiandtech.news/article/gamma-launches-version-5-to-reduce-ai-presentation-sameness",
+          "summary": "Gamma 5 的重构释放明确信号：单纯“一键出幻灯片”已不够，用户要的是不被一眼看出是 AI 的设计、与企业内部数据/工具的连接、以及能写代码绘图自检的智能体。与此同时，M365 Copilot、Google Gemini Slides、WPS AI 等原生套件持续把生成能力内置到 Office，独立 AI PPT 工具的护城河正从“生成速度”转向“设计品味+集成深度+可控编辑”。行业进入差异化求生阶段。",
+          "tags": [
+            "行业格局",
+            "AI演示",
+            "原生套件",
+            "差异化"
+          ],
+          "reason": "09-25 写过 NextDocs 15 款工具半年洗牌（Tome 退场、原生入局），这次从 Gamma 5 案例看“活下来”的工具怎么转型，给选型一个判断框架。",
+          "action": "选型别只看“出片快”：先问“导出的 PPTX 能不能干净二次编辑、能不能接你公司的数据和模板、有没有品牌一致性约束”——这三关过了再付费。"
+        },
+        {
+          "time": "15:00",
+          "source": "PutraCetol Studio / Nyack / Slidesgo 2026 设计趋势综述",
+          "heat": 78,
+          "category": "设计趋势",
+          "title": "2026 演示设计趋势：AI 当共设计者、数据实时链接、移动优先 9:16、无障碍成基线",
+          "url": "https://putracetol.com/presentation-design/",
+          "summary": "多家设计机构梳理 2026 趋势共识：①AI 从生成器变共设计者（Copilot/Gemini/Canva 用源文件+品牌规范出稿，人把关论点）；②动态数据链接幻灯片替代静态图（接仪表盘/表格自动刷新）；③移动优先 9:16 与超宽并存；④无障碍成设计标准（正文≥24pt、对比度 4.5:1、读屏顺序）；⑤目的性动效——用动画揭示顺序/对比，而非每页装饰。核心结论：先有叙事与论据，再让 AI 出初稿，速度优势不等于自动高质量。",
+          "tags": [
+            "设计趋势",
+            "AI共设计",
+            "数据链接",
+            "无障碍"
+          ],
+          "reason": "09-25 写过 Slidesgo 的“粗体几何字/柔形/玩味”视觉趋势，这次补的是“工作流与结构”层面的趋势（AI 协作方式、数据链接、移动优先），角度不重复。",
+          "action": "做 deck 前先写一页“叙事骨架”（受众/问题/证据/行动），再交给 AI；投影前务必在小屏和真实设备上测一次可读性与链接/动画。"
+        },
+        {
+          "time": "16:00",
+          "source": "Presentation Intelligence / Learn With AI 2026 制作指南",
+          "heat": 75,
+          "category": "教程观点",
+          "title": "AI 做 PPT 的“人类主导”工作流：先叙事后生成、用自己数据、投影前测可达性",
+          "url": "https://blog.pi.inc/blog/how-to-generate-ppts-with-ai-complete-guide-to-ai-powered-presentations-in-2026",
+          "summary": "多份 2026 指南共识：①提示要具体——写清受众、目标、页数、关键数据，能传源文档就别只给短提示；②AI 出初稿后必须人审——核对事实/数字/引用，把占位数据换成真实数据；③设好品牌预设（色值/字体/logo）再生成；④保持简洁，AI 爱写长段落要狠砍；⑤导出前测链接、动画顺序、可达性与真实设备。结论：AI 减的是生产时间，不是你的判断。",
+          "tags": [
+            "制作指南",
+            "人类主导",
+            "提示词",
+            "复核"
+          ],
+          "reason": "09-25 写过“AI 修格式不修信息”+人审，这次把可操作步骤补全成一套可复用工作流，给务实派直接照做的清单。",
+          "action": "套用五步：明确核心信息→选对工具+传源文件→AI 出 3–5 版初稿→逐页砍字数/核数据/统一品牌→投影前测设备。80 分先交，别为完美卡住。"
+        }
+      ]
+    },
     {
       "date": "2026-09-25",
       "items": [
