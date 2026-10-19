@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-10-16",
-    "updatedAt": "2026-10-16 13:45"
+    "updated": "2026-10-19",
+    "updatedAt": "2026-10-19 09:02"
   },
   "days": [
+    {
+      "date": "2026-10-19",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "Noxi AI 横评（2026-10-11 更新）",
+          "heat": 88,
+          "category": "工具动态",
+          "title": "Noxi 发布 10 月 AI 演示工具横评：16 款按 7 项指标打分，thinkcell Assist 居首",
+          "url": "https://noxi.ai/blog/best-ai-presentation-tools-for-consultants",
+          "summary": "Noxi 于 9/23–10/11 用同一组输入重测 16 款 AI 演示工具，按结构20%/数据15%/模板15%/PPTX导出20%/保密15%/迭代10%/成本5% 加权。thinkcell Assist 以 4.70 居首（5 项满分）；NOXI、Copilot、Claude 以 0.15 分之差紧追，Copilot/Claude 胜在原生 PPTX 输出；Gamma 仅排第 11（生成快但可编辑性/数据弱）。本月四款有实质更新：thinkcell 10/1 推 AI Suite、Gamma 5 10/6 全量、Claude Docs/Slides/Design 10/8 出 Beta、Beautiful.ai 10/9 重做 Create with AI。",
+          "tags": [
+            "AI横评",
+            "thinkcell",
+            "Copilot",
+            "Gamma 5"
+          ],
+          "reason": "10-16 写过 Gamma 5 发布，这次用第三方横向评测补足视角：对国企用户最重要的是「可编辑 PPTX 保真度」，而非花哨生成——横评把这点量化了，Gamma 排名靠后正印证「AI 味/可编辑性」痛点。",
+          "action": "选工具别只看生成快不快，先看它导出 PPTX 后文本/图表/字体还在不在；重要汇报优先 Copilot/Claude/Plus AI 这类原生可编辑方案。"
+        },
+        {
+          "time": "10:00",
+          "source": "Microsoft 365 消息中心 MC1490903（2026-10）",
+          "heat": 82,
+          "category": "工具动态",
+          "title": "PowerPoint Copilot 将上线「Record a Skill」：录一遍操作就能复用成可重复技能",
+          "url": "https://d365hub.com/Posts/Details/33f81693-6dde-4eca-93f0-21b7399f00b5/record-a-skill-capability-in-powerpoint-copilot",
+          "summary": "微软 10 月在 Copilot for PowerPoint 推出 Record a Skill：用户在 PPT 里录制一串操作，即存为可重复调用的技能，下次让 Copilot 一键重做同类任务，省去每次手动重来、提升一致性。无需管理员介入，早期 10 月灰度、当月完成。建议培训团队把高频重复动作（如固定版式调整、批量配色）录成技能共享。",
+          "tags": [
+            "Copilot",
+            "Record a Skill",
+            "PowerPoint",
+            "效率"
+          ],
+          "reason": "09-17/09-23 写过组织级技能与可共享技能，这次是「用户自己录制技能」的民间版——把重复劳动沉淀成可复用资产，对做月度例会/固定模板的国企用户很实用。",
+          "action": "把每周例会 PPT 里那套固定排版/配色动作录成 Skill，下次让 Copilot 直接套；先盘点你最重复的 3 个 PPT 动作再说。"
+        },
+        {
+          "time": "11:00",
+          "source": "WPS 2026 官方版更新日志（2026-10-14~10-16）",
+          "heat": 84,
+          "category": "软件更新",
+          "title": "WPS 2026 推送 v12.1.0.29161：内置「WPS 灵犀」AI 智能体，对话即可生成 PPT",
+          "url": "https://m.mydown.com/soft/44/365544.shtml",
+          "summary": "WPS 于 10/14–10/16 推送 2026 正式版（12.1.0.29161，约 293MB）：核心是把 AI 办公智能体「WPS 灵犀」深度嵌入 Office，菜单栏末尾直达——对话即可完成搜索、阅读、文档创作、演示文稿生成、图像生成与数据分析，无需跳转外部工具。PPT 场景支持「输入主题→生成逻辑提纲→匹配模板出完整稿」的边聊边改流程；新用户可领 15 天 WPS AI 体验。同步上线智能文档/表格/表单三组件与多设备续写。",
+          "tags": [
+            "WPS 2026",
+            "WPS灵犀",
+            "AI智能体",
+            "PPT生成"
+          ],
+          "reason": "10-16 写过 WPS AI Slides，这次是 WPS 整个 2026 大版本的「灵犀」智能体落地——从单点 AI 功能升级为「对话式办公入口」，PPT 生成只是其中一环，对国产办公栈用户是直接可用的升级。",
+          "action": "WPS 用户更新到 12.1.0.29161 后，试试菜单栏末尾的「WPS 灵犀」直接说「帮我做一份 XX 主题PPT」；关键数据仍要自己填，别让灵犀替你编。"
+        },
+        {
+          "time": "12:00",
+          "source": "Microsoft 365 消息中心 MC1492165（2026-10）",
+          "heat": 72,
+          "category": "软件更新",
+          "title": "PowerPoint for Windows 将重排幻灯片右键菜单，移除低使用率 Photo Album",
+          "url": "https://mc.merill.net/message/MC1492165",
+          "summary": "微软 10 月更新 PowerPoint for Windows 的幻灯片（及缩略图）右键上下文菜单：常用动作挪到更可预测的位置、更完整一致，因使用率低而把 Photo Album 命令移出右键菜单（仍保留在 Insert 选项卡）。默认全量、无需管理员操作，10 月初起分阶段、中旬前完成。建议更新内部操作手册里对旧菜单位置的描述。",
+          "tags": [
+            "PowerPoint",
+            "右键菜单",
+            "UX",
+            "M365"
+          ],
+          "reason": "比起前几条大功能，这是微软在「顺手性」上的小修——但对天天右键插图的用户，菜单顺序变了会懵；属于「提前打个招呼」级别的更新。",
+          "action": "不用做任何操作；若你带新人，提醒一句「Photo Album 现在要去 Insert 选项卡找」，省得对方右键找不到。"
+        },
+        {
+          "time": "14:00",
+          "source": "Canva 研究报告（KakaComputer 报道，2026-10）",
+          "heat": 80,
+          "category": "行业新闻",
+          "title": "Canva 调研：AI 做不完「说服力」，54% 认为演示能力等于领导力信号",
+          "url": "https://kakacomputer.com/canva-study-ai-slides-can-only-take-you-so-far",
+          "summary": "Canva 最新调研显示：54% 受访者认为强演示能力是领导力潜力的信号；77% 表示过去一年演示能力助其职业成长，68% 关联到近期升职/加薪，77% 借此接到更高风险的工作。与此同时，53% 已把 AI 当「演示教练」用（45% 给草稿反馈、41% 预判观众提问、28% 角色扮演老板）；但 65% 愿戴耳返接 AI 提示、55% 愿让 AI 数字人代讲——Canva 的立场仍是「AI 应支持讲者，而非反过来」。结论：AI 能搭 slides，「讲故事与临场」依然是人。",
+          "tags": [
+            "Canva",
+            "演示调研",
+            "AI教练",
+            "职业"
+          ],
+          "reason": "和 10-16 GPT-6/Gamma 的「工具跑得快」形成对照：这份数据是「人为什么仍不可替代」的量化证据，对国企里「怕被 AI 取代」的同事是个定心丸，也呼应我们一贯「AI 管初稿、人管观点」的立场。",
+          "action": "把 AI 当陪练：让它给你挑刺、预演老板提问，但正式场合的「气场与判断」还得自己上；别急着交耳返给 AI。"
+        },
+        {
+          "time": "15:00",
+          "source": "PutraCetol Studio / 24Slides 2026 设计趋势综述",
+          "heat": 83,
+          "category": "设计趋势",
+          "title": "2026 幻灯片设计趋势收敛为四条：AI 共设计、一页一观点、无障碍基线、目的性动效",
+          "url": "https://putracetol.com/presentation-design/",
+          "summary": "多家 2026 趋势综述（PutraCetol、24Slides 8 趋势）汇成共识：①AI 成为「共设计者」——用 AI 出大纲/标题/版式探索，但论点必须由人定，生成稿只当第一版；②一页只讲一个核心观点（Context→张力→洞见→证据→方案→证明→行动），细节进备注；③无障碍成设计底线（WCAG 2.2 文本对比≥4.5:1、阅读顺序、alt 文本），覆盖线下/远程/录制/移动；④动效只为目的服务——按序列揭示、演示变化、对比状态，而非每页装饰。柔形卡片、粗体几何字、暗色+单色点缀也是高频视觉元素。",
+          "tags": [
+            "设计趋势",
+            "AI共设计",
+            "无障碍",
+            "一页一观点"
+          ],
+          "reason": "10-16 已写过一版趋势（AI 共设计/数据实时/移动优先/无障碍），这次用更系统的「四条主线」收口，并补了 24Slides 的 8 趋势具体手法（柔形卡片、表达型字体），可直接当 checklist 用。",
+          "action": "做下一版 PPT 前，拿这四条过一遍：论点是不是自己定的、每页是不是只讲一件事、对比度够不够、动效是不是在「讲道理」；不达标就别上线。"
+        },
+        {
+          "time": "16:00",
+          "source": "iSlide 博客《AI 创作 PPT 还需要模板吗》(2026-10)",
+          "heat": 85,
+          "category": "教程观点",
+          "title": "iSlide：AI 与模板不是二选一，2026 做 PPT 的三种正确姿势（含四坑）",
+          "url": "https://www.islide.cc/blog/759",
+          "summary": "iSlide 援引脉脉数据称超六成职场人已用 AI 做 PPT，并澄清「模板已死 vs 全押 AI」都踩坑：全押 AI 版式随机跳变、配图版权风险；全押模板内容溢出/留白、适配反而更慢；全手动则把时间浪费在机器一分钟能干完的活。给出三姿势：①AI 初稿流（有想法没时间，30 分钟出内部周报月报）；②模板打底流（重要场合锁正版主题库保视觉下限）；③全链路混合流（AI 出大纲初稿+模板定基调+单页美化）。配 TheAI 学院「四错」：别照抄罐头内容、每页限字、别忽略口稿、务必事实核查。",
+          "tags": [
+            "AI做PPT",
+            "模板",
+            "工作流",
+            "事实核查"
+          ],
+          "reason": "和 10-16/10-19 的「人管观点」主线一脉相承，但给的是可落地的「分工流水线」——国企用户最缺的不是工具，是「到底先干啥后干啥」。把 AI 当排版第一版、模板当视觉兜底，最稳。",
+          "action": "日常内部汇报走「AI 初稿流」（省时间），对外路演走「模板打底流」（保下限），关键数据自己核；别再纠结「用不用 AI」，纠结「怎么分工」。"
+        }
+      ]
+    },
     {
       "date": "2026-10-16",
       "items": [
