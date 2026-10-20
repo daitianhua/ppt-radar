@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-10-19",
-    "updatedAt": "2026-10-19 09:02"
+    "updated": "2026-10-20",
+    "updatedAt": "2026-10-20 09:08"
   },
   "days": [
+    {
+      "date": "2026-10-20",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "ChatPPT 官方博客（必优科技，2026-10）",
+          "heat": 84,
+          "category": "工具动态",
+          "title": "ChatPPT 推出创意绘图模式：接入 Nano Banana Pro/2 与 GPT-Image2，把 AI PPT 从模板拼接推向可编辑视觉艺术",
+          "url": "https://blog.chatppt.cn/article/chatppt-creative-drawing-nano-banana-pro-gpt-image2-2?lang=ar",
+          "summary": "必优科技旗下 ChatPPT（chatppt.cn）上线创意绘图模式，不再让用户先选模板再填内容，而是根据一句话主题实时生成视觉方案；同时接入 Nano Banana Pro/2（Banana Pro+2）与 GPT-Image2 两种图像模型，让生成内容的构图与结构更具辨识度。官方称其意在把 AI 生成 PPT 从有限模板里的排列组合彻底解放，走向可编辑的视觉艺术，在国产 AI PPT 工具里走差异化路线。",
+          "tags": [
+            "ChatPPT",
+            "创意绘图",
+            "Nano Banana",
+            "视觉引擎"
+          ],
+          "reason": "10-19 写过 WPS 灵犀与国际横评，这次补一个国产工具的真实进展——它把战场从生成快不快拉到视觉有没有品味，正好呼应 10-16 的去 AI 味主线，对用国产栈的国企用户有参考价值。",
+          "action": "想让 PPT 视觉跳出模板感，可试 ChatPPT 创意绘图模式出图，再贴进你自己的模板；但正文文字别让它代写，关键数据仍要人核。"
+        },
+        {
+          "time": "10:00",
+          "source": "Beautiful.ai 官方博客（2026-10）",
+          "heat": 80,
+          "category": "软件更新",
+          "title": "Beautiful.ai 重做 Create with AI 工作流：从一次性 prompt-to-deck 改为引导式，品牌决策前置",
+          "url": "https://mktg.beautiful.ai/blog/introduction-ai-creation-that-feels-guided-not-random",
+          "summary": "Beautiful.ai 10 月升级 Create with AI 工作流，核心是把一句话直接出 deck 改成按你已有的方向感自适应：只有主题时先问几个问题再起草大纲；已有完整大纲则快速进入生成、跳过不必要的预览；Brand Kit 等品牌选择提前到流程最前面，让演示从一开始就遵循品牌规范。官方强调生成前给 AI 更少瞎猜的空间，初稿更强、返工更少，Smart Slides 仍自动重排版式防破版。",
+          "tags": [
+            "Beautiful.ai",
+            "Create with AI",
+            "品牌前置",
+            "引导式"
+          ],
+          "reason": "10-19 在 Noxi 横评的本月变化里提过 Beautiful.ai 9/10 重做工作流但没展开；这次用官方博客补实锤：它是少数把先问清楚再生成做成产品机制的，对怕 AI 瞎编、要品牌统一的团队很对路。",
+          "action": "团队要品牌一致又不想逐页调，可把品牌规范先录进 Beautiful.ai Brand Kit，再让它从大纲生成；但正文与数据仍要人过一遍。"
+        },
+        {
+          "time": "11:00",
+          "source": "Web Design 实测（2026-10，7 款工具统一 PPTX 导出拆解）",
+          "heat": 82,
+          "category": "行业新闻",
+          "title": "第三方 10 月实测 7 款 AI PPT 工具导出保真度：文本框图表字体能否在 PowerPoint 里继续编辑成头号选型因素",
+          "url": "https://www.webdesign.org/7-best-presentation-software-with-ai.24137.html",
+          "summary": "Web Design 于 2026 年 10 月用同一组输入（一个 prompt、一份 12 页 PDF、一个 8 页修这版 deck）跑测 7 款主流 AI 演示工具，并逐个拆开导出的 PPTX 检查文本框、图表、字体与阅读顺序。结论：能否在 PowerPoint/Google Slides 里继续编辑图表、品牌字体能否在导出后存活，比生成快不快更能决定工具值不值得用。分组为活在 PPT/Slides 里的原生助手（Plus AI、Copilot、Gemini）与导出可编辑 PPTX 的网页工具（Gamma、Canva、Beautiful.ai、Presentations.ai），并给出各自起点价（美元年付核验于 10 月）。",
+          "tags": [
+            "导出保真",
+            "PPTX测试",
+            "选型",
+            "第三方实测"
+          ],
+          "reason": "10-19 写过 Noxi 顾问榜（thinkcell/Copilot/Claude 居前靠原生 PPTX），这次是另一家实拆导出文件的横向实测，角度互补——把可编辑性从评分项变成肉眼可见的拆解，对要做正式汇报、必须交 PPTX 的国企用户最实用。",
+          "action": "选工具前先用你最常用的一页复杂图表测它的导出：字体在不在、图表能不能双击改数据；对外正式汇报优先原生可编辑方案。"
+        },
+        {
+          "time": "14:00",
+          "source": "Slidesgo School（2026 设计趋势专栏）",
+          "heat": 76,
+          "category": "设计趋势",
+          "title": "2026 演示设计趋势四条实锤主线：粗体几何字、柔形软曲线、无障碍基线、视频优先",
+          "url": "https://slidesgo.com/slidesgo-school",
+          "summary": "Slidesgo 在 2026 设计趋势专栏持续更新，归纳出几条贯穿全年的主线：粗体几何字体（标题更有态度）、柔形软曲线（亲和、去锋利）、无障碍基线（对比度与可读性成为默认而非加分项）、视频优先（动效与短片化叙事占比上升）。整体方向是从模板感走向有品牌个性加能被所有人读懂，与头部工具集体去 AI 味的诉求一致。",
+          "tags": [
+            "设计趋势",
+            "粗体几何字",
+            "无障碍",
+            "视频优先"
+          ],
+          "reason": "10-19 写过一页一观点、无障碍基线、目的性动效主线，这次补 Slidesgo 视角的同频结论（粗体字、软曲线），说明去模板感加无障碍已成跨平台共识，不是某一家自嗨。",
+          "action": "做汇报模板时把无障碍对比度设为底线、标题用粗体几何字提气场；视频与动效点到为止，别喧宾夺主。"
+        },
+        {
+          "time": "15:00",
+          "source": "51CTO 技术博客（14 天 AI 实战征文，2026）",
+          "heat": 80,
+          "category": "教程观点",
+          "title": "实战教程：汇报材料一小时交稿，AI 辅助做 PPT 的正确分工——AI 管结构与初稿，人管观点与审美",
+          "url": "https://blog.51cto.com/u_17513518/15002841",
+          "summary": "51CTO 一篇实战贴把 AI 做 PPT 拆成明确分工：AI 负责结构化与初稿，人负责观点与审美。四步——先写大纲不打开 PPT（一句话结论加三支撑加数据加风险，大纲定下 PPT 完成 70%）；一页一个信息点、标题写结论而非类别；把周期汇报的固定骨架沉淀成模板复用（比任何排版技巧都值钱）；生成后逐页视觉检查（文字溢出、配色突兀、母版不一致，可截图让 AI 自查）。常见坑：别追求一句话生成完整 PPT、数据图表要用真数据、对外模板字体 Logo 要在生成阶段锁定。",
+          "tags": [
+            "AI分工",
+            "先写大纲",
+            "结论式标题",
+            "模板复用"
+          ],
+          "reason": "10-19 写过 iSlide 三姿势，这次是更通用的每小时交稿实操框架，且明确提出模板复用是最大杠杆——对每周每月都做固定结构汇报的国企用户是直接能抄的方法。",
+          "action": "把你的周报月报骨架先让 AI 记成模板，下次只喂数据；标题写成 Q3 成本升 12% 主因物流这种结论句，领导只看标题就懂。"
+        },
+        {
+          "time": "16:00",
+          "source": "实战复盘贴（h.sjds.net，2026）",
+          "heat": 78,
+          "category": "教程观点",
+          "title": "普通人用 AI 做 PPT 真实复盘：四步法加三个必踩的坑（数据编造、版式改不动、结构拼凑）",
+          "url": "https://h.sjds.net/a/555429.html",
+          "summary": "一篇面向普通人的复盘贴给出可直接抄的四步：先让 AI 整理大纲而非生成 PPT，并要求不清楚处用待补充标出、不要编造；自己审一遍大纲，删掉不实、补上 AI 不知道的业务重点；基于修改后的大纲让 AI 生成每页标题与要点（标题写有信息量的话，而非工作回顾空标签）；自己用熟悉模板排版、把 AI 文字粘进去，不交整页生成。三个坑：数据是编的（AI 不会查你后台）、版式细节改不动（Logo 放不进、配色不一致）、结构是通用拼凑而非你的业务逻辑。",
+          "tags": [
+            "真实复盘",
+            "不编造",
+            "自己排版",
+            "三坑"
+          ],
+          "reason": "和上一条 51CTO 形成框架加避坑互补：这条把 AI 会替你改写事实、整页生成改不动讲得很直白，正好补上 10-16 人类主导原则的落地细节，对怕翻车的用户最有用。",
+          "action": "给 AI 下指令时加上不要编造、缺数据标待补充；最终排版自己来、AI 只出文字，避免改一个字重生成整页。"
+        },
+        {
+          "time": "17:00",
+          "source": "Fello AI 官方教程（2026）",
+          "heat": 74,
+          "category": "工具动态",
+          "title": "Fello AI 推聊天式原生 PPTX 生成：开 PowerPoint Skill，对话里直接出可下载 .pptx",
+          "url": "https://felloai.com/ko/how-to-create-presentation-with-ai",
+          "summary": "Fello AI 提供 PowerPoint Skill：在聊天输入框打开该技能，用自然语言描述主题、受众、页数、章节与数据，AI 实时生成并可直接下载原生 .pptx（能在 PowerPoint/Keynote/Google Slides 打开），支持对话式细化（如给每页加演讲者备注、翻译成西语）。还能上传已有 .pptx 让它改内容、换设计、补备注；支持 Mac/iPhone/iPad。官方强调它解决的是不跳应用、描述即出稿，而非又一个模板拼装器。",
+          "tags": [
+            "Fello AI",
+            "PowerPoint Skill",
+            "原生PPTX",
+            "聊天式"
+          ],
+          "reason": "前面两条教程都在说最终要落到可编辑 PPTX，这条正好是一个小众但思路对的工具：聊天里直接产出真 .pptx，省去导出破版。补充了原生可编辑阵营的新玩家，和 Copilot/Plus AI 一脉相承。",
+          "action": "想要对话即出真 PPTX、还能继续在 Office 里改的轻量方案，可试 Fello AI 的 PowerPoint Skill；同样记得导出后在真实 PowerPoint 里预览一遍版式。"
+        }
+      ]
+    },
     {
       "date": "2026-10-19",
       "items": [
