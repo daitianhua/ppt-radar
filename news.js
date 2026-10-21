@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-10-20",
-    "updatedAt": "2026-10-20 09:08"
+    "updated": "2026-10-21",
+    "updatedAt": "2026-10-21 09:16"
   },
   "days": [
+    {
+      "date": "2026-10-21",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "TechTide TV 实测（2026-10）",
+          "heat": 86,
+          "category": "工具动态",
+          "title": "第三方实测 Gamma 5：导入 PPT/PDF 保设计但图表会变静态图，营销团队需先做代表性测试文件",
+          "url": "https://techtidetv.com/blog/gamma-5-marketing-teams-features-limits",
+          "summary": "TechTide TV 在 Gamma 5 上线后做了一次面向营销团队的落地评测。结论分两头：编辑器确实给到代理改稿加自由画布手调两种路径，视觉风格库也更大；但导入环节有坑——PowerPoint/Word 上限 200MB、PDF 上限 100MB，且当原字体不可用时 Gamma 会替换相近字体，部分图表会以静态图片形式进入、要改数据得在 Gamma 里重建。评测建议先用一份含图表、表格、自定义字体和密集页的代表性文件试导，再决定能否进正式流程，并提醒无障碍场景（Gamma 暂不支持图片 alt 文本编辑）需另配工具。这与 10-16 我们写的 Gamma 5 发布形成互补：发布讲能力，实测讲边界。",
+          "tags": [
+            "Gamma 5",
+            "导入保真",
+            "营销实测",
+            "边界"
+          ],
+          "reason": "10-16 写了 Gamma 5 发布（去 AI 味、97% 导入保真），这次用第三方实测补它的不保真部分——图表变静态图、字体替换、无障碍缺失。对要做正式汇报、必须交可编辑 PPTX 的国企用户，知道边界比知道卖点更实用。",
+          "action": "想用 Gamma 5 改老 deck，先拿一份含真实图表加自定义字体的副本试导，逐页检查图表是否变死图、字体是否漂移；正式交付前务必回 PowerPoint 里再过一遍。"
+        },
+        {
+          "time": "10:00",
+          "source": "Max Productive 2026 横评（核对日 2026-10-17）",
+          "heat": 78,
+          "category": "工具动态",
+          "title": "新晋工具 Chronicle 被横评点名：freeform 画布加设计优先，拟挑战 Gamma 的设计感心智",
+          "url": "https://www.max-productive.ai/ai-tools/presentations/",
+          "summary": "在 Max Productive 于 10 月 17 日核对的 2026 AI 演示工具横评中，Chronicle 作为新晋工具被单独点名，定位 clean, design-focused decks on a freeform canvas，评分 4.1/5，免费档可建最多 10 份 deck、AI 在付费档。它的差异化在于把画布自由度和设计感放在生成速度之前，瞄准不想让 deck 一眼是 AI 生成的设计敏感用户。横评同时提醒：Chronicle 的 PowerPoint 导出从 Plus 档才开始，免费档只能做不导出的网页 deck。对国产国际工具混用的团队，这代表设计优先细分赛道又多一个玩家。",
+          "tags": [
+            "Chronicle",
+            "新晋工具",
+            "设计优先",
+            "freeform画布"
+          ],
+          "reason": "10-16 到 10-20 我们连写 Gamma 5、ChatPPT、Beautiful.ai、Plus AI，几乎没提新面孔。Chronicle 是横评里冒头的新工具，代表 AI 生成之后，设计感成了新战场——正好接 10-16 去 AI 味和 10-19 用插画而非 AI 照片的线。",
+          "action": "追求设计感又不想被认出是 AI 生成，可试 Chronicle 的 freeform 画布出初稿；但要交 PPTX 的话先确认买的是 Plus 及以上档，否则只能导出网页。"
+        },
+        {
+          "time": "11:00",
+          "source": "Microsoft 365 消息中心 MC1492160（2026-10-08 全球推送）",
+          "heat": 82,
+          "category": "软件更新",
+          "title": "PowerPoint Copilot 上线 Clarify my thinking 技能（web 端）：先帮你想清楚再动手做",
+          "url": "https://mc.merill.net/message/MC1492160",
+          "summary": "Microsoft 365 消息中心 MC1492160 显示，PowerPoint（web 端）的 Copilot 于 10 月 8 日起全球推送内置 Clarify my thinking 技能（原名 GrillMe，后改名更友好）。它让用户在正式生成或分享前，先让 Copilot 回答一连串帮助厘清思路的问题，从而 sharpen 论点、增强表达清晰度。现有 Copilot 许可与管理控制继续适用，无需管理员操作，但建议更新内部培训材料。这是继 10-19 我们写的 Record a Skill（录操作成可复用技能）之后，PowerPoint Copilot 在思考辅助方向的又一补强——一个管把活干顺，一个管先把想清楚。",
+          "tags": [
+            "PowerPoint",
+            "Copilot",
+            "Clarify my thinking",
+            "思路澄清"
+          ],
+          "reason": "10-19 写了 Record a Skill（把重复操作录成技能），今天补 Clarify my thinking——两个技能一前一后，正好构成想清楚到干顺手的 Copilot 工作流。对常做汇报、怕逻辑散的用户，这个先盘逻辑的技能比直接生成更有用。",
+          "action": "用 web 版 PowerPoint 写大纲前，先调出 Copilot 的 Clarify my thinking，让它追问受众、核心论点、要说服什么；逻辑顺了再生成，返工率会低很多。"
+        },
+        {
+          "time": "14:00",
+          "source": "Presenters Arena 2026 对比评测（含 Canva 官方能力说明）",
+          "heat": 76,
+          "category": "软件更新",
+          "title": "Canva 2026 演示能力盘点：Magic Studio 文生图加一键风格迁移加演示录制，但导出 PPTX 仍易破版",
+          "url": "https://presentersarena.com/?p=832/",
+          "summary": "Presenters Arena 的 2026 演示软件横向对比把 Canva 定位为设计优先强权：2026 版内置 Magic Studio AI（文生图、自动版式建议、一键风格迁移让全套幻灯片统一观感），演示录制功能可带摄像头叠层录视频。强项是模板美、素材库大、上手快；弱项是元素定位精度弱于 PowerPoint、动画基础、导出 .pptx 常破坏排版，且好功能多在 Pro/Teams 付费档。这与 10-19 我们写的 Canva 调研（54% 认为演示能力等于领导力信号）形成用户认知 vs 产品能力的对照——大家觉得重要，但真要交正式 PPTX 还得小心。",
+          "tags": [
+            "Canva",
+            "Magic Studio",
+            "风格迁移",
+            "PPTX导出"
+          ],
+          "reason": "10-19 写了 Canva 的领导力信号调研（认知层），今天补它的 2026 产品能力（工具层），并点出导出 PPTX 易破版这个对国企用户最致命的坑。避免只吹不提醒。",
+          "action": "用 Canva 出视觉稿没问题，但凡要交 .pptx 给同事继续编辑，导出后一定回 PowerPoint 逐页核格式；重要汇报建议直接在 PowerPoint 里做，Canva 只当灵感或配图来源。"
+        },
+        {
+          "time": "15:00",
+          "source": "Max Productive AI 工具评测（2026-10-17 核对）",
+          "heat": 84,
+          "category": "行业新闻",
+          "title": "第三方 2026 横评：Gamma 4.6 居首，Plus AI/Prezi/Pitch 分列，选工具先看 deck 最终落在哪",
+          "url": "https://www.max-productive.ai/ai-tools/presentations/",
+          "summary": "Max Productive 在 10 月 17 日核对并发布的 2026 AI 演示工具横评，给 Gamma 4.6/5 居首（prompt 到设计稿加代理编辑加自由画布，导出 PPT/Google Slides/PDF），Plus AI 4.4（在 Google Slides 与 PowerPoint 内部写稿，适合要可编辑 PPTX 的团队），Prezi 4.5（zoom 画布适合现场演讲），Pitch 4.1（团队协作）。评测给出一条朴素选型原则：先定 deck 最终落在哪——公司继续在 PowerPoint 里改就选 Plus AI，分享链接就选 Gamma，现场讲就选 Prezi。这与此前 Noxi（10-19）、Web Design（10-20）的实测互相印证：2026 年选型第一问不再是谁生成快，而是导出或协作形态匹不匹配。",
+          "tags": [
+            "横评",
+            "Gamma",
+            "Plus AI",
+            "选型原则"
+          ],
+          "reason": "10-19 写 Noxi 横评（thinkcell/Copilot/Claude 居前、Gamma 第 11 偏原生 PPTX），10-20 写 Web Design 导出保真实测。今天这家从综合体验加最终落点角度再评一次，三家结论一致指向按交付形态选工具，值得给花姐一条汇总。",
+          "action": "选工具前先回答这 deck 最后在哪用：公司模板里继续改选 Plus AI/PowerPoint 原生；只分享链接选 Gamma；现场讲选 Prezi。别被单一榜单带节奏。"
+        },
+        {
+          "time": "16:00",
+          "source": "Visualbest / SlideRabbit 2026 趋势综述",
+          "heat": 80,
+          "category": "设计趋势",
+          "title": "2026 设计趋势收敛信号：编辑式或杂志风走红，过度动画被明确列为业余感标志",
+          "url": "https://www.visualbest.co/blogs/presentation-design-trends/",
+          "summary": "Visualbest 与 SlideRabbit 的 2026 趋势综述给出两个互补信号：一是编辑式或杂志风（宽边距、衬线字体、非对称网格、强照片层级、大号引文）成为高端 deck 的新审美，适合品牌、愿景、资质类演示；二是行业罕见地把过度动画与花哨转场明确列为唯一要 AVOID 的趋势——动效越容易做，越容易露怯，企业场景里克制等于自信，干净切页胜过任何转场。两篇都强调趋势是调味料不是主菜，引入前要用品牌、受众、场景三问过滤。这与 10-20 我们写的一页一观点、无障碍基线、目的性动效一致，但补了编辑式美学这个新审美方向和过度动画等于减分项的明确判断。",
+          "tags": [
+            "设计趋势",
+            "编辑式",
+            "过度动画",
+            "克制"
+          ],
+          "reason": "10-16、10-19、10-20 连续写了趋势（极简、暗色、巨字、数据叙事、无障碍、一页一观点），今天补两个新点：编辑式杂志风（新审美）和过度动画等于业余感（明确负面清单）。对要提升档次的国企汇报，后者尤其该记牢。",
+          "action": "想让 deck 显贵，试试编辑式宽边距加衬线大标题；但动效务必克制——除了揭示过程、引导视线，一律干净切页，别用翻滚缩放转场。"
+        },
+        {
+          "time": "17:00",
+          "source": "Presentations.AI 2026 趋势博客（zh）",
+          "heat": 74,
+          "category": "教程观点",
+          "title": "方法论：2026 做 PPT 的默认起点从写 prompt 变成导入真实内容",
+          "url": "https://www.presentations.ai/zh/blog/ai-presentation-trends",
+          "summary": "Presentations.AI 的 2026 趋势博客提出一个正在发生的习惯迁移：过去是输入一段描述让 AI 猜，2026 年更常见的起点是直接导入已有素材——研究简报、公司网址、上季度报告的 PDF、含要点的 Word 文档，甚至 CSV。基于真实内容工作的工具，产出更贴近你的实际信息，编辑从纠错变成精修。博客引用麦肯锡职场 AI 报告（92% 公司计划三年内增加 AI 投资）和 Gartner 多模态预测（2030 年 80% 企业软件多模态）支撑这一判断。这与我们一直强调的 AI 修格式不修信息、事实回源一脉相承，但把它前置成了第一步就喂真料。",
+          "tags": [
+            "多格式输入",
+            "真实内容",
+            "方法论",
+            "AI趋势"
+          ],
+          "reason": "10-20 写了 AI 修格式不修信息和事实回源，今天这条把方法论再往前推一步：别从空白 prompt 开始，直接把已有的真实文档喂进去。对花姐这种手头永远有现成简报或数据的人，省掉把文档总结成 prompt 再让 AI 重写的来回损耗。",
+          "action": "下次做 deck，别先写帮我生成关于 XX 的 PPT。直接把已有的简报或报告 PDF、Word 拖进去当素材，让工具读真料——出来的东西更准，你只需精修不用纠错。"
+        }
+      ]
+    },
     {
       "date": "2026-10-20",
       "items": [
