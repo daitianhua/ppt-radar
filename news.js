@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-10-21",
-    "updatedAt": "2026-10-21 09:16"
+    "updated": "2026-10-22",
+    "updatedAt": "2026-10-22 09:09"
   },
   "days": [
+    {
+      "date": "2026-10-22",
+      "items": [
+        {
+          "time": "08:30",
+          "source": "Noxi 2026年10月工具榜（10/11 读取）",
+          "heat": 84,
+          "category": "工具动态",
+          "title": "Claude Docs/Slides/Design 离开 beta 全量开放，免费档也含，企业版 10/15 默认开启",
+          "url": "https://noxi.ai/blog/ai-presentation-tools-ranking",
+          "summary": "在 Noxi 于 10 月 11 日读取的 2026 年 10 月工具榜中，Claude 的 Docs、Slides 和 Design 三项能力于 10 月 8 日离开 beta、向所有套餐（含免费档）开放；企业版从 10 月 15 日起默认开启。与此同时，Claude for Google Slides、Docs、Sheets 也在付费档进入 beta。这意味着一句话出 deck、在对话里直接生成可编辑幻灯片，不再只是 Gamma/Copilot 的专利——大模型原生做演示成了标配能力，免费用户也能用。对我们长期跟踪的'AI 原生做 PPT'线（09-19 写过 Claude Slides 公测）是一个关键里程碑：从公测到全量免费。",
+          "tags": [
+            "Claude",
+            "Slides",
+            "全量免费",
+            "原生演示"
+          ],
+          "reason": "09-19 写过 Claude Slides 公测版，但那是'公测、需特定档'。这次离开 beta 且免费档也含，是能力普惠化的转折点，值得单独一跳。对国企用户意味着：不用买 Copilot 也能用 Claude 起 deck 初稿。",
+          "action": "想用 Claude 起 PPT 初稿，直接在对话里说'做一份关于 X 的 10 页汇报'，导出 PPT 后在 PowerPoint 里过一遍版式与数据；免费档已可用，不必等企业开通。"
+        },
+        {
+          "time": "09:30",
+          "source": "环球网 / WPS 官方（2026-10-13）",
+          "heat": 80,
+          "category": "软件更新",
+          "title": "WPS Office 国际 Linux 版上线 WPS AI，支持 20 种界面语言，补齐全球版图",
+          "url": "https://www.toutiao.com/article/7695972789715255844/",
+          "summary": "据环球网 10 月 13 日报道，WPS Office 面向海外完成 Linux 版上新：首次在 Linux 端内上线 AI 办公能力，全面支持 WPS 账号登录，并新增适配主流发行版的 Snap 安装包。新 AI 功能覆盖阅读、撰写、数据分析与 PPT 生成，可长文档摘要、自然语言数据分析、一键生成表格与演示文稿，全部在端内完成。界面支持中、英、西、德、法、葡、俄、阿、印尼等 20 种语言。背后是 WPS 表格 Agent 在 SpreadsheetBench V2 登顶（50.86%，超 Claude Opus 4.6 的 34.89%）。这是 WPS AI 全球化的重要一步，也让 Linux 专业开发者无需换平台即可用一致的 AI 能力。",
+          "tags": [
+            "WPS",
+            "Linux",
+            "WPS AI",
+            "全球化"
+          ],
+          "reason": "10-16、10-18 连写 WPS 灵犀/2026 国内更新，但没写这次国际 Linux 版上线——它是 WPS AI 出海的关键动作，且覆盖 PPT 生成。对用 Linux 做内网办公的团队是新增选项。",
+          "action": "在 Linux 环境办公、又想要 AI 生成 PPT 的团队，可试 WPS 国际 Linux 版的端内 PPT 生成；注意 AI 功能需登录账号，部分增值能力依赖会员权益。"
+        },
+        {
+          "time": "10:30",
+          "source": "智通财经 / EconoTimes（2026-10-21/22）",
+          "heat": 88,
+          "category": "行业新闻",
+          "title": "法国 AI 公司 Pigment 融资 2.5 亿美元、Nvidia 参投，直接叫板微软 Excel 与 PowerPoint",
+          "url": "https://econotimes.com/Pigment-says-AI-agents-create-85-of-work-on-its-planning-platform-1759415",
+          "summary": "据智通财经与 EconoTimes（彭博科技）报道，法国商业软件公司 Pigment 于 10 月 21/22 日宣布完成 2.5 亿美元（约 250M）新一轮融资，估值 23 亿美元，由 Scaleup Europe Fund 领投，Nvidia 及 World Innovation Lab 参投，Iconiq、IVP、Meritech 等老股东跟投。Pigment 成立于 2019 年，做 AI 驱动的财务预测、演示文稿与运营规划软件，正面与微软 Excel、PowerPoint 竞争。联合创始人兼联席 CEO Eléonore Crespo 在彭博采访中称，平台 85% 的产出已由 AI agents 自动完成；年经常性收入已破 1 亿美元、同比翻倍，欧莱雅正向其 9.5 万员工推广用作薪酬规划。这是欧洲'AI 应用公司'挑战美国办公巨头的又一信号。",
+          "tags": [
+            "Pigment",
+            "融资",
+            "Nvidia",
+            "微软竞品"
+          ],
+          "reason": "这是 24-48 小时内最硬的行业新闻：大额融资 + Nvidia 站台 + 直接对标微软 Office。对我们长期跟踪的'AI 演示赛道洗牌'线（10-16 写过拐点）是外部资本侧的新证据——钱在往'AI 替代表格/PP\"T'涌。",
+          "action": "若公司做中长期工具选型，可把 Pigment 这类'AI agents 自动出规划和演示'的平台列入观察；但对国企涉密/内网场景，先看数据出境与合规，别急着上云。"
+        },
+        {
+          "time": "11:30",
+          "source": "Imaginelayout 2026 设计趋势分析",
+          "heat": 82,
+          "category": "设计趋势",
+          "title": "质感与微瑕回潮：2026 演示设计从'极简干净'转向有手感的克制表达",
+          "url": "https://imaginelayout.com/blog/presentation-design-trends-actually-works",
+          "summary": "Imaginelayout 的《Presentation Design Trends 2026: What Actually Works》指出，当所有人都做到了'干净'，干净就不再是差异点。2026 年明显回潮的是略带触感、不那么无菌的视觉：细微颗粒、手绘点缀、不坐在完美网格上的非对称布局。文章强调几条真正管用的方向：AI 是起草伙伴而非噱头（结构/初稿/版式变体可交给 AI，叙事判断仍归人）；数据故事优于数据倾倒（每页一个强视觉 + 一句'这意味着什么'，而非满屏仪表盘）；动效用克制（一次只让一个元素动起来支撑逻辑）；无障碍从加分项变基线（对比度、小屏可读性、屏幕阅读器结构）；模块化便于快速迭代（标题/数据/对比模块随受众重组）。",
+          "tags": [
+            "设计趋势",
+            "质感回潮",
+            "动效克制",
+            "无障碍"
+          ],
+          "reason": "10-21 写过'设计趋势收敛（编辑式/杂志风走红、过度动画唯一 AVOID）'，这篇从'为什么干净不再够'的角度补了同一趋势的底层逻辑——质感与微瑕回潮，正好衔接。对审美疲劳的国企汇报模板是换皮思路。",
+          "action": "想让汇报不'一眼 AI 味'也不'死板'，可在模板里加一点手绘点缀或微颗粒背景，但守住可读性；动效每页最多一处，且必须服务逻辑而非炫技。"
+        },
+        {
+          "time": "14:00",
+          "source": "ChatSlide 2026 AI 幻灯片实用指南",
+          "heat": 78,
+          "category": "教程观点",
+          "title": "ChatSlide 给的落地法：数据故事单列论点、无障碍默认、自适应 deck、实时数据叙事",
+          "url": "https://www.chatslide.ai/articles/ai-powered-slide-design-trends-2026",
+          "summary": "ChatSlide 的《AI-powered slide design trends 2026: A Practical Guide》把 2026 趋势落到可执行动作：①数据故事优于原始仪表盘——每页一个主数据点、去掉多余网格线，一页回答一个问题；②无障碍设计当默认——高对比配色、可读字号、合理阅读顺序、所有视觉加 alt 文本；③非传统布局提升可扫读性——粗体排印强调 + 模块化网格，做移动端友好的幻灯片；④做自适应 deck——一个核心 deck 按受众与场合伸缩，用 AI 建议排序与变体；⑤整合实时数据叙事——图表接数据源随新信息更新，现场演示时保持可信。文章反复强调：最好的 AI 幻灯片设计不是自动化，而是放大人的专业判断。",
+          "tags": [
+            "ChatSlide",
+            "数据故事",
+            "无障碍",
+            "自适应deck"
+          ],
+          "reason": "10-20 写过'AI 修格式不修信息'和'按交付格式选工具'，这篇给的是具体可照做的设计纪律，和我们的'人类主导'主线一致，可当 checklist 用。对要做正式汇报的用户是直接能抄的动作。",
+          "action": "做下一版汇报时，按这五条自查：每页是否只讲一个数据结论、是否高对比可读、版式是否模块化可扫读、能否按场合伸缩、关键图表能否接实时数据。"
+        },
+        {
+          "time": "15:30",
+          "source": "CiteHawk 2026年10月 AI 推荐榜",
+          "heat": 80,
+          "category": "工具动态",
+          "title": "CiteHawk 10 月榜：Gamma 仍被 9 个模型中的 8 个首选，Plus AI 升第 4、Copilot 跌第 6",
+          "url": "https://www.citehawk.com/leaderboards/ai-presentation-makers",
+          "summary": "CiteHawk 2026 年 10 月刷新了'AI 模型会推荐哪个演示工具'的榜单：综合 9 个主流大模型（ChatGPT、Claude、Gemini、Perplexity、DeepSeek、Grok、Copilot、Google AI 等）的回答，Gamma 仍以 8/9 的推荐率稳居第一（推荐分 63），Canva 第二（56）、Beautiful.ai 第三（55）；最大变动在下方——Plus AI 上升 2 位至第 4（7/9 推荐），而 Microsoft Copilot 下跌 3 位至第 6（仅 4/9 推荐），Microsoft PowerPoint 更是跌到第 9。榜单一针见血：Copilot 在'被 AI 主动推荐'这件事上正在被原生工具反超，但它在 PowerPoint 内的原生集成仍是企业默认入口。",
+          "tags": [
+            "CiteHawk",
+            "横评",
+            "Gamma",
+            "Copilot下滑"
+          ],
+          "reason": "10-19 写过 Noxi 横评（thinkcell 居首、Gamma 第 11），那是'能力打分'视角；这篇是'AI 自己会推荐谁'的口碑视角，结论相反（Gamma 仍第一），两相对照能帮用户理解'评分高≠被推荐'。对选型有直接参考。",
+          "action": "选型别只看能力榜：若问 AI'帮我做个 PPT 用什么'，多半被推去 Gamma/Canva；但企业内已买 Copilot 的，原生集成省事。按'最终落点是网页分享还是可编辑 PPTX'决定，而非单看推荐排名。"
+        },
+        {
+          "time": "16:30",
+          "source": "LivingSlide 2026 AI 简报未来趋势",
+          "heat": 76,
+          "category": "设计趋势",
+          "title": "LivingSlide：AI 简报五大未来趋势——实时协作、受众自适应、语音视频、数据连接、超个性化",
+          "url": "https://livingslide.com/zh/blog/ai-slides-future-presentation-design",
+          "summary": "LivingSlide 梳理了塑造 2026 年及之后 AI 简报的五个趋势：①实时协作——AI 从'生成一次'变'持续创意伙伴'，边编辑边建议、自动总结并实施评论；②受众自适应——简报实时分析哪些页有共鸣、为不同干系人生成个性化版本、按专业度调深度；③语音与视频集成——AI 旁白、视频头像、语音转幻灯片；④数据连接幻灯片——静态数据被实时数据连接取代，图表随新数据自动刷新；⑤大规模超个性化——从单模板生成数千份定制简报（销售提案、课件、入职材料）。文章给出分角色建议：专业人士建提示词库、学生验证 AI 内容、教育者教负责任使用、领导定品牌指南。核心判断：AI 简报与传统设计不是互斥，最有效的是'AI 起初稿 + 人做最终润色'。",
+          "tags": [
+            "LivingSlide",
+            "未来趋势",
+            "实时协作",
+            "超个性化"
+          ],
+          "reason": "10-16 写过'AI 演示赛道从能生成卷到品味+集成+智能体'，这篇把'智能体/自适应'讲得更具体（五个可感知的方向），可作为趋势前瞻补进雷达。对想提前布局汇报自动化的团队是方向标。",
+          "action": "不必全追这五个趋势，但可先试'数据连接幻灯片'——把季度汇报的关键图表接到数据源，每次演示前自动刷新，省去手动改数。"
+        }
+      ]
+    },
     {
       "date": "2026-10-21",
       "items": [
