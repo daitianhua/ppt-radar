@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-10-22",
-    "updatedAt": "2026-10-22 09:09"
+    "updated": "2026-10-23",
+    "updatedAt": "2026-10-23 09:23"
   },
   "days": [
+    {
+      "date": "2026-10-23",
+      "items": [
+        {
+          "time": "10:00",
+          "source": "Canva 官方帮助中心 / Canva Create 2026（10/22 洛杉矶）",
+          "heat": 92,
+          "category": "软件更新",
+          "title": "Canva AI 2.0 在 Canva Create 2026 发布：从单 prompt 生成升级为对话式创作伙伴",
+          "url": "http://canva.com/help/using-canva-ai",
+          "summary": "在 10 月 22 日洛杉矶的 Canva Create 2026 大会上，Canva 发布 AI 2.0——自十多年前上线以来最大的一次平台演进。它不再是给一个 prompt 出一张图的一次性生成，而是在编辑器里常驻一个对话式创作伙伴：能边聊边改、跨元素统一调整、保持品牌一致。新增 Memory Library（记住你的偏好与上下文，改稿不用每次从头说）、Connectors（接第三方应用导入文件）、Web Research（联网取最新资料），以及定时任务（可设每天/每周/每月自动生成或更新内容）。",
+          "tags": [
+            "Canva",
+            "AI 2.0",
+            "对话式创作",
+            "Memory Library"
+          ],
+          "reason": "10-20 写过 Canva 2026 能力盘点（Magic Studio 文生图+一键风格迁移），但那是基于旧的一年盘点视角。这次是 10/22 大会当天发布的 2.0 大版本，核心是对话式编辑 + 上下文记忆不重来，角度全新，直接改变做 PPT 的工作流，未见近几日重复。",
+          "action": "想让 AI 反复改稿又不丢失上下文，先在 Canva AI 面板用 Memory Library 沉淀品牌/风格偏好；日常 deck 更新可设定时任务自动生成初稿，你只做最后润色。"
+        },
+        {
+          "time": "11:00",
+          "source": "Digital Trends（2026-10-22 报道）",
+          "heat": 88,
+          "category": "工具动态",
+          "title": "Canva Craft 首发自研图像模型：专为海报/演示/社媒设计，先规划版式再生成",
+          "url": "https://www.digitaltrends.com/computing/canva-craft-ai-image-generation-model-launch/",
+          "summary": "Canva 在 Create 2026 推出首个自研图像生成模型 Craft，主打为设计而生而非单纯出照片。它用两阶段流程：先解读 prompt 并规划图像版式（物体位置、视觉层级、文字），再以最高 2K 分辨率生成，支持 30 种比例，号称文字拼写更准、版式更稳。输出可用 Magic Layers 转成可编辑分层设计。Canva 称其登上 DesignArena 全球图像生成榜第二。开发者可通过 API 与 Canva MCP 接入，ChatGPT、Gemini 集成在规划中。",
+          "tags": [
+            "Canva",
+            "Craft",
+            "自研模型",
+            "Magic Layers"
+          ],
+          "reason": "此前雷达多次写 AI 生成图文字错乱/版式崩是痛点（如 10-20 写 Canva 导出易破版）。Craft 用先规划后生成 + 可编辑分层正面解决，是 10/22 当天最硬的工具动态，未见近几日重复。",
+          "action": "做海报/PPT 配图想少返工，可试 Dream Lab 里的 Craft（注意有用量额度）；生成后立刻用 Magic Layers 转成可编辑层，文字和元素就能直接改。"
+        },
+        {
+          "time": "11:30",
+          "source": "Canva 新闻室（2026-10-22）",
+          "heat": 86,
+          "category": "工具动态",
+          "title": "Canva 进 Claude Design（Anthropic Labs）+ 支持 HTML 导入 + 推出 ProSuite 专业创意套件",
+          "url": "https://www.canva.com/newsroom/news/canva-claude-design",
+          "summary": "Canva 与 Anthropic 深化合作，把 Canva Design Engine 与 Visual Suite 接入新发布的 Claude Design（Anthropic Labs）：Claude 里生成的草稿/想法可无缝进入 Canva，变成完全可编辑、结构化、能协作的设计。同时 Canva 首次支持 HTML 导入——AI 生成的代码/交互产物（落地页、组件、交互体验）能直接拖进 Canva 编辑器改，不必每次重新生成代码，成为首个把视觉、文档、交互内容统一进一个协作编辑器的平台。配套推出 Canva ProSuite，把 Affinity、Cavalry、Flourish、Leonardo 首次连成一套面向专业创意者的工具链。",
+          "tags": [
+            "Canva",
+            "Claude",
+            "HTML 导入",
+            "ProSuite"
+          ],
+          "reason": "10-22 写过 Claude Slides 全量开放（Claude→PPT 原生），这条是反向的 Canva→Claude 深度集成 + HTML 可编辑，且 ProSuite 打通专业设计工具链，是 10/22 当天另一条独立工具动态，角度不重复。",
+          "action": "在 Claude 里起的方案想变可编辑设计稿，直接用 Claude Design 推到 Canva；团队若已用 Affinity/Flourish，可关注 ProSuite 把动效/数据可视化/AI 生成统一到 Canva 里收尾。"
+        },
+        {
+          "time": "13:30",
+          "source": "Google Gemini 发布说明（2026-10-13）",
+          "heat": 82,
+          "category": "工具动态",
+          "title": "Gemini 4 Argon 把从分散来源创建 deck 列为卖点，Gemini App 内置 skills 与可连接 40+ 应用",
+          "url": "https://gemini.google/release-notes/",
+          "summary": "Google 于 10 月 13 日全球推送 Gemini 4 Argon（面向 Google AI Pro/Ultra 订阅者），其发布说明明确把从分散来源创建演示文稿（creating a deck from scattered sources）作为核心场景之一，定位为把宏大构想变成可用产出。同期 Gemini App 推出内置 skills（可复用指令集、能自动运行匹配 prompt、将逐步取代 Gems）、Customize 面板（连接 40+ 应用如 Instacart/OpenTable/Adobe），以及 Windows/macOS 桌面端与 Antigravity 编程代理。",
+          "tags": [
+            "Gemini",
+            "Google",
+            "原生演示",
+            "skills"
+          ],
+          "reason": "10-22 写过 Claude Slides 全量开放、10-16 写过 GPT-6 让 PPT 不再是唯一载体，大模型原生做演示是当下最强主线。Gemini 4 Argon 把从分散来源做 deck 写进官方卖点，是补充该主线的第三条独立证据，且 10 月未被雷达写过 Gemini。",
+          "action": "材料散在多处（文档、表格、网页）想合成一页汇报，可在 Gemini App 里用 Argon 让它从分散来源建 deck；把常用风格/格式写成 skill 一次定义、反复调用，少写重复 prompt。"
+        },
+        {
+          "time": "14:00",
+          "source": "Canva 新闻室 / Canva Create 2026（2026-10-22）",
+          "heat": 84,
+          "category": "行业新闻",
+          "title": "Canva 在 Create 2026 把定位从设计工具升级为 AI 时代的系统层（设计+文档+交互+代码统一）",
+          "url": "https://canva.com/newsroom/news/canva-prosuite-launch",
+          "summary": "Canva Create 2026 上，团队反复强调 Canva 正从设计工具演进为互联网的设计层乃至 AI 时代工作如何完成的核心系统：Visual Suite 覆盖演示/文档/表格/网站，新 HTML 导入让代码产物也能进 Canva 编辑，Canva Websites 支持自定义域名直接发布，ProSuite 整合 Affinity/Cavalry/Flourish/Leonardo 打通专业创意链。这不是单点功能更新，而是把生成—编辑—协作—发布全链路收进一个平台，正面与微软 Office、Google Workspace 的办公生态竞争。",
+          "tags": [
+            "Canva",
+            "战略",
+            "系统层",
+            "办公生态"
+          ],
+          "reason": "10-16 写过 AI 演示赛道拐点：从能生成卷到品味+集成+智能体。Canva 这场大会是把集成+系统层战略落到实处的标志性事件，且对标 Office 生态，是行业格局层面值得记录的信号，与近几日纯功能卡片不重复。",
+          "action": "选型时别只比谁能出图快，要看工具能否覆盖你从草稿到发布的全链路；若团队已在 Canva 生态，AI 2.0+ProSuite 可能让你少切好几个工具。"
+        },
+        {
+          "time": "14:30",
+          "source": "PresentHub / Slidesgo / Microsoft 官方（2026 年 10 月多源）",
+          "heat": 78,
+          "category": "设计趋势",
+          "title": "2026 演示设计趋势收敛为五条主线：清晰优先、故事弧、有目的动效、无障碍基线、AI 自适应品牌",
+          "url": "https://presenthub.app/blog/marketing-slide-design-trends-2026",
+          "summary": "综合 10 月多方趋势盘点（PresentHub 六大营销幻灯片趋势、Slidesgo 2026 趋势、Microsoft 官方设计理念）：2026 年好幻灯片的标准已收敛——①清晰优先（每页一个焦点，细节进备注/留资文档）；②故事弧（context→challenge→insight→recommendation→outcome，B2B 也讲品牌故事）；③会论证的数据可视化（带标注、基准线、趋势线的图表，而非静态表）；④有目的的动效（逐段揭示、标题淡入，杜绝花哨转场）；⑤无障碍成默认基线（WCAG 对比度、24–32pt 正文、屏幕阅读器友好）；⑥AI 自适应品牌（用 brand token 动态出统一风格）。",
+          "tags": [
+            "设计趋势",
+            "清晰优先",
+            "无障碍",
+            "AI 品牌"
+          ],
+          "reason": "10-22 写过 Imaginelayout 趋势、10-21 写过编辑式/杂志风、10-20 写过 Slidesgo 四条，但都是单源单点。这条把 10 月多源趋势收敛成可执行的五/六条主线，对做汇报有汇总价值，且以 AI 自适应品牌收尾呼应工具动态。",
+          "action": "下次做 deck 前先对这五条自检：每页是否只讲一件事？数据图是否在论证而非罗列？动效是否服务理解？对比度与字号是否达标？最后让 AI 按你的 brand token 统一风格。"
+        },
+        {
+          "time": "15:30",
+          "source": "SlideForge / 2slides / WinningPresentations（2026 方法论）",
+          "heat": 76,
+          "category": "教程观点",
+          "title": "2026 做 PPT 的最优工作流：先定框架与目标，用上下文/记忆做迭代，而非每次重新生成",
+          "url": "https://www.slideforge.io/blog/best-presentations-with-ai-2026",
+          "summary": "多家 2026 实战方法一致指向同一套：①先用一页纸定谁、要决策什么、唯一核心信息；②把真实材料（文档/PDF/表格/笔记）喂给 AI 而非空 prompt；③让 AI 先出大纲、把每页标题改成结论句；④狠心删（删掉 1/3 要点、替换通用图、按受众裁剪）；⑤最后事实核查与格式校验。Canva AI 2.0 的 Memory Library、Gemini 的 skills 都印证一点：好结果来自在上下文里反复改，不是一次 prompt 出成品。AI 擅长填空式结构，不擅长替你想清楚目的。",
+          "tags": [
+            "工作流",
+            "迭代",
+            "先框架后生成",
+            "事实核查"
+          ],
+          "reason": "10-21 写过默认起点从写 prompt 变导入真实内容、10-19 写过人类主导工作流。这条把 2026 多源方法收敛成一条可直接照做的 5 步清单，且用当天 Canva Memory/Gemini skills 新能力做背书，实操价值高。",
+          "action": "照这五步：定目标→喂真实材料→先大纲后标题→狠删→核查。把你的风格/格式存成 Memory 或 skill，之后每次改稿 AI 都接着上次上下文，不必从零说一遍。"
+        }
+      ]
+    },
     {
       "date": "2026-10-22",
       "items": [
