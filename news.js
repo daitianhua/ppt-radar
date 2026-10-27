@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-10-23",
-    "updatedAt": "2026-10-23 09:23"
+    "updated": "2026-10-27",
+    "updatedAt": "2026-10-27 09:10"
   },
   "days": [
+    {
+      "date": "2026-10-27",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "GenPPT 博客（How to Create a PowerPoint with AI, 2026）",
+          "heat": 79,
+          "category": "教程观点",
+          "title": "GenPPT 实战教程：先锁大纲再出图、附可直接抄的提示词模板、导出前必做事实核查",
+          "url": "https://www.genppt.com/blog/create-powerpoint-with-ai",
+          "summary": "GenPPT 给出一套 2026 年用 AI 做 PowerPoint 的可复制流程：①加素材（主题 prompt / 上传 PDF / 贴链接）；②审批大纲（出图前改标题、顺序、砍废话，锁住叙事）；③选视觉概念（董事会干净风/发布大胆风/数据报告风）；④生成后单页 regenerate、导出 PPTX。附可直接抄的提示词模板：高管周报、销售 deck、培训 deck、文档转 deck，统一要求保留所有价格/日期/人名、不编造统计。关键提醒：AI 即使传了源文件也可能幻觉数字，导出后必须开 PowerPoint 核对字体/顺序/体积再发。",
+          "tags": [
+            "提示词",
+            "工作流",
+            "事实核查",
+            "PPTX 导出"
+          ],
+          "reason": "雷达此前写过“人类主导六步”“导入真实内容”等观点，这条补的是可直接落地的提示词模板 + “审批大纲再渲染”这道闸门 + 导出前事实核查清单，实操性更强，未见重复。",
+          "action": "把那四套提示词存成自己的模板，每次只填括号；铁律：任何带数字的页，导出 PPTX 后打开人工核一遍来源，别把模型编的数字讲给老板听。"
+        },
+        {
+          "time": "10:00",
+          "source": "今日头条 / 智迅文化（2026-10-26）",
+          "heat": 84,
+          "category": "软件更新",
+          "title": "WPS for Pad 原生桌面级版本上架小米应用商城，平板满血 AI 办公就绪",
+          "url": "https://www.toutiao.com/article/7700938884972053027",
+          "summary": "10 月 26 日，WPS 官方宣布原生桌面级 WPS for Pad 正式上架小米应用商城，小米平板、小米 18 Fold 在升级澎湃 OS4 后可下载。它对标桌面端办公能力，完整支持文字排版、表格运算、PPT 演示等高频需求，并搭载 WPS 满血 AI（文档总结、内容生成、格式调整），结合平板触控、手写笔、键盘配件优化交互。这是平板办公从“阉割适配”走向“原生桌面级”的标志性一步。",
+          "tags": [
+            "WPS",
+            "WPS for Pad",
+            "平板办公",
+            "满血 AI"
+          ],
+          "reason": "10-22 写过 WPS Office Linux 版上架 WPS AI，这条是 10-26 当天（昨天）的硬更新，且是平板原生桌面级 + 满血 AI 的新形态，角度全新，未见近几日重复。",
+          "action": "常在平板上改 PPT/写汇报，可升级澎湃 OS4 后装 WPS for Pad 试试满血 AI 的文档总结与格式调整；大屏触控 + 手写笔比手机版更适合应急改稿。"
+        },
+        {
+          "time": "11:00",
+          "source": "Minerva IA 博客（2026-10，Microsoft 365 Copilot 8 new features）",
+          "heat": 85,
+          "category": "软件更新",
+          "title": "Microsoft 365 Copilot 10 月大更：Excel 自动出 HTML 仪表盘、工作簿规则、OneDrive/SharePoint 抽 PDF",
+          "url": "https://blog.minerva-ia.com/en/blog/zvpb53gb",
+          "summary": "Microsoft 365 Copilot 10 月一口气放出 8 项新功能，办公套件进一步“智能体化”。Excel 新增 Copilot 驱动的 HTML 交互仪表盘（一句话生成、下拉筛选、随源表更新）与“工作簿规则”（.rules 表统一货币/表格/公式规范）；OneDrive 与 SharePoint 中 Copilot 可按需从 PDF 抽取章节并另存为新文件或 PPT；PowerPoint 的 Record a Skill（录操作成可复用技能）也已落地。跨应用的“抽取—重组—生成”闭环越来越顺。",
+          "tags": [
+            "Copilot",
+            "Excel",
+            "OneDrive",
+            "智能体化"
+          ],
+          "reason": "10-19 写过 PowerPoint Record a Skill 将上线（MC1490903），本次是整轮 10 月功能落地的汇总，且 Excel HTML 仪表盘、工作簿规则、OneDrive/SharePoint PDF 提取均为雷达未覆盖的新能力，角度不重复。",
+          "action": "给团队做周报/月报，可让 Copilot 直接把 Excel 整本工作簿汇成交互 HTML 仪表盘；共享工作簿建议先建 .rules 统一格式，所有人按同一套规范出数，避免“各填各的”。"
+        },
+        {
+          "time": "11:30",
+          "source": "Tryiro（2026-10-23 复查）",
+          "heat": 82,
+          "category": "工具动态",
+          "title": "Tryiro 三方横评：Gamma 5 / Canva / ChatGPT Slides 谁做初稿最强、谁最好改",
+          "url": "https://tryiro.com/blog/gamma-vs-canva-vs-chatgpt-slides",
+          "summary": "Tryiro 在 10 月 23 日复查了三款主流 AI 做 PPT 工具。结论：Gamma 5 每次 prompt 干活最多（Plan 模式先问目标受众、出故事与视觉计划再生成）；Canva 把活拆两半（先大纲再逐段改，品牌一致性最强）；ChatGPT Slides 适合“从已有对话长出来”的 deck，并可在 PowerPoint 内直接用扩展。导出上，三者的 PPTX 都需导出后实测，Gamma 保留主题字体、表格可编辑、带备注，但无幻灯片母版；Canva 进 Google Slides 需清理一遍。",
+          "tags": [
+            "Gamma",
+            "Canva",
+            "ChatGPT",
+            "横评"
+          ],
+          "reason": "雷达此前多写单工具动态，缺一份近期（10-23）三强同台对比。本文给出“初稿/品牌/可编辑/导出/协作”五维实测，选型参考性强，未见近几日重复。",
+          "action": "选工具前先定 deck 最终落点：要几分钟内出可改初稿选 Gamma；要做社媒+印刷+视频+PPT 一账号覆盖选 Canva；本就在 ChatGPT 里干活，用它出 Slides 最顺手。务必导出 PPTX 后实测一遍再发。"
+        },
+        {
+          "time": "14:00",
+          "source": "AI工具集 ai-bot.cn（PPT Master 项目页）",
+          "heat": 80,
+          "category": "工具动态",
+          "title": "PPT Master：开源本地化 AI PPT 工作流，输出真·原生可编辑 PPTX",
+          "url": "https://ai-bot.cn/ppt-master",
+          "summary": "PPT Master 是一个开源的 AI 生成 PPT 标准化工作流（GitHub: hugohe3/ppt-master）。它不绑定单一平台，可接入 Claude、GPT、Gemini、Kimi、MiniMax 等任意大模型，兼容 Claude Code、Cursor、VS Code Copilot 等 AI IDE。核心卖点是“真原生”：源文件本地转换、SVG 本地生成、PPTX 本地导出，输出 DrawingML 形状/文本框/图表而非“贴图式假 PPT”，每个元素可点开改；源文件不上传第三方，单份最低成本约 0.08 美元。",
+          "tags": [
+            "开源",
+            "本地化",
+            "原生 PPTX",
+            "多模型"
+          ],
+          "reason": "雷达此前覆盖多为云端 SaaS（Gamma/Canva/Copilot），这条是近期走红的开源本地可控方案，主打“原生可编辑 + 数据不出本地 + 零订阅”，补足了“不想把公司资料传云”的选型缺口。",
+          "action": "公司资料敏感、怕上传云端，又想要 AI 出稿，可试 PPT Master：本地跑、接自有模型 key、导出真 PPTX 再在 PowerPoint 微调。前提是能接受命令行/AI IDE 操作门槛。"
+        },
+        {
+          "time": "15:00",
+          "source": "DEV Community（Kuponaut，2026-10 读取定价页）",
+          "heat": 81,
+          "category": "行业新闻",
+          "title": "Gamma vs Canva 定价页实测：入门档 Gamma 更便宜，但 Canva 覆盖远不止幻灯片",
+          "url": "https://dev.to/kuponau/gamma-vs-canva-for-presentations-what-the-two-pricing-pages-actually-say-october-2026-j8n",
+          "summary": "Kuponaut 在 10 月逐页核对了两家定价：Gamma 入门 Plus 年付 108 美元（1000 积分/月、每 prompt 最多 100 页、无品牌水印），Canva Pro 年付 144 美元（但覆盖 1600 万+ 模板、1.6 亿+ 素材、5 套品牌包、社媒排期、100GB）。结论：纯做 AI deck 且轻改，Gamma 更省；若还要社媒/印刷/视频，Canva 更值。教育与非营利：Canva 免费给 K-12 师生与非营利团队（最多 50 人）Pro 级功能，Gamma 官方页无教育折扣。退款上 Gamma 窗口仅 3 天且有积分门槛。",
+          "tags": [
+            "Gamma",
+            "Canva",
+            "定价",
+            "选型"
+          ],
+          "reason": "10-23 写的是 Canva Create 2026 功能发布，这条是 10 月最新的“定价页真相”对比，从成本与权益角度补全市场信号，角度不重复，且对读者选型很实用。",
+          "action": "个人/小团队先在两个免费档各做一份真实 deck，留改动最少的那家；符合教育或 nonprofit 身份的，优先 Canva 免费计划；付费前务必先看退款条款（Gamma 3 天窗口很紧）。"
+        },
+        {
+          "time": "16:00",
+          "source": "Visualbest 博客（2026 演示设计趋势：采用/适配/淘汰）",
+          "heat": 83,
+          "category": "设计趋势",
+          "title": "2026 演示设计趋势给出“判决”：大字排版/数据叙事/移动优先/设计系统/无障碍 该采纳，纯装饰动效该淘汰",
+          "url": "https://www.visualbest.co/blogs/presentation-design-trends/",
+          "summary": "Visualbest 把 2026 趋势逐条下了“企业采用判决”：①粗体大字标题（ADOPT，后排可读、手机可看）；②数据叙事取代数据堆砌（ADOPT，结论写进标题、只高亮相关数字）；③移动/竖向 9:16（ADAPT，做“手机扛得住的 16:9”而非全盘竖版）；④演示作为品牌资产管理/设计系统（ADOPT，最不花哨却最值钱）；⑤无障碍优先（ADOPT，顺带更清晰）；⑥AI 辅助创作（ADAPT，AI 给骨架不给论点）；⑦杂志编辑风（ADAPT，适合品牌/愿景稿）。纯装饰性动效被明确列为该淘汰。",
+          "tags": [
+            "设计趋势",
+            "数据叙事",
+            "品牌系统",
+            "无障碍"
+          ],
+          "reason": "雷达近期写过趋势合订本与收敛主线，这条的独特价值是给每条趋势下了“采纳/适配/淘汰”的企业级判决，尤其“设计系统才是今年最该投的一笔”这个判断，对做企业模板的人很提气，角度不重复。",
+          "action": "今年只改一处就改“设计系统”：建一套锁定的母版/字体/配色/组件库，让分散在几十号人手里出的 deck 像同一家公司；动效只保留“帮人跟上论证”的那一种，其余砍掉。"
+        }
+      ]
+    },
     {
       "date": "2026-10-23",
       "items": [
