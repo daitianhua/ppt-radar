@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-10-27",
-    "updatedAt": "2026-10-27 09:10"
+    "updated": "2026-10-28",
+    "updatedAt": "2026-10-28 09:04"
   },
   "days": [
+    {
+      "date": "2026-10-28",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "Microsoft 支持（中文/葡文页面）+ MS Message Center MC1461152",
+          "heat": 88,
+          "category": "软件更新",
+          "title": "PowerPoint Copilot「创建交互式幻灯片」技能本月下旬全面推送，Teams Live 可各自独立互动",
+          "url": "https://support.microsoft.com/zh-tw/powerpoint/copilot/create-interactive-slides-with-copilot-in-powerpoint",
+          "summary": "微软支持页确认，PowerPoint 网页版「技能和功能区」按钮 10 月中旬开始推出、10 月底完成；「Create interactive slide」技能让 Windows / Mac / Web 用户用自然语言生成全屏交互式可视化（复杂概念、时间线、对比、系统、数据）。参会者在 Teams 的 PowerPoint Live 中可各自独立操作，互动不共享；iPhone / Android 及导出 PDF 时退化为静态图。需 Copilot 许可证。",
+          "tags": [
+            "Copilot",
+            "交互式幻灯片",
+            "PowerPoint",
+            "Teams Live"
+          ],
+          "reason": "10-19 写过 Record a Skill 将上线、09-19 写过 Live 选中文字，但「交互式幻灯片」技能本身是本月下旬正落地的重头更新，支持页明确 10 月底完成——属当前进行时，未见近几日重复。",
+          "action": "常做培训 / 产品讲解，可在 Copilot 里试「Create Interactive Slide」做可点选的时间线或对比页；记住手机端和 PDF 会退化成图片，正式稿务必在桌面端演示。"
+        },
+        {
+          "time": "10:30",
+          "source": "Tech Insider（Gamma 5 vs Copilot vs Canva, 2026，数据截至 10-26）",
+          "heat": 82,
+          "category": "工具动态",
+          "title": "Tech Insider 10 月选购指南：六款 AI 演示工具按席位定价横评，Gamma 5 单价最低（年付 $9/席）",
+          "url": "https://tech-insider.org/ca/gamma-5-vs-copilot-vs-canva-ai-presentation-makers-2026",
+          "summary": "Tech Insider 以截至 10-26 的厂商页与第三方评测做桌面分析，对比 Gamma 5、Plus AI、Copilot in PowerPoint、Canva Magic Design、Beautiful.ai、Gemini in Slides 六款。结论：已买 Microsoft 365 选 Copilot；想在 PowerPoint / Google Slides 内嵌智能体选 Plus AI；要最低单价的独立生成器选 Gamma 5（$9/席/年付）；要团队品牌一致选 Beautiful.ai 或 Canva；Google Workspace 选 Gemini。两规律：各家都主打「可编辑输出」而非平图，且都向「能从文件 / 邮件 / 其他聊天拉上下文的智能体」演进。",
+          "tags": [
+            "横评",
+            "Gamma 5",
+            "Canva",
+            "Copilot"
+          ],
+          "reason": "10-27 写过 Tryiro 三强对比、10-21 写 Max Productive、10-19 写 Noxi，但本篇是「按席位价格」的采购视角且有 10-26 最新数据，角度互补，未重复。",
+          "action": "替团队选型先算总账：人已在 M365 里就别另买；要最快出可改初稿且预算紧选 Gamma 5；要品牌统一选 Beautiful.ai / Canva。所有工具导出 PPTX 后务必实测一遍。"
+        },
+        {
+          "time": "11:00",
+          "source": "Noxi（PowerPoint Alternatives, Oct 2026，窗口 9/14–10/13）",
+          "heat": 79,
+          "category": "软件更新",
+          "title": "Noxi 10 月盘点：ONLYOFFICE Docs 10.0 演示编辑器加 AI、LibreOffice 26.8.1 修 PPTX 崩溃",
+          "url": "https://noxi.ai/blog/powerpoint-alternatives",
+          "summary": "Noxi 10 月「PowerPoint 替代品」盘点（9/14–10/13 官方变更）：ONLYOFFICE Docs 10.0（10/10）演示编辑器新增 AI 工具、大纲视图、备注页与讲义母版视图，并支持把幻灯片导出为 GIF / 视频；LibreOffice 26.8.1（10/8）约 40 项修复集中在 Office Open XML，修掉某些 .pptx 一打开 Impress 就崩的问题；另有 Pitch「Anything block」（10/6）、Keynote 15.4（9/29）、Google Slides 客户端加密导入 PPTX（9/24）。",
+          "tags": [
+            "ONLYOFFICE",
+            "LibreOffice",
+            "开源",
+            "软件更新"
+          ],
+          "reason": "10-22 写过 WPS Linux 版、10-27 写 WPS for Pad，均聚焦商业套件；本篇是开源 / 替代品阵营 10 月实打实的版本更新，且 LibreOffice 修 PPTX 崩溃对企业用户有用，角度全新。",
+          "action": "用 LibreOffice 打开同事给的 .pptx 总崩溃，先升到 26.8.1；做内部知识库演示又想免费用 AI，可试 ONLYOFFICE Docs 10.0 的演示 AI。"
+        },
+        {
+          "time": "11:30",
+          "source": "FlowVella（2026 Presentation Design Trends，引用市场数据）",
+          "heat": 80,
+          "category": "行业新闻",
+          "title": "FlowVella：2026 AI 演示工具市场 47 亿美元（同比 +52%），企业采用率破 60%",
+          "url": "https://flowvella.com/s/5tbx/2026-Presentation-Design-Trends",
+          "summary": "FlowVella 在 2026 设计趋势报告中给出量化信号：全球 AI 演示工具市场 2026 年达 47 亿美元、同比增 52%；企业级 AI 设计工具采用率 2026 年突破 60%；81% 商务用户认为 AI 生成的 deck「稍改即可用或不用改」。报告把「AI 辅助设计成为默认起点」列为年度主线之一，验证赛道从尝鲜走向基建。",
+          "tags": [
+            "市场数据",
+            "行业新闻",
+            "AI 演示",
+            "采用率"
+          ],
+          "reason": "10-22 写 Pigment 融资、10-18 写 Beautiful.ai 融资，均是个案；本篇给的是赛道整体量化盘子（47 亿美元 / +52% / 60% 采用率），补的是「行业水位」视角，未见近几日重复。",
+          "action": "向上汇报「要不要上 AI 演示工具」时，可用 60% 企业已采用 + 47 亿美元市场这两条数据背书，别再当成小众玩具。"
+        },
+        {
+          "time": "13:00",
+          "source": "Presentations.ai（AI Presentation Trends 2026）",
+          "heat": 78,
+          "category": "设计趋势",
+          "title": "Presentations.ai：2026 趋势收敛到「模板随内容自适应」与「演示后数据反馈闭环」",
+          "url": "https://www.presentations.ai/blog/ai-presentation-trends",
+          "summary": "Presentations.ai 把 2026 趋势拆成八条，其中两条最实在：①模板不再「一改就崩」——布局随内容自适应重组（多加一条 bullet 自动重排，而非溢出），还能按页上下文给内容建议；②deck 开始「展示什么真正奏效」——内建演示分析，看每页停留与流失，下一版用数据领先后退。其余：base deck 模型（一份源 deck 按受众改编）、AI 持续共创伙伴、受众自适应、语音视频集成、实时数据连接、规模化超个性化。",
+          "tags": [
+            "设计趋势",
+            "自适应模板",
+            "演示分析",
+            "数据闭环"
+          ],
+          "reason": "10-27 写 Visualbest「采纳 / 适配 / 淘汰」、10-23 写 Canva「上下文记忆迭代」、10-21 写「编辑式 / 杂志风」，本篇补的是「自适应模板」与「演示后分析」两个具体可落地的趋势点，角度不撞。",
+          "action": "做 deck 别再手动对抗模板——挑「内容自适应」的工具；重要销售 / 融资 deck 发出后看浏览数据，把停留最短的页重做，下一版用数据领先后退。"
+        },
+        {
+          "time": "14:30",
+          "source": "VGDS Global（Top Presentation Design Trends in 2026）",
+          "heat": 76,
+          "category": "教程观点",
+          "title": "VGDS Global：2026 演示趋势收口到七条，企业级「品牌设计系统」成一致性底座",
+          "url": "https://vgdsglobal.com/blog/top-presentation-design-trends-in-2026-you-need-to-know",
+          "summary": "VGDS Global 归纳 2026 七条趋势：极简留白、真实视觉叙事（替代通用图库）、AI 辅助开发、粗体高对比字体、目的性微动效、结构化数据可视化、品牌驱动设计系统。其中「品牌设计系统」强调用统一色板 / 字体 / 版式规则跨团队保一致、减少返工、便于规模化；AI 被定位为加速而非替代——人仍负责层级、叙事与意图。",
+          "tags": [
+            "设计趋势",
+            "品牌系统",
+            "极简",
+            "真实视觉"
+          ],
+          "reason": "趋势类此前多写「移动优先 / 暗色 / 无障碍」，本篇给的是「品牌设计系统作为企业底座」+「真实视觉替代图库」的实操视角，且明确 AI 不替代人的判断，契合雷达一贯「人类主导」立场，未见重复。",
+          "action": "团队做汇报老是对不齐风格？建一套品牌设计系统（色板 + 字体 + 版式三件套）比换工具更治本；配图用真实项目照 / 客户证明，别再堆通用图库。"
+        },
+        {
+          "time": "15:00",
+          "source": "Microsoft 365 路线图（AI at Work Roadmap，GA 9/22）",
+          "heat": 83,
+          "category": "工具动态",
+          "title": "微软路线图确认：Microsoft 365 Copilot 模型选项加入 GPT-6 Sol 与 Claude Opus 5.5，企业可自选",
+          "url": "https://www.microsoft.com/microsoft-365/roadmap?id=180322",
+          "summary": "微软 AI at Work 路线图显示，9 月 22 日起 Microsoft 365 Copilot 的模型选择新增 OpenAI 的 GPT-6 Sol 与 Anthropic 的 Claude Opus 5.5，覆盖 Word、Excel、PowerPoint、Chat、Cowork 与 Copilot Studio。GPT-6 Sol 主打更快更省、结构化与智能体任务；Opus 5.5 主打长文档、复杂推理与高后果写作（如董事会材料、尽调）。日常仍建议用 Auto，手动选模型只在复杂高 stakes 任务才划算。第三方指南（IQIT，9/25 更新）提示：欧盟 / 英国租户默认关 Anthropic，开启属数据保护决策。",
+          "tags": [
+            "Copilot",
+            "GPT-6 Sol",
+            "Claude Opus 5.5",
+            "多模型"
+          ],
+          "reason": "10-16 写过 GPT-6 + Intelligent UI（对话内出可视化），本篇补的是「Copilot 多模型自选」这一已 GA 的常驻能力，且给了企业选型与数据边界的实操提醒，角度不重复。",
+          "action": "做高风险材料（董事会 / 投标 / 尽调）可在 Copilot 模型选择器切到 Claude Opus 5.5；欧盟 / 英国租户要先确认 Anthropic 数据边界再开。日常别折腾，用 Auto 最稳。"
+        }
+      ]
+    },
     {
       "date": "2026-10-27",
       "items": [
