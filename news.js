@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-10-28",
-    "updatedAt": "2026-10-28 09:04"
+    "updated": "2026-10-29",
+    "updatedAt": "2026-10-29 09:19"
   },
   "days": [
+    {
+      "date": "2026-10-29",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "Canva Korea 首尔媒体简报 + ai.jp.net 报道",
+          "heat": 84,
+          "category": "软件更新",
+          "title": "Canva 演示「对话式精修」：不打开编辑器，直接聊天改 AI 生成稿",
+          "url": "https://www.ai.jp.net/article/canva-tackles-ai-s-editing-gap-converse-with-your-slides-to-refine-ai-generated--42952a",
+          "summary": "Canva 韩国在首尔媒体简报展示：用户现在可以对话方式精修 AI 生成的演示，例如把天空调亮、删掉照片里的人、把白天场景变成星空夜晚，无需打开单独编辑器。现场同时演示换字体、跨元素批量套用品牌色等手动微调。背景数据：过去 12 个月韩国用户在 Canva 上创建约 3500 万份演示，同比增超 70%，直观显示多模态设计编辑需求爆发。",
+          "tags": [
+            "Canva",
+            "对话式编辑",
+            "AI草稿",
+            "多模态"
+          ],
+          "reason": "10-23 写过 Canva AI 2.0 与 Memory Library，但面向终端用户的「对话式精修已生成草稿」是更落地的交互范式，且韩区 3500 万份、+70% 的硬数据新鲜亮眼，未与近几日重复。",
+          "action": "在 Canva 里让 AI 出初稿后别急着导出，先用对话指令微调（如「把这张背景调亮」「换成品牌蓝」），比手动拖元素快得多；正式稿再统一字体与品牌色。"
+        },
+        {
+          "time": "09:20",
+          "source": "WPS 灵犀更新速递（夜雨聆风整理）",
+          "heat": 83,
+          "category": "软件更新",
+          "title": "WPS 灵犀连发更新：PPT 一键做同款、演示支持数学公式、连接器与项目云模式",
+          "url": "https://www.yeyulingfeng.com/a/1255457.html",
+          "summary": "WPS 灵犀近期集中更新：①PPT「一键做同款」——上传模板，灵犀参考其风格生成全新 PPT，结构页（封面/目录/章节页）保留原风格，内容页按逻辑智能重排；②演示生成新增数学公式支持，复杂公式可直接进 PPT；③上线连接器市场与技能市场，一键接入工作台；④项目支持云模式，进度与产物上云、跨设备续干、Canvas 自动刷新；⑤底层 DeepSeek-V4.1-Flash 升至 1017 版本，更快更省。",
+          "tags": [
+            "WPS灵犀",
+            "一键做同款",
+            "数学公式",
+            "连接器"
+          ],
+          "reason": "10-27 写过 WPS for Pad 上架、10-28 未触灵犀；本次「一键做同款 + 公式 + 云项目」是灵犀面向中文用户的实用集中更新，填补近几日空白。",
+          "action": "手头有现成好模板又懒得照抄，上传给灵犀生成同款；做学术 / 理科汇报可直接让复杂公式进 PPT，省去贴图排版。"
+        },
+        {
+          "time": "09:40",
+          "source": "Noxi 10-25 实测榜（noxi.ai）",
+          "heat": 86,
+          "category": "工具动态",
+          "title": "Noxi 横评 8 款 AI slides agent：NOXI 98 居首，ChatGPT 90、Kimi 88、Genspark 87",
+          "url": "https://noxi.ai/blog/best-ai-agent-for-slides",
+          "summary": "Noxi 10-25 以 7 条可验证规则（可编辑 PPTX 导出、编辑深度、页内引用来源、导入、阿拉伯语排版、免费档、运行位置）为 8 款 AI slides agent 打分：NOXI 98/100 居首，ChatGPT 90、Kimi Slides 88、Genspark 87 紧随。规则不评设计品味，只评「能不能继续用」。文中确认 ChatGPT Slides 10-16 上线，正向 Pro/Business/Enterprise（含 Space）灰度；Kimi 分 Smart Layout 与 Classic Templates 双模式，免费档可用、支持上传自有 PPTX 模板。",
+          "tags": [
+            "横评",
+            "NOXI",
+            "ChatGPT Slides",
+            "Kimi"
+          ],
+          "reason": "10-28 写过 Tech Insider 六款定价横评，本次 Noxi 换「可编辑性 / 引用来源」判分维度并纳入新晋的 ChatGPT Slides，角度不同，不重复。",
+          "action": "要能继续编辑的真 PPTX，优先选文档化 .pptx 下载的工具（NOXI/Kimi/Manus）；别被「好看平图」骗，导出后能否改字改表才是头号选型因素。"
+        },
+        {
+          "time": "10:00",
+          "source": "Microsoft 官方博客（10-28）",
+          "heat": 80,
+          "category": "工具动态",
+          "title": "Microsoft 把 Copilot harness 经 Foundry 对外开放：20+ 前沿模型、多模型编排底座",
+          "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+          "summary": "微软 10-28 宣布，原本支撑 Copilot Code、Copilot Studio、GitHub Copilot App、VS Code 等的多模型编排底座（Microsoft Copilot harness）现已通过 Microsoft Foundry 以托管方式对外开放。该 harness 支持 20+ 前沿模型 + 自带密钥，按任务智能路由；近期已用 Rust 重写运行时，降低会话开销与首 token 延迟；并强调对 MCP、agent skills、插件的开放标准支持。企业可在同一底座上自建能推理、用工具、跑长任务的智能体。",
+          "tags": [
+            "Microsoft",
+            "Copilot harness",
+            "多模型",
+            "Foundry"
+          ],
+          "reason": "10-28 写过 VS Code 1.144 的 Copilot Fusion 与图像生成；本篇是同一波发布里「底座对外开放」的战略层信息，直接决定未来 PowerPoint Copilot 能力的天花板，角度互补。",
+          "action": "企业若想自建演示类智能体，可评估基于 Microsoft Foundry 的 Copilot harness 而非自研编排层，省维护成本、且能随微软持续优化受益。"
+        },
+        {
+          "time": "10:20",
+          "source": "Microsoft Learn 合作伙伴中心 2026 年 10 月公告",
+          "heat": 76,
+          "category": "行业新闻",
+          "title": "Microsoft 365 Copilot 12-1 起可免基础订阅单独购买，10-16 起现有关名加 (add-on)",
+          "url": "https://learn.microsoft.com/en-in/partner-center/announcements/2026-october",
+          "summary": "微软合作伙伴中心公告：自 2026-12-01 起，新购 Microsoft 365 Copilot 与 Microsoft 365 Copilot Business 可不再绑定合格 Microsoft 365 基础订阅，全渠道（含 CSP）开放，价格与原套餐一致。为配合，10-16 起原有需基础订阅的套餐名加注 (add-on)，并于 12-01 在 CSP 停止销售；现有订阅可继续续费与调席位，无需迁移或重派许可。CSP 新商业版订阅 12-01 起默认启用按用量计费（UBB），默认支出上限每人每月 4000 Copilot 点数。",
+          "tags": [
+            "Microsoft 365",
+            "Copilot",
+            "定价",
+            "许可"
+          ],
+          "reason": "前几日多写产品能力，本次是直接影响「企业会不会采购 PowerPoint Copilot」的许可 / 采购政策变化，对预算与部署决策有用，未重复。",
+          "action": "若团队还在犹豫是否上 Copilot，12-01 后新购可不再绑定 Microsoft 365 基础套件，采购链路更短，可重新评估；现有订阅不受影响，勿误以为要迁移。"
+        },
+        {
+          "time": "10:40",
+          "source": "24Slides《Presentation Design Trends 2026》",
+          "heat": 82,
+          "category": "设计趋势",
+          "title": "24Slides 2026 八大设计趋势：表现型字体、无障碍高对比、AI 辅助人主导、克制动效",
+          "url": "https://24slides.com/presentbetter/best-presentation-design-trends",
+          "summary": "24Slides 盘点 2026 八大趋势：①表现型字体 + 柔形卡片，消灭文字墙；②无障碍优先的高对比排版（正文 4.5:1、慷慨留白）；③AI 辅助、人主导的工作流（AI 出初稿、人把关叙事与品牌）；④结构化数据叙事 + 有目的动效（一次揭示一个发现）；⑤战略暗色模式与动态强调色；⑥叙述性数据结构替代密集表格；⑦真实人像 / 定制插画替代通用素材库；⑧灵活品牌系统（统一字色距图表规则，而非每页同版式）。结论：趋势要服务故事，别为炫而加动画。",
+          "tags": [
+            "设计趋势",
+            "无障碍",
+            "暗色模式",
+            "数据叙事"
+          ],
+          "reason": "10-28 写了 FlowVella 市场数据、Presentations.ai 反馈闭环、VGDS 品牌系统；本次 24Slides 八点更偏「可执行设计手法」，互补不重复。",
+          "action": "做 2026 版式记住两条最实用：每页一个观点 + 无障碍对比度（正文 4.5:1），比堆动画更显专业；动效只用来揭示顺序或对比，不装饰。"
+        },
+        {
+          "time": "11:00",
+          "source": "Lilach Bullock《ChatGPT Prompts for Presentations》",
+          "heat": 77,
+          "category": "教程观点",
+          "title": "分场景 ChatGPT 演示提示词：先定一个核心信息，再分阶段要大纲 / 逐页 / 备注 / 质疑 / 配图",
+          "url": "https://www.lilachbullock.com/chatgpt-prompts-for-presentations",
+          "summary": "作者给出分阶段提示词模板：第 1 阶段定「一个核心信息」并生成大纲（强开场 + 三要点各一例 + 明确行动号召）；第 2 阶段要逐页文案（标题要「亮观点」而非标话题，每页不超三条短要点，多余移入演讲备注）；第 3 阶段写自然口语的演讲备注并估算时长；第 4 阶段模拟挑剔听众提 8 个最难问题、并适配新受众 / 砍半时长；第 5 阶段要 16:9 配图（标题页背景、概念插画、线性图标组）。核心警告：别一句「做个 X 演示」一次要整份，会得到每页十条要点的通用稿。",
+          "tags": [
+            "提示词",
+            "ChatGPT",
+            "演讲备注",
+            "分阶段"
+          ],
+          "reason": "10-28 写过 GenPPT 实战（先锁大纲再出图），本次换「分阶段提示词模板」角度，给可直接抄的英文 prompt，适合英文 deck 场景，不重复。",
+          "action": "用 ChatGPT 做英文 deck 时，别一句话要整份 deck，按故事、逐页、备注、质疑、配图五阶段分别要，成稿质量差很多；标题写「亮观点」而非话题标签。"
+        }
+      ]
+    },
     {
       "date": "2026-10-28",
       "items": [
