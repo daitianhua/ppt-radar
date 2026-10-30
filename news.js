@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-10-29",
-    "updatedAt": "2026-10-29 09:19"
+    "updated": "2026-10-30",
+    "updatedAt": "2026-10-30 09:15"
   },
   "days": [
+    {
+      "date": "2026-10-30",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "thinkcell 官方更新日志 (thinkcell.com/whats-new)",
+          "heat": 86,
+          "category": "工具动态",
+          "title": "thinkcell 10 月大更：AI 直接生成 PowerPoint 幻灯片，并用 AI chat 做像素级精修",
+          "url": "https://www.thinkcell.com/en/product/whats-new?from=7&to=8",
+          "summary": "thinkcell 2026 年 10 月起，AI Suite 把 AI 放进完整演示工作流：可让 AI chat 依据你的 Excel 数据/上传文件/联网检索生成整份 PowerPoint 大纲与幻灯片；所有 AI 生成元素都是 thinkcell 原生图表、形状与 PowerPoint 对象，可逐张核查数据、加批注、精修文字。还能用自然语言让 AI chat 对现有幻灯片做精准改动（改颜色/字体/对齐、直接改图表数据与数据表），并支持在幻灯片上加 AI 评论让同事指派修改；企业可通过 MCP 接入内部知识库。",
+          "tags": [
+            "thinkcell",
+            "AI Suite",
+            "PPTX原生",
+            "MCP"
+          ],
+          "reason": "10-23 写过 thinkcell Assist 9/1 上榜首但只点名、未展开能力；本次 10 月官方更新把「AI 生成 + AI 精修 + MCP 接内部文档」三件套讲清，是咨询/财务场景最实用的真原生 PPTX 路线，近几日未覆盖。",
+          "action": "做财务/咨询 deck 别只让 AI 出初稿，用 thinkcell AI 直接吃 Excel 数据生成图表页，再让 AI chat 按批注改单页——所有元素留在 PowerPoint 里，老板要改随时能改。"
+        },
+        {
+          "time": "09:20",
+          "source": "Alai 官方博客 (framer.app/blog/alai-updates)",
+          "heat": 80,
+          "category": "工具动态",
+          "title": "Alai 10 月更新：编辑中可挂文档、演讲者视图、PowerPoint 导出更保真 + Modern API",
+          "url": "https://placid-light-004740.framer.app/blog/alai-updates",
+          "summary": "Alai 2026 年 10 月更新围绕「初稿之后」的工作：①Classic 编辑对话中可直接挂 PDF/Word/PPTX 作为上下文，让 Agent 精准改某页；②三套 deck 都加逐页演讲者备注与演讲者视图（私享备注+当前/下一页预览+计时器）；③PowerPoint 导出改进字体、图片裁切、透明度、边框、渐变与图表视觉，合格导出还附带可安装字体包；④新增 Modern Slides API，可从自家应用/智能体流程里创建与修订视觉设计；导出改为后台任务。",
+          "tags": [
+            "Alai",
+            "演讲者视图",
+            "PPTX导出",
+            "API"
+          ],
+          "reason": "10-27 写过 GenPPT 实战、10-23 写过按席位定价；Alai 这款「逐页可控可编辑 + 演讲者视图 + 导出保真」的实用集成本次首次进入视野，角度（初稿后流程）与近几日不重复。",
+          "action": "用 Alai 出稿后别急着发：把产品 brief 挂进编辑对话让 Agent 改特定页，开启演讲者视图练讲，导出 PPTX 时顺手装字体包，避免到客户电脑上字体串版。"
+        },
+        {
+          "time": "09:40",
+          "source": "Microsoft 365 路线图 MC1521606 + Dellenny 解读",
+          "heat": 85,
+          "category": "软件更新",
+          "title": "PowerPoint Copilot 上线「项目启动会」技能：一句话出目标/职责/里程碑/风险结构化初稿",
+          "url": "https://dellenny.com/microsoft-copilot-in-powerpoint-new-project-kickoff-presentation-feature-arrives-in-october-2026",
+          "summary": "微软 10 月中—下旬向全球推送 Copilot in PowerPoint 新技能「Create project kickoff presentations」(MC1521606)：面向项目启动会/新项目对齐，自动把项目目标、角色职责、范围、里程碑与排期、风险、成功度量、下一步整理成结构化演示初稿。覆盖 Win32、Mac、Web 三端，无需管理员开启，已购 Copilot 的用户即可用。截至 10-24 处于推送窗口内，个别用户可能稍晚可见。",
+          "tags": [
+            "Copilot",
+            "项目启动",
+            "场景技能",
+            "M365"
+          ],
+          "reason": "10-28 写过 Copilot「创建交互式幻灯片」、10-29 写过 Copilot harness 对外开放；本次是又一项 10 月落地的场景化技能（项目启动），填补近几日对 Copilot 具体技能的空白。",
+          "action": "下周要开项目启动会，别从空白页搭，直接让 Copilot 出一份含目标/职责/里程碑/风险的结构初稿，你只核事实、调范围，省下搭框架的时间。"
+        },
+        {
+          "time": "10:00",
+          "source": "Gamma 官方 Changelog (ideas.gamma.app/changelog)",
+          "heat": 82,
+          "category": "软件更新",
+          "title": "Gamma 5 细节打磨：额度显示更清晰、PowerPoint 导出更贴原设计、预览随格式变",
+          "url": "http://ideas.gamma.app/changelog",
+          "summary": "Gamma 在 9–10 月更新日志里把 Gamma 5 的实用细节补齐：①首页与账单页直接看余额与「无额度」状态，额度更透明；②PowerPoint 导出更好保留自定义字体、多语言文本、公式、表格 emoji 与版式，开启「按比例适配」后高图表进 PowerPoint/Google Slides 更稳；③新建/更新的 Gamma 预览更贴近实际格式（纵向文档、社媒帖、4:3 幻灯片各有对应预览，编辑后旧预览会刷新）。",
+          "tags": [
+            "Gamma 5",
+            "导出保真",
+            "额度透明",
+            "预览"
+          ],
+          "reason": "10-16/10-19/10-21 写过 Gamma 5 发布与第三方实测，但偏「大版本叙事」；本次聚焦官方 changelog 里最影响日常体验的三处小改（额度/导出/预览），是用户真正用得到的细节，未重复。",
+          "action": "在 Gamma 出稿后导出 PPTX 前，先开「按比例适配」保图表不溢出，交付时附上字体包；常改稿就盯着首页余额，别等到演示前才发现额度用尽。"
+        },
+        {
+          "time": "10:20",
+          "source": "AI and Tech News (aiandtech.news)",
+          "heat": 84,
+          "category": "行业新闻",
+          "title": "Gamma 5 定调「去 AI 味」：行业从卷生成速度转向卷设计差异化",
+          "url": "https://www.aiandtech.news/article/gamma-launches-version-5-to-reduce-ai-presentation-sameness",
+          "summary": "AI and Tech News 解读 Gamma 5 发布：Gamma CPO Jon Noronha 称今年初以来收到越来越多关于「千篇一律」与「AI 味」的抱怨，用户想做出看不出是 AI 做的演示。Gamma 5 为此引入 20+ 模型、约 20 个连接器、自由画布与更丰富视觉风格库，并把导入保真度从约 30% 提到 97%+；目前约 1.1 亿注册。文章把这次发布视为赛道拐点信号——独立工具不再比谁出得快，而比谁出得「不像 AI」。",
+          "tags": [
+            "去AI味",
+            "设计差异化",
+            "Gamma",
+            "赛道拐点"
+          ],
+          "reason": "10-23 写过 Canva 定位「AI 时代系统层」、10-28 写过市场 47 亿美元；本次从 Gamma 官方表态切入「AI 味/千篇一律」痛点，是 2026 演示赛道最清晰的一句话定性，角度与近几日不重。",
+          "action": "选工具别只看生成速度，先想「这稿发出去像不像 AI 套的」——优先能接品牌库、能自由改版式的工具；出稿后用人工审美去模板感，比换更贵的订阅更管用。"
+        },
+        {
+          "time": "10:40",
+          "source": "PutraCetol Studio 2026 设计趋势 (putracetol.com)",
+          "heat": 81,
+          "category": "设计趋势",
+          "title": "2026 设计趋势收口：AI 当共设计者、一页一观点、动效讲顺序、品牌系统可弹性",
+          "url": "https://putracetol.com/presentation-design/",
+          "summary": "PutraCetol Studio 总结 2026 幻灯片设计：①AI 成「共设计者」——Copilot/Gemini/Canva/Adobe Express 都能出初稿，但生成稿只是草稿，论证与证据仍归人；②生成式视觉替代通用装饰，但真实图表/截图/客户证据必须准确；③动效更讲目的——用动画揭示顺序、演示变化、对比状态、引导注意，别每页都加装饰特效；④一页只讲一个主观点（Context→tension→insight→evidence→solution→proof→action）；⑤品牌系统变弹性（统一字体/颜色/间距规则，但按信息选版式）；⑥无障碍成设计基线（WCAG 2.2 对比度 4.5:1）。",
+          "tags": [
+            "一页一观点",
+            "目的性动效",
+            "弹性品牌",
+            "无障碍"
+          ],
+          "reason": "10-23/10-28 写过企业级趋势收口，偏「采纳/淘汰」判决；本次从单页叙事结构与动效目的切入，给出可照做的故事弧与无障碍基线，更适合个人做 deck 时落地，未重复。",
+          "action": "做每一页前先写一句话结论当标题；动效只用在「揭示顺序/对比」上，别为好看加转场；交付前用对比度检查工具过一遍，保证后排看得清。"
+        },
+        {
+          "time": "11:00",
+          "source": "Best Productivity Resources 免费指南 (bestproductivityresources.com)",
+          "heat": 79,
+          "category": "教程观点",
+          "title": "用 AI 做演示的 11 步免费指南：从一句话信息到终检，环环可照做",
+          "url": "https://bestproductivityresources.com/guides/how-to-use-ai-for-presentations",
+          "summary": "Best Productivity Resources 放出免费、免注册的「用 AI 做演示」指南，拆成 11 张可点卡片：①先定观众唯一会记住的一句话；②搞清受众已知/担心/会被说服点；③选故事结构（问题-方案-结果 / 过去-现在-未来 / 是什么-所以呢-现在呢）；④用 AI 出大纲；⑤按场景选工具（Copilot 在 M365、Gemini 在 Workspace、Claude Slides、Gamma 出快稿）；⑥干净版式（一页一观点、大字少字、标题写结论）；⑦数据讲清楚（一图一点、高亮关键数、数对源）；⑧写演讲者备注；⑨用 Speaker Coach 或录音练；⑩让 AI 扮质疑者出 10 个最难问题备战；⑪终检事实/版权/保密/时长/设备。",
+          "tags": [
+            "11步工作流",
+            "人主导",
+            "演讲者备注",
+            "终检"
+          ],
+          "reason": "10-29 写过 Lilach Bullock 分场景 ChatGPT 提示词、10-19 写过 iSlide 三姿势；本次是一份完整、免费、可逐卡照做的端到端清单，把「先信息后工具」「人主导」落到 11 步，适合新手直接抄，不重复。",
+          "action": "别一上来就让 AI 写整份，先自己写下「观众该记住的那句话」，再用指南的 11 步推进；重点练第⑨⑩步——AI 扮质疑者帮你补漏，比做完才被发现逻辑断更省事。"
+        }
+      ]
+    },
     {
       "date": "2026-10-29",
       "items": [
