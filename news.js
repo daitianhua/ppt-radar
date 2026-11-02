@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-10-30",
-    "updatedAt": "2026-10-30 09:15"
+    "updated": "2026-11-02",
+    "updatedAt": "2026-11-02 09:01"
   },
   "days": [
+    {
+      "date": "2026-11-02",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "Microsoft 365 路线图 MC1519122 + Dellenny 解读",
+          "heat": 90,
+          "category": "软件更新",
+          "title": "PowerPoint Copilot 用量计费模型 11 月初推送：GPT-6 Astra 与 Claude Fable 5.1 进模型选择器",
+          "url": "https://mc.merill.net/message/MC1519122",
+          "summary": "微软 11 月初起在全球推送 Copilot 用量计费（UBB）模型：GPT-6 Astra 与 Claude Fable 5.1 将在 Copilot Chat 以及 Word、Excel、PowerPoint 的模型选择器中出现。前提是组织已开启 UBB、为用户分配了 Copilot 许可证并划拨额度；未开启则用户看不到这些模型。管理员需在 M365 管理中心配置计费与额度，预计 11 月中完成全球推送。对 PPT 用户而言，这意味着可以在 Copilot in PowerPoint 里直接换更强的底层模型来出稿、精修、做研究。",
+          "tags": [
+            "Copilot",
+            "UBB计费",
+            "GPT-6",
+            "Claude"
+          ],
+          "reason": "10-28 写过微软路线图 GPT-6 Sol/Claude Opus 5.5（9/22 GA）、10-23 写过 GPT-6 Astra 定位幻灯片，但「用量计费模型在 Copilot 中落地、需管理员开额度」是 11 月初新动态，近几日未覆盖。",
+          "action": "若公司已购 M365 Copilot，先找 IT 确认 UBB 是否开启、额度怎么分；开启后做重要 deck 时可在 PowerPoint 里切到 GPT-6 Astra 出初稿，再让 Claude Fable 5.1 润色叙事——敏感数据先过合规。"
+        },
+        {
+          "time": "09:20",
+          "source": "Microsoft 365 路线图 MC1529481 / MC1529477",
+          "heat": 84,
+          "category": "软件更新",
+          "title": "PowerPoint Copilot 两款销售技能上线：一句话出「高管销售摘要」与「销售管道复盘」",
+          "url": "https://d365hub.com/Posts/Details/bcb2a884-0a16-4fb3-a9ee-419fb5b2d372/microsoft-powerpoint-summarize-sales-for-leaders-copilot-skill",
+          "summary": "微软为 Copilot in PowerPoint 新增两个场景技能，10 月底起逐步推送、11 月初完成全球可用：①「Summarize sales for leaders」面向高管，快速生成聚焦业绩、展望、风险与决策的销售摘要演示；②「Review sales pipeline」用于创建或刷新内部管道与预测复盘，聚焦商机动向、风险与下一步动作。两个技能均覆盖 Windows(Win32)、Mac、Web，无需管理员开启，已有 Copilot 即可用。",
+          "tags": [
+            "Copilot",
+            "销售技能",
+            "场景化",
+            "M365"
+          ],
+          "reason": "10-30 写过「项目启动会」技能 MC1521606、10-28 写过「交互式幻灯片」、10-29 写过「Clarify my thinking」；这两个销售场景技能是 11 月初新落地、且贴合业务汇报场景，角度未重复。",
+          "action": "月度/季度销售例会前，别再手搓复盘页：在 PowerPoint 里直接调「Review sales pipeline」出管道复盘初稿，再补你手上的真实数字和备注——Copilot 管框架，你管数字的真实性。"
+        },
+        {
+          "time": "09:40",
+          "source": "Zapier Blog（digestai.news 转载，2026-10-29）",
+          "heat": 80,
+          "category": "工具动态",
+          "title": "Zapier 人工实测 6 款 AI 演示工具：Gamma 居视觉、Canva 最全能、Beautiful.ai 擅动态数据",
+          "url": "https://digestai.news/story/zapier-lists-6-ai-tools-for-creating-presentations-in-2026",
+          "summary": "Zapier 编辑 2026 年 10 月用一个月实测 40+ 应用，筛出 6 款最佳 AI 演示工具：Gamma（视觉惊艳、自带 AI 生图、$9/席/年起）、Canva（文本/图像/设计提示一体化、$12/月）、Beautiful.ai（随时间自动更新数据）、Pitch（销售向）、Chronicle（极简+可交互组件）、Prezi（非线性缩放叙事）。值得注意：Zapier 明确把 Microsoft Copilot for PowerPoint 和 Google Gemini for Slides 排除在榜外，理由是「高级功能不足」。",
+          "tags": [
+            "Zapier",
+            "横评",
+            "Gamma",
+            "Canva"
+          ],
+          "reason": "10-27 写 Tryiro 横评、10-29 写 Noxi 8 款横评、10-23 写 CiteHawk 榜——但 Zapier 这份是「人工实测 40+ 筛 6 款、且公开排除 Copilot/Gemini」的权威视角，与之前的榜单角度不同，且 10-29 新鲜。",
+          "action": "选型别只看榜单排名：Zapier 的点是「先定 deck 最终落点」——要 web 分享选 Gamma、要品牌一致选 Beautiful.ai/Canva、要可编辑 PPTX 还是回归 Copilot/Plus AI。"
+        },
+        {
+          "time": "10:00",
+          "source": "南方经济（southern economic）近期报道",
+          "heat": 78,
+          "category": "工具动态",
+          "title": "WPS 灵犀技能库升级：培训师自建 51 个技能，录音转写+PPT一键做同款+数学公式",
+          "url": "https://economy.southcn.com/node_7855b33f02/79afe14aea.shtml",
+          "summary": "南方经济报道 WPS 灵犀近期围绕一线需求做了一轮升级：录音文件转写技能（会议/访谈音频转文字）、「PPT 一键做同款」可参考上传模板生成新演示（结构页延续模板风格、正文页按新内容重排）、演示生成新增数学公式支持、项目云模式可保存进度跨设备续做。有意思的是，有培训师已把确认有效的操作步骤沉淀成 51 个可复用自建技能；产品团队还表示后续版本更新说明会署上建议提出者名字。",
+          "tags": [
+            "WPS灵犀",
+            "技能库",
+            "录音转写",
+            "PPT同款"
+          ],
+          "reason": "10-29 写过「WPS 灵犀更新」但侧重连接器市场/DeepSeek；本次报道角度是「用户自建技能沉淀 + 录音转写 + 版本署名机制」，与上次不重复，且贴合国企单证/会议纪要场景。",
+          "action": "把重复性 PPT 动作（如周报模板套用、录音转纪要再出 slides）固化成灵犀技能反复调用，比每次重新写 prompt 稳；涉及口音的录音，调一下指令表达方式能提升识别率。"
+        },
+        {
+          "time": "10:20",
+          "source": "TechCrunch / ai-damn.com / brotu.com（近期）",
+          "heat": 82,
+          "category": "行业新闻",
+          "title": "企业级 AI 演示创企 Prezent 再融 3000 万美元（估值 4 亿）并收购 Prezentium",
+          "url": "https://ai-damn.com/prezent-secures-30m-funding-targets-life-sciences-sector-1760155748990",
+          "summary": "企业级 AI 演示平台 Prezent 完成 3000 万美元新融资，由 Multiplier Capital、Greycroft、Nomura Strategic Ventures 领投，估值达 4 亿美元、累计融资超 7400 万；资金主要用于并购。已完成首笔收购——生命科学演示服务公司 Prezentium（由 Prezent 创始人早年参与创立），借此整合客户资源并加速 AI 方案落地。Prezent 坚持企业级路线，派驻「演示工程师」进场帮客户把 AI 工具嵌入流程，下一步将做个性化 AI、多模态输入（文本/语音/视频）和数字人。",
+          "tags": [
+            "Prezent",
+            "融资",
+            "企业级",
+            "并购"
+          ],
+          "reason": "09-09 写过 Prezent 融资 3000 万，本次是新一轮且附带收购 Prezentium、估值 4 亿的后续进展，属行业融资/并购硬新闻，近几日未覆盖。",
+          "action": "看赛道风向：独立工具卷消费者、Prezent 卷企业级驻场服务——若公司要上 AI 演示且合规严，企业级（可驻场、私有化）比纯 SaaS 更稳，选型时把「能不能派人来教我们用」算进成本。"
+        },
+        {
+          "time": "10:40",
+          "source": "FlowVella 2026 趋势报告 + Microsoft PowerPoint 官方设计博客",
+          "heat": 76,
+          "category": "设计趋势",
+          "title": "2026 设计趋势收口：9:16 垂直成最快增长格式、AI 辅助成默认起点、无障碍是基线",
+          "url": "https://flowvella.com/s/5tbx/",
+          "summary": "FlowVella 2026 趋势报告把今年设计主线收成几条硬指标：①垂直 9:16 是增长最快的格式（82% 视频观看在手机、竖屏完播率 76%），高管常在看舞台前先用手机开 deck；②AI 辅助设计已是默认起点（2026 年 AI 演示工具市场 47 亿美元、同比 +52%、企业采用率破 60%）；③结构化数据叙事替代「文字墙」；④无障碍（高对比、alt text、字幕）从加分项变基线。微软官方设计博客也呼应：2026 幻灯片要同时适配会议室、邮件链接、手机三场景，暖色调+柔和形状+有意图的强调色取代纯白。",
+          "tags": [
+            "设计趋势",
+            "9:16",
+            "AI默认",
+            "无障碍"
+          ],
+          "reason": "10-29 写过 24Slides 八趋势、10-25/10-23 写过 Slidesgo/趋势合订——本次用 FlowVella「量化趋势栈」+ 微软官方设计理念做收口，带具体数据（47 亿/+52%/9:16），角度更硬。",
+          "action": "做 deck 前先想清楚主要观看场景：给领导手机看的，关键页出一套 9:16 竖版；正文页数多的，把大段文字改成「一页一观点+数据图」；配色先过一遍 AA 对比度，别等投影翻车才改。"
+        },
+        {
+          "time": "11:00",
+          "source": "TheAI 学院 / SlideForge 博客（2026）",
+          "heat": 74,
+          "category": "教程观点",
+          "title": "AI 做专业简报的实战流程：先定受众目标→喂真实资料→先出大纲→结论式标题→狠删→强化结尾",
+          "url": "https://www.theai.tw/guide/ai-professional-presentation-workflow-2026",
+          "summary": "TheAI 学院与 SlideForge 给出的 2026 实战流程高度一致：先用五个问题厘清目标与受众，再产出结论式标题的五段式大纲，分批展开文字与口语讲稿，把数据交给 AI 建议图表，最后用 AI 工具生成视觉初版并人工收尾。常见四错：①直接叫 AI「帮我做份关于 X 的简报」然后照抄（空泛无观点）；②一页塞太多字（要在提示词里限每页字数）；③忽略口语讲稿（真正说服人的是你讲的）；④不核查事实（AI 会编看似合理的数字）。把 AI 当「排版第一版」而非「最终成品」最稳。",
+          "tags": [
+            "工作流",
+            "结论式标题",
+            "事实核查",
+            "人工收尾"
+          ],
+          "reason": "10-29 写 Lilach Bullock 提示词、10-27 写 GenPPT 教程、10-20 写 51CTO 实战——本次是「完整端到端流程 + 四个常见错误」，方法论更系统，且强调「AI 出初稿、人管观点数据临场」的分工，与花姐价值观（先做比准备好重要、人主导）一致。",
+          "action": "要做汇报时试试这套：先写清「给谁看、要他决定什么」→ 把真实数据和立场喂进去 → 让 AI 先出大纲你改 → 每页标题写成结论 → 最后你走一遍核对数字。一个半小时能出高质初稿。"
+        }
+      ]
+    },
     {
       "date": "2026-10-30",
       "items": [
