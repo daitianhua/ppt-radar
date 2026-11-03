@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-11-02",
-    "updatedAt": "2026-11-02 09:01"
+    "updated": "2026-11-03",
+    "updatedAt": "2026-11-03 09:02"
   },
   "days": [
+    {
+      "date": "2026-11-03",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "TechRepublic（2026-10-27 苹果公告）",
+          "heat": 88,
+          "category": "软件更新",
+          "title": "Apple Creator Studio 11 月更新：Keynote / Pages / Numbers 加入 AI 助手，并支持 MCP 外部代理",
+          "url": "https://www.techrepublic.com/article/news-apple-creator-studio-ai-assistants/",
+          "summary": "苹果 10 月 27 日宣布，11 月 Creator Studio 更新将给 Keynote、Pages、Numbers 带来文档感知的 AI 助手：在 Keynote 里可精修幻灯片、起草并重排文本，在 Numbers 里组织与可视化表格数据，底层用苹果自研模型 + OpenAI。macOS 27 及以上还支持 MCP，让外部 AI 工具读取内容、做编辑、执行自动化操作。订阅 $12.99/月或 $129/年，需 Apple Intelligence 硬件 + iOS/iPadOS/macOS 27，初期仅美式英语。基础版 Keynote/Pages/Numbers 仍免费。",
+          "tags": [
+            "Apple",
+            "Keynote",
+            "AI助手",
+            "MCP"
+          ],
+          "reason": "此前所有雷达从未覆盖 Apple Keynote 的 AI 能力（一直聚焦 PPT/WPS/Canva/Gamma），这是全新生态视角；且 10-27 刚宣布、11 月推送，时效高。",
+          "action": "用 Mac 做对外演示的团队可等 11 月更新后，把 recurring 的 Keynote 复盘交给 AI 助手出初稿；但务必先在副本上试外部 MCP 代理的权限边界，敏感材料别直接授权读取与编辑。"
+        },
+        {
+          "time": "09:15",
+          "source": "微软 Ignite 2026 预热（IT之家 / 阿里云创新中心汇编）",
+          "heat": 84,
+          "category": "软件更新",
+          "title": "微软 Ignite 2026 预热：PowerPoint 将支持 40+ 语言翻译，Copilot Narrative Builder 用品牌模板出稿",
+          "url": "https://startup.aliyun.com/info/1089968.html",
+          "summary": "微软将于 2026 年 11 月 17–20 日召开 Ignite 大会。会前披露的多项 M365 Copilot 更新中，与 PowerPoint 直接相关的是：明年年初起演示文稿可翻译成 40 多种语言；Copilot Narrative Builder 将能利用品牌模板、演讲者备注、内置过渡与动画创建更好的初稿；Copilot 还能从 SharePoint 抽取图像并并入演示。同时登场的还有 Copilot Actions（一次性设置后自动执行周报、会议材料等重复任务，目前私人预览）。",
+          "tags": [
+            "Microsoft",
+            "Ignite",
+            "翻译",
+            "NarrativeBuilder"
+          ],
+          "reason": "11-02 写过 Copilot UBB 计费与销售技能，但 Ignite 预热里的「PowerPoint 40+ 语言翻译」「Narrative Builder 用品牌模板出稿」「SharePoint 抽图」是 11 月大会前新披露能力，角度未覆盖。",
+          "action": "跨国/多语言汇报团队留意 Ignite 后几周的 PowerPoint 更新；做品牌模板的先把公司模板整理规范，等 Narrative Builder 上线即可一键套用出初稿。"
+        },
+        {
+          "time": "09:30",
+          "source": "Noxi Blog（2026-10-29 检查，11 月榜）",
+          "heat": 82,
+          "category": "工具动态",
+          "title": "Noxi 11 月「财务演示」专项榜：Claude 与 NOXI 并列 94 居首，图表保真成头号选型因素",
+          "url": "https://noxi.ai/blog/best-ai-for-financial-presentations",
+          "summary": "Noxi 用七条「打印出来的规则」对 13 款 AI 工具做财务演示（预算/董事会/月报）评分：Claude 与 NOXI 并列 94，Claude 因「图表在 PowerPoint 里保持为图表对象」在 tie-break 胜出居首；其后 Plus AI、Genspark、ChatGPT 均为 90，Kimi 85，Presentations.AI 与 Gamma 82，Copilot in PowerPoint 80，Canva 79。核心判据：能否导入 Excel/CSV、图表是否保持可编辑、是否标注数字来源、有无免费档。",
+          "tags": [
+            "Noxi",
+            "横评",
+            "财务演示",
+            "图表保真"
+          ],
+          "reason": "10-29 写过 Noxi 通用「8 agents」榜（NOXI 98/ChatGPT 90/Kimi 88），但这是 11 月新出的「财务演示」垂直榜，聚焦预算季场景且结论不同（Claude 第一），角度互补不重复。",
+          "action": "月底做预算/董事会 deck 的人，优先看工具能否把 Excel 图表原样保留成可编辑对象、数字能否标注来源——榜上 Claude/NOXI/Plus AI 这几项最稳。"
+        },
+        {
+          "time": "09:45",
+          "source": "金山办公微信 / WPS 官方社区（2026 年 11 月版）",
+          "heat": 83,
+          "category": "工具动态",
+          "title": "WPS 11 月更新：演示新增放映倒计时与 LaTeX 公式，存储管理可把缓存备份改到 D/E 盘",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzU3ODgyNjg1Nw==&mid=2247496682&idx=2&sn=097881e4a359417d5640d031cad54304&chksm=fc1df58f963cd10457d5c939c8cd4eaa46c310d84d5222434f553b12d01c7019cc278801f6ed#rd",
+          "summary": "WPS 11 月这波更新里，演示组件新增两项实用能力：放映选项卡里的「倒计时」（答辩/路演不用偷看手机），以及插入 LaTeX 公式（理工科汇报不用截图凑）；同时新增「存储管理」入口，可把云文档缓存、文档备份从默认 C 盘改到 D/E 盘，缓解系统盘爆红。AI 侧伴写自动续写、双击 Ctrl 唤起面板可切文风，部分能力属会员权益。",
+          "tags": [
+            "WPS",
+            "倒计时",
+            "LaTeX",
+            "存储管理"
+          ],
+          "reason": "10-27 写 WPS for Pad、10-29 写 WPS 灵犀技能库；但「演示放映倒计时 + LaTeX 公式 + 存储管理改路径」是 11 月这波更新的具体新能力，且与汇报/答辩场景强相关，角度未覆盖。",
+          "action": "常答辩/路演的，更新到最新版 WPS，放映前在「放映」选项卡开倒计时；理工科图表公式用 LaTeX 插入代替截图，放大不糊。"
+        },
+        {
+          "time": "10:00",
+          "source": "网易 / 独角兽早知道（2026-10-30 快手公告）",
+          "heat": 80,
+          "category": "行业新闻",
+          "title": "可灵 AI 完成约 198 亿元增资，创全球视频生成大模型单轮融资纪录",
+          "url": "https://www.163.com/dy/article/LAL91U5Q0519VPHD.html",
+          "summary": "10 月 30 日晚快手公告，旗下视频生成大模型可灵 AI 完成本轮增资交割，实际到账约 198.02 亿元（约 29.05 亿美元），创全球视频生成大模型赛道单轮融资最高纪录，投后估值约 179 亿美元。产业方金蝶软件、国产 GPU 厂商沐曦数智首度入股，形成「算力—模型」资本层绑定。可灵在快手体内孵化、被分拆并推动港股 IPO。",
+          "tags": [
+            "可灵AI",
+            "融资",
+            "视频大模型",
+            "快手"
+          ],
+          "reason": "11-02 写过 Prezent 融资 3000 万（企业演示 SaaS），但视频生成大模型融资是演示「视频素材/动态内容」的上游，且 10-30–11-01 硬新闻、金额创纪录，落在近 48h 内。",
+          "action": "做产品发布/品牌 deck 需要动态视频素材的，可关注可灵等视频大模型出片质量提升；但务必看清生成视频的版权与商用授权条款，别直接当成品上会。"
+        },
+        {
+          "time": "10:15",
+          "source": "Presentations.AI 官方趋势文（2026）",
+          "heat": 80,
+          "category": "设计趋势",
+          "title": "2026 AI 演示趋势收敛：自适应智能模板 + 交付后分析闭环",
+          "url": "https://www.presentations.ai/zh/blog/ai-presentation-trends",
+          "summary": "Presentations.AI 盘点 2026 趋势：趋势七「自适应而非限制的智能模板」——你多加一条项目符号，布局自动重组适应，而不是第三页就崩坏；趋势八「弥合创作与交付的分析工具」——发完 deck 后追踪谁看了、停在哪一页、互动了什么，把「做了漂亮片子」延伸到「它到底有没有用」。另提受众自适应：同一份源材料按受众（财务/创意）生成不同版本。",
+          "tags": [
+            "自适应模板",
+            "分析闭环",
+            "受众自适应",
+            "趋势"
+          ],
+          "reason": "10-30/11-02 都写过「设计趋势收口（9:16/AI 辅助/无障碍）」，但「自适应模板 + 交付后分析闭环」是本次新触及的两个点，来自 Presentations.AI 官方趋势文，未重复。",
+          "action": "选工具时把「模板是否自适应」和「能否看浏览数据」放进评估清单——前者省你跟版式搏斗的时间，后者让你知道哪页没人看、该改。"
+        },
+        {
+          "time": "10:30",
+          "source": "Pi.inc 复盘（2026）",
+          "heat": 81,
+          "category": "教程观点",
+          "title": "2026 AI 演示工具现状：从「快速生成幻灯片」转向「完整工作流」，商业逻辑比模板更重要",
+          "url": "https://www.pi.inc/blog/zh-cn/ai-presentation-trends",
+          "summary": "Pi 复盘 2026 的转变：AI 演示工具的角色正从「填充模板」变成帮你想清楚该讲什么、论点怎么展开。专业 deck 成败看商业逻辑——受众要做什么决策？证据是什么？风险/权衡/优先级有哪些？散会后对方该记住什么？模板只保一致性与视觉质量，结构薄弱却精美的片子说服不了管理层、投资人或客户。",
+          "tags": [
+            "工作流",
+            "商业逻辑",
+            "论点结构",
+            "教程"
+          ],
+          "reason": "11-02 写过「AI 做专业简报实战流程（先定受众目标→喂真实资料→先出大纲→结论式标题→狠删→强化结尾）」；本文从「工具演化 + 商业逻辑优先」角度佐证同一结论，补充不重复。",
+          "action": "别再追「一键成稿」神话：先拿一张纸写清「这场汇报要对方做什么决定」，再让 AI 出大纲；模板再漂亮，论证站不住也说服不了人。"
+        }
+      ]
+    },
     {
       "date": "2026-11-02",
       "items": [
