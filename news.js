@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-11-03",
-    "updatedAt": "2026-11-03 09:02"
+    "updated": "2026-11-04",
+    "updatedAt": "2026-11-04 09:09"
   },
   "days": [
+    {
+      "date": "2026-11-04",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "Gamma 官方集成页（2026）",
+          "heat": 86,
+          "category": "工具动态",
+          "title": "Gamma 以 agent 形态正式进入 Microsoft 365 Copilot Agent Store，可直接 @Gamma 把会议/邮件变成 deck",
+          "url": "https://gamma.app/zh-cn/integrations/microsoft-copilot",
+          "summary": "Gamma 现在可作为 agent 在 Microsoft 365 Copilot 的 Agent Store 里添加。在 Copilot Chat 中 @Gamma，即可把一周的 Teams 会议与 Outlook 邮件线程整理成领导力更新 deck，或把 Word/SharePoint 文件变成设计过的演示；Gamma 的连接器也把它的工具带进 Copilot 自己的 agent，内置 skill 可在不离开 M365 的情况下创建、查找、导出 gamma。典型用法：@Gamma 把本周与 Northwind 的 Teams 会议和邮件变成 6 页账户更新（赢单、风险、下一步）。",
+          "tags": [
+            "Gamma",
+            "Microsoft365",
+            "Copilot",
+            "Agent"
+          ],
+          "reason": "11-02/11-03 写过多项 Copilot 自身技能（销售/UBB），10-23 写过 Gamma 进 Claude Design，但\"Gamma 以原生 agent 形态进入 Copilot Agent Store、上下文直接来自 M365 工作流\"是全新集成视角，此前雷达从未覆盖。",
+          "action": "已深度使用 M365 的团队，可在 Copilot Agent Store 搜索 Gamma 并添加，把\"会议/邮件→deck\"设成每周自动动作；但需管理员先批准，敏感会议材料先在小范围验证权限边界。"
+        },
+        {
+          "time": "09:15",
+          "source": "Tech Insider（2026-10-26 横评）",
+          "heat": 82,
+          "category": "工具动态",
+          "title": "Tech Insider 把 AI 演示工具分成三阵营并给出选型口诀：已买 M365 选 Copilot，要最低席位价选 Gamma 5",
+          "url": "https://tech-insider.org/ca/gamma-5-vs-copilot-vs-canva-ai-presentation-makers-2026",
+          "summary": "Tech Insider 对六款加拿大买家常短名单工具（Gamma 5、Plus AI、Copilot in PowerPoint、Canva Magic Design、Beautiful.ai、Gemini in Slides）做桌面分析，指出 2026 年品类已分三阵营：独立生成器（Gamma/Beautiful.ai，掌握编辑器与文件）、插件（Plus AI，嵌在 PPT/Slides 里）、平台功能（Copilot/Gemini/Canva，搭在既有订阅上）。选型口诀：已付 M365 选 Copilot；要 agent 内嵌选 Plus AI；要最低席位价（Gamma 5 $9/月年付）选 Gamma；要团队品牌一致选 Beautiful.ai/Canva；Google 生态选 Gemini。文章强调\"选购逻辑从比模板变成比订阅基础\"。",
+          "tags": [
+            "横评",
+            "选型",
+            "Gamma5",
+            "Copilot"
+          ],
+          "reason": "此前写过多次定价横评（10-28 按席位、10-23 Gamma vs Canva 定价页、10-19 Noxi 16款），但\"三阵营分类 + 以既有订阅决定选型\"是 10-26 的新鲜框架，角度未覆盖。",
+          "action": "选型前先确认公司已经买了哪套办公订阅——这往往比对比模板更重要；个人/小团队先用 Gamma 5 最低档试，企业统一品牌再考虑 Beautiful.ai。"
+        },
+        {
+          "time": "09:30",
+          "source": "WPS 官方社区（2026 更新速递）",
+          "heat": 84,
+          "category": "软件更新",
+          "title": "WPS 灵犀\"团队版\"正式上线：多人统一采购 + 项目云模式跨端接续 + DeepSeek-V4.1-Flash 升至 1017",
+          "url": "https://bbs.wps.cn/topic/100094",
+          "summary": "WPS 灵犀本波更新：①团队功能正式上线，多人使用可统一采购、管理员统一开通管理；②项目云模式，项目进度云端保存、换设备无缝衔接，Canvas 等项目产物支持自动刷新、内容更新实时可见；③DeepSeek-V4.1-Flash 更新至 1017 版本，任务更快更省；④办公 Agent 升级（表格动态数组、PPT 显示复杂数学公式、录音转写 Skill、wps-docs 适配）。（注：PPT 一键做同款此前已覆盖，本波重点在团队版与云模式。）",
+          "tags": [
+            "WPS",
+            "灵犀",
+            "团队版",
+            "云模式"
+          ],
+          "reason": "11-02 写过灵犀技能库（51技能/录音转写/一键做同款/版本署名），11-03 写过 WPS 11月更新（放映倒计时/LaTeX/存储路径）；本次\"团队版统一采购 + 项目云模式跨端接续\"是全新能力点，未覆盖。",
+          "action": "公司采购 WPS 灵犀的，可让管理员开团队版统一分配；经常换电脑干活的，把重点项目切到云模式，避免本地进度丢失；注意云模式会把产物上云，涉密项目先确认合规。"
+        },
+        {
+          "time": "09:45",
+          "source": "今日头条 / 驱动中国（2026-10-18 报道）",
+          "heat": 88,
+          "category": "软件更新",
+          "title": "ChatGPT Slides 正式推送：从对话/文件/大纲生成可协作演示，多人实时编辑并导出 PPT/PDF，Plus 用户暂不在名单",
+          "url": "https://www.toutiao.com/article/7697976401660281363",
+          "summary": "OpenAI 在 DevDay（9/29）预告的第三件办公工具 Slides 已兑现：10 月 16 日左右的 ChatGPT 更新向开通 Space 的 Pro、Business、Enterprise 用户推送 Slides（网页端与桌面端）。用户可基于已有对话、上传文件或大纲生成演示，也能套用内置模板；生成后可邀请团队成员实时协同编辑、留言，并 @ChatGPT 或自己的 Dot 按反馈改稿。网页端可导出 PowerPoint、PDF 或 Google 幻灯片，桌面端能在已安装的 PowerPoint/Keynote 中打开。注意：个人 Plus 订阅不在开放名单；Windows 桌面协作版需系统 MXC 组件（Win10 不支持），缺组件时本地生成的是普通 .pptx。Slides 与既有 PowerPoint 插件是两条线——前者把演示稿放进 ChatGPT 的 Space，导出只是副本。",
+          "tags": [
+            "ChatGPT",
+            "Slides",
+            "协作",
+            "OpenAI"
+          ],
+          "reason": "10-21 仅以\"ChatGPT Slides 10-16 灰度\"一笔带过（在 Noxi 榜卡片里），本次以正式推送 + 协作/导出边界 + Plus 不在名单 + 与 PPT 插件两条线等具体细节补全，角度未重复。",
+          "action": "用 ChatGPT 写方案、又需要协作改稿的团队，可在 Space 里用 Slides 先把初稿立起来再导 PPT 精修；个人 Plus 用户暂用不了，可走网页版其他工具或等后续放开。"
+        },
+        {
+          "time": "10:00",
+          "source": "Pi.inc《2026 年 AI 演示工具现状》（2026）",
+          "heat": 80,
+          "category": "行业新闻",
+          "title": "行业拐点：AI 演示从\"快速生成幻灯片\"转向\"完整工作流与决策工具\"，价值重心从自动化转向叙事与论证质量",
+          "url": "https://www.pi.inc/blog/zh-cn/ai-presentation-trends",
+          "summary": "Pi.inc 分析指出，2026 年 AI 演示工具更大的转变在于工作流：专业人士正用 AI 把研究资料、笔记、文档与业务背景转化为更清晰的沟通内容，品类从\"生成一套演示\"转向\"构建可供决策的演示\"。两大趋势：①从快速生成到完整工作流（需求解读→大纲→故事线→标题→版式→视觉一致→修改）；②商业逻辑比模板更重要——结构薄弱却精美的 deck 说服不了管理层/投资人。人类判断在准确性、战略、细微差别上仍不可替代，AI 只是减少\"从有信息到有效传达\"的阻力。",
+          "tags": [
+            "行业趋势",
+            "工作流",
+            "决策工具",
+            "商业逻辑"
+          ],
+          "reason": "此前雷达多次写\"设计趋势收敛\"，但本次是行业层面的\"品类定位拐点\"（从生成器到决策工具、从自动化到叙事质量），且来源 Pi.inc 未被引用过，角度互补。",
+          "action": "评估 AI 演示工具时，别只比生成速度，重点看它能否接住你的真实资料、帮你理清结构与论证；把 AI 当\"减阻器\"而非\"代笔\"，关键判断留给人。"
+        },
+        {
+          "time": "10:15",
+          "source": "AIGC 工具导航《AI 如何重塑 PPT 设计》（2026）",
+          "heat": 78,
+          "category": "设计趋势",
+          "title": "设计趋势：跨媒体一键多形态（竖版/网页/视频分镜）+ 实时无障碍 WCAG 2.1 检测 + AI 演讲节奏优化",
+          "url": "https://www.aigc.cn/sites/90323.html",
+          "summary": "文章梳理 AI 重塑 PPT 设计的三组新能力：①跨媒体适配——一键把 PPT 智能适配为竖版手机视图、可交互网页甚至视频分镜脚本，某科技公司借此把产品发布物料周期缩短 70%；②无障碍设计——领先工具已集成 WCAG 2.1 标准检测，实时提醒对比度不足文本、建议替代色、自动生成图表长文本描述；③演讲节奏优化——分析演讲者音频，语速加快时自动调亮关键数据区背景色强化引导。Gartner 预测到 2026 年 40% 专业设计工作由 AI 协同完成。",
+          "tags": [
+            "设计趋势",
+            "跨媒体",
+            "无障碍",
+            "WCAG"
+          ],
+          "reason": "此前雷达写过\"无障碍基线/9:16 移动优先/目的性动效\"，本次补充\"跨媒体一键多形态（竖版→网页→视频分镜）+ 实时无障碍检测 + 演讲节奏 AI 优化\"这组更落地的工程化细节，角度延伸不重复。",
+          "action": "做对外发布物料时，先想清楚最终落点形态（投屏/手机/网页/视频），优先选支持一键多形态导出的工具；涉及公众演示务必过一遍无障碍对比度检查，别让关键数据因配色看不清。"
+        },
+        {
+          "time": "10:30",
+          "source": "AI Tools Guidebook《AI PPT Generator Tutorial: Outline to Deck in 30 Minutes》(2026)",
+          "heat": 76,
+          "category": "教程观点",
+          "title": "教程观点：30 分钟 outline→deck 固定 schema 工作流——先定模板再生成、标题≤8词/3要点≤8词/备注40-60词、狠删 30%",
+          "url": "https://aitoolsguidebook.com/en/articles/ai-generate-ppt-tutorial",
+          "summary": "这份 2026 教程给出可抄的端到端流程：①先写一句话结果（如\"会后高管批准 Q3 招聘计划\"）和输入块（受众/时长/3-5 个必含事实/行动号召）；②先定模板再生成（模板决定标题长度、要点长度、能否双栏）；③让 AI 只先出大纲（逐页标题，不含正文），像受众一样读一遍逻辑再批准；④按固定 schema 逐页生成：标题≤8词、3 个要点≤8词、演讲者备注 40-60 词；⑤狠删 30% 文字——AI 会过度堆料；⑥视觉用\"图库实拍+真实图表\"而非 AI 幻觉图。质量检查：把 12 页标题连起来读，能否独立讲完故事。",
+          "tags": [
+            "教程",
+            "工作流",
+            "提示词",
+            "人主导"
+          ],
+          "reason": "11-03 写过\"AI 演示从快速生成转向完整工作流、商业逻辑比模板重要\"，本次给出更具体、可立即照做的固定 schema 与删减纪律，偏实操而非理念，互补不重复。",
+          "action": "下次做 deck 直接套这个 schema：先一句话目标→定模板→只出大纲→逐页固定格式生成→狠删 30%→用真实图。第一遍争取 60% 以上页面可直接用，不行就只改一个变量（更锐利的目标句或更严的要点长度）再跑一次。"
+        }
+      ]
+    },
     {
       "date": "2026-11-03",
       "items": [
