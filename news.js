@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-11-04",
-    "updatedAt": "2026-11-04 09:09"
+    "updated": "2026-11-05",
+    "updatedAt": "2026-11-05 09:26"
   },
   "days": [
+    {
+      "date": "2026-11-05",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "Canva 新闻室（2026-10-29）",
+          "heat": 88,
+          "category": "工具动态",
+          "title": "Canva 发布自研视觉语言模型 Brush：一句话改整份演示文稿，编辑提速 69%、成本降 46%",
+          "url": "https://www.canva.com/newsroom/news/canva-brush/",
+          "summary": "Canva 10 月 29 日发布自研视觉-语言模型 Brush（由 Canva Research 160 人 AI 实验室打造，与一周前发布的图像生成模型 Craft 分工：Craft 负责生成、Brush 负责编辑）。Brush 专门修改已有设计而非从零生图：读得懂版面、图层与风格，按指令动手改，从改一行文案到改整份演示文稿的每一页页眉/配色。它用 agentic 循环先写代码调整元素、再检查渲染结果决定下一步，输出仍完全可编辑。官方称通用编辑任务比上代设计智能体最高快 69%、单次编辑成本低 46%（数字来自 Canva 内部测试，未经第三方验证）。当前为 beta，仅 Canva Pro 可在 Canva AI 模型下拉选 Brush；Brand Kit 支持、引用附件、图片重版面仍在开发中。",
+          "tags": [
+            "Canva",
+            "Brush",
+            "视觉语言模型",
+            "演示编辑"
+          ],
+          "reason": "10-23 写过 Canva AI 2.0 + Craft（生成模型），但'Brush 专做编辑、整份 deck 一键改'是 10-29 全新发布的另一款自研模型，此前雷达未覆盖；与 Google Gemini 同期'整份编辑'共同构成新战场。",
+          "action": "常做客户 deck/社媒模板的 Canva Pro 用户，可在 Canva AI 选 Brush 把逐页改页眉/换渠道的重复活交给它；但品牌强约束场景先等 Brand Kit 支持，改完仍需人工过一遍跨页一致性。"
+        },
+        {
+          "time": "09:15",
+          "source": "Google Workspace Updates / AI Tools Report（2026-11-02 周报）",
+          "heat": 84,
+          "category": "软件更新",
+          "title": "Google Gemini 进 Slides：一句话编辑整份演示文稿、批量套用风格，并保持可编辑",
+          "url": "https://aitoolsreport.ai/ai-tools-digest-november-2-2026",
+          "summary": "Google Gemini 在 Google Slides 中新增整份编辑能力：可一次编辑多页或整份演示文稿、批量刷新样式、套用另一份 deck 的风格，且幻灯片保持可编辑。推送自 10 月 29 日起逐步展开，周期可能超过 15 天。同期 Gemini 面向小企业上线品牌工具：可上传品牌图/字体/颜色与站点链接，并连接 Adobe、Canva、Dropbox、Shopify，还能把表格和收据转成财务图表。对从 Slides 发客户提案的团队，格式化时间预期大幅缩减。",
+          "tags": [
+            "Gemini",
+            "GoogleSlides",
+            "整份编辑",
+            "品牌"
+          ],
+          "reason": "11-03 写过'Gemini 4 Argon 把从分散来源创建 deck 列为官方卖点'，但'整份 deck 批量编辑/套用他稿风格'是 10-29 新推送能力，角度未覆盖；与 Canva Brush 同期印证'编辑'成为新焦点。",
+          "action": "用 Google Slides 发客户提案的团队，留意 10-29 起 15+ 天的灰度窗口，先用小份 deck 试'整份套风格'，确认版式不乱后再对外发送。"
+        },
+        {
+          "time": "09:30",
+          "source": "Microsoft 365 消息中心 MC1530611（2026-11）",
+          "heat": 82,
+          "category": "软件更新",
+          "title": "微软 MC1530611：Office 整进 Copilot app，PowerPoint 可在 Copilot 里直接建/改/协作",
+          "url": "https://mc.merill.net/message/MC1530611",
+          "summary": "微软 365 消息中心新发 MC1530611「Office in Copilot」：将 Word、Excel、PowerPoint 完整带入 Microsoft Copilot app，用户无需离开对话框即可创建、编辑、协作 Office 文件，改动同步回常规 Office 应用。计划 2026 年 11 月中旬全球推送（GA 窗口同月内完成），无需管理员动作，但受既有 Microsoft 365 Copilot 策略与 Entra ID 控制。合规层面，Copilot 获得读取/编辑 Office 文件内容的新能力，数据按既有权限与配置处理。",
+          "tags": [
+            "Microsoft365",
+            "Copilot",
+            "Office",
+            "路线图"
+          ],
+          "reason": "11-02/03/04 写过 UBB 计费、销售场景技能、Ignite 翻译/Narrative Builder、Gamma 进 Agent Store，但'Office 文件直接在 Copilot app 内创建编辑'是 11 月中旬新 MC，全新入口视角，未覆盖。",
+          "action": "已购 M365 的团队，等 11 月中旬推送后可在 Copilot app 把'对话→成品 deck'一步走完；管理员先核对现有 Copilot 策略与 Entra ID 分组，确认谁能看到该入口、数据边界在哪。"
+        },
+        {
+          "time": "09:45",
+          "source": "Canva 新闻室（2026-11）",
+          "heat": 80,
+          "category": "工具动态",
+          "title": "Canva 扩展 Claude 连接器：在 Claude 对话里直接生成'带品牌'的 Canva 演示",
+          "url": "https://www.canva.com/newsroom/news/claude-ai-connector/",
+          "summary": "Canva 扩展其 Canva x Claude AI 连接器，新增 on-brand design generation：在 Claude 对话里直接生成带品牌的 Canva 设计——应用 Brand Kit 的颜色、字体与语气，从第一稿起就贴合品牌，无需生成后再回炉改字体配色。Claude 是首个支持该能力的 AI 助手，更多助手将跟进。同时 Canva 升级 Visual MCP（跨 AI 助手统一的视觉语言），让 Canva 在 Claude、ChatGPT、Microsoft Copilot 间体验一致。基于 Canva AI Connectors，Claude 可安全访问用户 Canva 内容并真实执行设计动作（新建演示、改尺寸、填模板、搜索与摘要）。",
+          "tags": [
+            "Canva",
+            "Claude",
+            "BrandKit",
+            "连接器"
+          ],
+          "reason": "10-23 写过'Canva 进 Claude Design（Anthropic Labs）'，但本次是更具体的'on-brand 设计生成'——把 Brand Kit 从第一稿就套上，解决'AI 生成快但回来还得改字体配色'的痛点，是 11 月新进展。",
+          "action": "销售/市场团队可在 Claude 接好 Canva 连接器，让客户 pitch、活动 deck 从第一稿就合规品牌；小团队无设计资源也能出专业稿，但前提是先建好 Brand Kit 并确认共享范围。"
+        },
+        {
+          "time": "10:00",
+          "source": "OpenAI 官方（2026-10-26）/ 模型发布说明",
+          "heat": 78,
+          "category": "行业新闻",
+          "title": "OpenAI 发布 GPT-6.1 Terra：API 降价约 50%，底层模型红利将传导到 PPT 工具",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "summary": "OpenAI 10 月 26 日发布 GPT-6.1 Terra，以 gpt-6.1-terra 在 API 上线，同时在 ChatGPT Work 与 Codex 提供支持视觉推理、计算机操作与写作等任务。标准 API 定价为每百万输入 Token 1 美元、缓存输入 0.05 美元、输出 5 美元，较上一代 API 便宜约 50%。ChatGPT 中 Terra 仅出现在 Work 与 Codex（不在聊天）。底层旗舰模型降价，将直接影响一众 PPT 工具（Copilot/Plus AI/各类 agent）的调用成本与能力上限。",
+          "tags": [
+            "OpenAI",
+            "GPT-6.1",
+            "API降价",
+            "底层模型"
+          ],
+          "reason": "近期雷达聚焦应用层（Copilot/Gemini/Canva），底层模型降价是上游变量；10-26 发布、11-02 周报点名，此前未覆盖，且直接关系到各类 PPT agent 的成本结构。",
+          "action": "做 PPT 工具的团队/重度 API 用户，复核 11 月成本：gpt-6.1-terra 输入 $1/百万、输出 $5/百万，比上代便宜约一半，可重新评估 agent 调用与缓存策略。"
+        },
+        {
+          "time": "10:15",
+          "source": "Canva 新闻室 + Google Workspace Updates + QUASA（2026-10/11）",
+          "heat": 85,
+          "category": "设计趋势",
+          "title": "2026 演示趋势拐点：从'生成整份'卷到'改整份且保持可编辑'",
+          "url": "https://quasa.io/stories/canva-brush-edits-whole-decks-but-its-speed-claim-is-internal",
+          "summary": "Canva Brush（10-29）与 Google Gemini 整份编辑（10-29）同期上线，标志 2026 演示赛道的能力重心，正从'一句话生成整份'转向'一句话改整份 / 保持可编辑'。竞争焦点从'出图速度'迁移到'编辑保真度 + 品牌一致性 + 能否继续改'。QUASA 对 Canva Brush 的评测也指出：厂商自报的提速/降本是和自家上一代比，不等同于创作者审校收尾的真实省时——'整份改完'仍是请求而非'每页可发'的保证。这呼应了 10-23/10-30 多次提到的'导出保真/可编辑性'主线。",
+          "tags": [
+            "趋势",
+            "可编辑性",
+            "品牌一致",
+            "deck-wide"
+          ],
+          "reason": "把当天两条硬新闻（Canva Brush + Gemini 整份编辑）提炼为趋势判断：'可继续编辑'与'品牌一致'正取代'秒出稿'成为头号选型因素，与历史'导出保真/可编辑性'主线一脉相承。",
+          "action": "选型时把'改完还能否继续编辑、跨页是否一致'放进评估表；别只比生成速度，重点看编辑保真度与批量改的边界。"
+        },
+        {
+          "time": "10:30",
+          "source": "Intuition Labs 研究（2026）",
+          "heat": 76,
+          "category": "教程观点",
+          "title": "教程观点：2026 做 PPT 用'先大纲后精修'混合流，手动 10 页平均 4 小时",
+          "url": "https://intuitionlabs.ai/pdfs/ai-agents-powerpoint-problem-2026-f178937c97f2c0de.pdf",
+          "summary": "Intuition Labs 关于 2026 PowerPoint 工作流的研究指出，主流做法已收敛为'outline-then-polish 混合流'：先用 AI 出大纲与粗糙初稿（省 60-80% 时间），再回到 PowerPoint 精修格式/数据/备注，保证间距、字体、母版一致。研究给出手动基线：一份 10 页 deck 平均约 4 小时，其中内容写作 35%、设计排版 25%、规划 15%、图表 12%、审校 13%；咨询/营销从业者常引用 3-6 小时区间。多步 AI agent（研究/结构/设计分头跑、主 agent 协调）与反馈循环让工具越用越贴合偏好，但人仍负责叙事与决策。",
+          "tags": [
+            "工作流",
+            "混合流",
+            "效率",
+            "人主导"
+          ],
+          "reason": "此前多写具体工具，缺一套可迁移的方法论；该研究的'outline-then-polish'与花姐一贯'人主导、AI 打初稿'价值观一致，且给出 4 小时基线数据，可落地。",
+          "action": "固定流程：AI 出大纲→粗稿→回 PPT 精修数据/备注/母版；把省下的时间花在观点与事实核查上，别让 AI 替你背锅。"
+        }
+      ]
+    },
     {
       "date": "2026-11-04",
       "items": [
@@ -3776,4 +3900,5 @@ window.PPT_RADAR = {
       ]
     }
   ]
-};
+}
+;
