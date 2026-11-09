@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-11-06",
-    "updatedAt": "2026-11-06 09:04"
+    "updated": "2026-11-09",
+    "updatedAt": "2026-11-09 09:22"
   },
   "days": [
+    {
+      "date": "2026-11-09",
+      "items": [
+        {
+          "time": "08:30",
+          "source": "ChangePilot / Microsoft 365 Message Center（2026-11）",
+          "heat": 88,
+          "category": "软件更新",
+          "title": "Microsoft 365 11 月更新落地：Copilot 用量计费（UBB）进 PowerPoint 模型选择器，独立文档 agents 将并入 Copilot Chat",
+          "url": "https://changepilot.cloud/blog/november-2026-microsoft-365-updates-copilot-billing-code-more",
+          "summary": "微软 11 月更新把 10 月公布的 Copilot 计费改革从政策变成产品：用量计费（UBB）模型（含 GPT-6 Astra、Claude Fable 5.1）自 11 月初进入 Copilot Chat 及 Word/Excel/PowerPoint 的模型选择器，需管理员开 UBB 并分配额度；Copilot Code 随 Frontier 计划灰度。同时 MC1536062 宣布将独立的 Word/Excel/PowerPoint agents 整合进 Copilot Chat（11 月中—12 月底，用户直接在对话里创建/精修文档、表格、演示，不再单独选 agent）。另据 AlphaIT 11-09 梳理，MC1536163 对无 Microsoft 365 Copilot 授权的用户自 11 月 9 日起设公平使用上限（Copilot Chat 网页/桌面/移动端部分功能受限、显示等待时长，管理员无法查看或更改）。",
+          "tags": [
+            "Microsoft365",
+            "Copilot",
+            "UBB",
+            "模型选择器"
+          ],
+          "reason": "这是 11-09 当天的硬更新：UBB 在 PowerPoint 正式可用 + 独立 agents 整合进 Chat 的产品级变动 + 无授权用户当天起的新限额，三件事都直接改变企业用户做 PPT 的成本与入口，此前雷达只写过 UBB 政策（MC1519122）未写落地与 agents 合并。",
+          "action": "企业 IT/行政可先核对哪些账号持有 Copilot USL 并应开放 UBB 额度、定好内部申请增额流程；普通用户注意 11-09 起无授权账号的免费 Copilot 做长篇 deck 会触发等待，正式汇报别卡在免费档。"
+        },
+        {
+          "time": "08:45",
+          "source": "中华网软件（更新时间 2026-11-09 07:18）",
+          "heat": 82,
+          "category": "软件更新",
+          "title": "WPS 灵犀 1.3.31 更新：独立 Windows AI 办公 Agent，原生输出可编辑 PPTX，支持微信/飞书远程指令",
+          "url": "https://soft.china.com/down/1019174.html",
+          "summary": "金山办公推出的 Windows 独立 AI 办公 Agent「灵犀」（灵犀 Claw / 专业版）1.3.31 于 11 月 9 日更新（约 536MB）。它可不依赖 WPS 主程序独立运行，同时兼容 WPS 与微软 Office 两套生态：输入自然语言指令后自动拆多步任务、直接读写本地文件、输出原生可编辑的 Word/Excel/PPT/PDF；PPT 输出保留版式可直接二次编辑。新版本强化远程指令通道（对接微信、飞书、企业微信，手机发指令电脑端执行）、项目记忆管理（按项目存上下文免重复交代背景）、技能包扩展与定时自动化任务。",
+          "tags": [
+            "WPS",
+            "灵犀",
+            "AI办公Agent",
+            "PPTX"
+          ],
+          "reason": "雷达 11-06 写过 WPS 灵犀团队版/技能库，但本次是 11-09 当天发版的客户端大版本（独立 Agent 形态 + 手机远程指挥 + 原生 PPTX 输出），且强调「改得动、改不崩」是差异化卖点，角度未覆盖。",
+          "action": "常做周报月报、又想要手机远程催进度的，可在 Windows 装灵犀 1.3.31 试独立 Agent 流；但对外正式稿仍建议导出后用 PowerPoint/WPS 人工过一遍品牌与数据。"
+        },
+        {
+          "time": "09:00",
+          "source": "StoryChief 基准 / Sharism（2026-11-04）",
+          "heat": 84,
+          "category": "工具动态",
+          "title": "GenPPT 登顶 2026 AI 演示工具基准：图像原生渲染击败模板填充，4.9/5 领先 Gamma、Pitches.ai",
+          "url": "https://lifestyle.sharism.org/story/446061/genppt-rated-1-ai-presentation-maker-in-2026-benchmark-as-image-native-slide-rendering-beats-template-fillers",
+          "summary": "StoryChief 11 月 4 日发布的 2026 AI 演示工具 12 款基准测试（设计质量、研究深度、数字准确率、PPTX 导出保真四维）中，GenPPT 以 4.9/5 居首，领先 Pitches.ai（4.8）、Gamma（4.7）、Canva AI（4.6）、Plus AI（4.4）、Beautiful.ai（4.2）。其核心是「图像原生」三段工作流：先锁大纲与事实、再确认视觉概念稿、最后整页渲染为高清视觉（图表/图示/排版内嵌），直出 PPTX/PDF/PNG，16:9、1:1、9:16 通吃。受控 Q3 财报测试中 8/8 源数据零幻觉、74% 直出 PowerPoint、中位 9 分钟完成；已用于 5000 家企业、10 万+ 专业人员。",
+          "tags": [
+            "GenPPT",
+            "AI基准",
+            "图像原生",
+            "PPTX导出"
+          ],
+          "reason": "雷达此前多次横评都点 Gamma/Canva/Plus AI，但 11-04 这份新基准把「图像原生渲染 vs 模板填字」作为胜负手、且用受控财务 PDF 验证零幻觉，是近期最硬的方法论对比，角度新鲜。",
+          "action": "做季度财报/研究汇报、最怕 AI 编数的，可试 GenPPT 的「先锁大纲再出图」流程，重点用它的事实锁定环节；但基准出自厂商背书媒体，正式选型仍建议用自己的真实文档自测一轮。"
+        },
+        {
+          "time": "09:15",
+          "source": "ChatPPT 官网博客（必优科技）",
+          "heat": 80,
+          "category": "工具动态",
+          "title": "ChatPPT 创意绘图模式上线：Banana Pro/2 + GPT-Image2 双引擎，演示从「套模板」转向「视觉语言生成」",
+          "url": "https://blog.chatppt.cn/article/chatppt-creative-drawing-banana-pro-gpt-image2-visual-revolution",
+          "summary": "必优科技旗下 ChatPPT 推出创意绘图模式，整合 Banana Pro/2 与 GPT-Image2 双多模态引擎，声称把演示生成从「在预设模板里排列组合」推进到「从视觉语言出发生成」，让每页内容先有视觉表达再落地版式，且保留可编辑性。官方强调其视觉表现力、生成质量与编辑体验在同类中「断层领先」，并把 Banana 创意绘图作为演示设计的新入口。这是国产 AI PPT 工具继商汤 SenseNova 动态 PPT 后又一次向「视觉优先」路线靠拢的动作。",
+          "tags": [
+            "ChatPPT",
+            "创意绘图",
+            "BananaPro",
+            "视觉生成"
+          ],
+          "reason": "雷达 11-06 覆盖过商汤动态 PPT（动效编排），但 ChatPPT 这次是「视觉语言生成替代模板拼贴」的国产新动作，且打的是去模板感/去 PPT 味的路线，与近期 GenPPT 图像原生、Canva Brush 改整份形成同频趋势，值得单独记一条。",
+          "action": "做品牌提案、想跳出千篇一律模板感的设计岗，可试用 ChatPPT 创意绘图出视觉初稿；但双引擎生成的视觉仍要人工核对版权与品牌一致性，别直接进对外终稿。"
+        },
+        {
+          "time": "09:30",
+          "source": "InfotechLead（2026-11-03）",
+          "heat": 78,
+          "category": "行业新闻",
+          "title": "AI 推理云 Fal 完成 13 亿美元 F 轮（估值 160 亿，Nvidia 参投），扩张图像/视频/音频模型底座",
+          "url": "https://infotechlead.com/tech/vc-funding-deals-fal-applied-compute-traversal-powerup-money-99424",
+          "summary": "AI 基础设施创企 Fal 11 月 3 日披露 13 亿美元 F 轮（Bessemer 领投，Nvidia、Sound Ventures、T. Rowe Price 等参投），估值翻倍至 160 亿美元，叠加早前 Sequoia 领投的 E 轮合计融资 16.5 亿美元；公司年化收入约 8 亿美元，提供运行图像、视频、音频模型的推理云。虽非演示工具本身，但其算力底座直接服务于 ChatPPT、Canva、Gamma 等工具的配图与视频生成能力——底层推理成本与吞吐的改善，会传导为上层 PPT 工具更便宜、更快的视觉产出。",
+          "tags": [
+            "Fal",
+            "AI融资",
+            "推理云",
+            "图像视频底座"
+          ],
+          "reason": "雷达此前记过 Prezent、Beautiful.ai、Pigment 等演示赛道融资，但本次 Fal 是「卖铲子」的底层算力融资，量级极大（13 亿美元），对依赖图像/视频模型的 PPT 工具是上游红利，值得从产业链视角补一条。",
+          "action": "做 PPT 工具选型或内容生产预算时，可把「底层模型推理成本下降」视作利好——同样的配图/视频生成任务未来会更便宜更快；但 Fal 融资不直接影响功能，别据此高估单个工具短期变化。"
+        },
+        {
+          "time": "09:45",
+          "source": "Accio 商业趋势分析（2026）",
+          "heat": 83,
+          "category": "设计趋势",
+          "title": "2026 演示设计趋势收口：清晰极简、数据即故事、粗体几何字、无障碍基线、混合优先与治愈系配色",
+          "url": "https://www.accio.com/business/trendy-presentation-template",
+          "summary": "Accio 对 2026 演示设计趋势的梳理收敛为几条主线：①清晰优于装饰——一页一观点、大留白、短可扫读标题；②数据即故事——从堆数据转向用视觉与注释讲洞察；③粗体几何字体作为主视觉元素、超大标题定节奏；④无障碍成基线——清晰层级、24-32pt 正文/44-64pt 标题、强对比；⑤AI 辅助但人主导创意；⑥混合优先（hybrid-first），现场/笔记本/手机都清晰；⑦治愈系配色——暖中性、大地绿、深紫，点缀 Transformative Teal 高亮。整体从过度精修的「完美感」转向真实、可参与、可达的视觉叙事。",
+          "tags": [
+            "设计趋势",
+            "极简",
+            "无障碍",
+            "混合优先"
+          ],
+          "reason": "雷达 11-06 写过趋势（受众自适应/自适应模板/交付后分析闭环），本次 Accio 的清单更偏视觉执行层（字体/配色/无障碍/混合优先），与微软官方、Slidesgo 季度趋势形成互补，适合作为可照着做的设计基线。",
+          "action": "下次做 deck 直接套这七条当检查单：一页一观点、数据讲成故事、超大标题、强对比无障碍、手机也能读、暖色治愈系点缀 Teal；AI 出初稿后人工守创意与品牌。"
+        },
+        {
+          "time": "10:00",
+          "source": "文档资源网实战教程（2026-11）",
+          "heat": 81,
+          "category": "教程观点",
+          "title": "AI 做 PPT 实战：WPS 灵犀「边聊边改」在原生 PPTX 内实时改内容/结构/设计，导出不再错版",
+          "url": "https://h.sjds.net/a/514399.html",
+          "summary": "一篇实战教程拆解用 AI 做 PPT 的三步流：①选场景模板一键生成初稿（约一分钟拿到结构/配色/版式）；②「边聊边改」——在右侧对话框直接下指令，AI 在 PPT 上实时改内容（如合并页、精简要点、加列）、结构（提前/拆分页、加答疑页）、设计（换分栏版式、改柱状图、整体换蓝系），所有修改在标准 PPTX 内完成不崩版；③AI 一键美化（WPS AI 3.0 美化助手按内容智能匹配多套排版，封面自动生成）+ 交稿前跑一遍 AI 检查校对（文本错误/格式混乱/排版瑕疵）。核心理念：AI 管效率，人管创意与事实。",
+          "tags": [
+            "AI做PPT",
+            "边聊边改",
+            "PPTX原生",
+            "检查校对"
+          ],
+          "reason": "雷达写过不少「AI 做 PPT 工作流」，但本篇把 WPS 灵犀「边聊边改」的实操指令清单（改内容/结构/设计三类话术）+ 原生 PPTX 不崩版 + 交稿前 AI 校对，做成可直接抄的步骤，实操价值高且未重复。",
+          "action": "今天就能试：用灵犀出初稿→对话框里用「把第X页…」「整体配色换…」逐条改→最后跑 AI 校对再交；关键原则是改完一定人工核对数据与品牌，AI 不背锅。"
+        }
+      ]
+    },
     {
       "date": "2026-11-06",
       "items": [
