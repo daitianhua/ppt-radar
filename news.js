@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-11-10",
-    "updatedAt": "2026-11-10 10:16"
+    "updated": "2026-11-11",
+    "updatedAt": "2026-11-11 09:10"
   },
   "days": [
+    {
+      "date": "2026-11-11",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "Gate Square（2026-11）微软 2026 年 11 月更新详述",
+          "heat": 86,
+          "category": "软件更新",
+          "title": "微软 11 月更新详述：Office in Copilot 可创建/编辑可编辑 PPT，UBB 设每月 4000 积分上限",
+          "url": "https://gatexx.club/zh/news/detail/microsofts-november-2026-update-details-csp-pricing-and-new-copilot-25403055",
+          "summary": "微软 11 月更新详述披露：全新 Copilot 体验已向 Frontier 成员开放，其中「Office in Copilot」支持直接创建和更新可编辑的 Word、Excel 与 PowerPoint 文件；用量计费（UBB）通过 Azure 订阅按用量付费，默认每位用户每月预设 4000 个 Copilot 积分上限。这意味着 Copilot 从问答入口正式下沉为办公文件的操作层，PPT 生成与修改可在同一对话流里闭环，但额度与成本需由管理员提前规划。",
+          "tags": [
+            "Copilot",
+            "Office in Copilot",
+            "UBB",
+            "用量计费"
+          ],
+          "reason": "11-02 写过 UBB 在 PPT 模型选择器落地，本次是更完整的 11 月更新口径（CSP 定价 + 4000 积分上限 + Frontier 新体验），补充了成本与治理细节，角度未覆盖。",
+          "action": "企业账号管理员应提前评估 4000 积分/人的默认上限是否够用，并为高频做 PPT 的团队单独配置额度；个人用户先在 Frontier 通道试用 Office in Copilot 出稿，正式稿仍导出后人工过品牌与数据。"
+        },
+        {
+          "time": "09:15",
+          "source": "ETV Bharat（2026-11-06）Gemini Omni 1.2 Flash 发布报道",
+          "heat": 82,
+          "category": "软件更新",
+          "title": "Google Gemini Omni 1.2 Flash 发布：原生 15 秒视频生成、价格降 30%，可补 PPT 短视频",
+          "url": "https://www.etvbharat.com/en/technology/muse-voice-mode-muse-avatar-claude-personal-finance-gemini-omni-1-dot-2-flash-google-anthropic-meta-enn26110604197",
+          "summary": "Google 发布 Gemini Omni 1.2 Flash，作为 Omni 1.1 Flash 的继任视频生成模型，现已在 Gemini API 与 Gemini for Business 提供，支持原生 15 秒视频生成与编辑，一致性更强，价格较前代降低约 30%。对 PPT 而言，它意味着产品演示、流程讲解类短视频可在模型层直接生成并嵌入演示，降低对外部剪辑工具的依赖。",
+          "tags": [
+            "Gemini",
+            "视频生成",
+            "Omni 1.2 Flash",
+            "降价"
+          ],
+          "reason": "此前雷达写过 Copilot「Add explainer video」把静态页转动画视频，但 Google 这条原生视频模型（15 秒+降价 30%）是另一条技术路线，且面向 API/企业可用，PPT 配短视频的选型多了 Google 选项。",
+          "action": "做产品发布、培训材料需要 15 秒短视频片段的，可先用 Gemini Omni 1.2 Flash 出草稿再嵌入 PPT；注意视频里出现的文字与数据仍需人工核对，模型生成偶有误写。"
+        },
+        {
+          "time": "09:30",
+          "source": "DEV Community（2026-11-04/05）OpenAI Images 2.6 发布说明",
+          "heat": 84,
+          "category": "工具动态",
+          "title": "OpenAI Images 2.6 发布：新增 GIF 生成 + SVG 输出，双图像模型快 50%，PPT 配图/轻动效更顺手",
+          "url": "https://dev.to/dsg319/ai-productivity-tools-chatgpt-gifs-forms-insights-dropbox-actions-n0g",
+          "summary": "OpenAI 11 月 4 日发布 Images 2.6：ChatGPT/Codex 新增 GIF 创建能力（描述循环或上传草图上色即可），API 新增 GPT-Image-2.6 Flare（快，低质量 6 秒出图）与 Sunburst（高质量/编辑一致性）双模型，并支持图像标记、SVG 输出与新 complexity 参数。官方称生成速度较前代快 50%、全局全订阅档可用。对 PPT 而言，SVG 可编辑矢量图 + GIF 轻动效，可直接补进演示而不破坏版式。",
+          "tags": [
+            "OpenAI",
+            "Images 2.6",
+            "SVG",
+            "GIF"
+          ],
+          "reason": "11-09 写过 ChatPPT 用 GPT-Image-2 双引擎做创意绘图，但 Images 2.6 是 OpenAI 官方重大图像发布（GIF/SVG/双模型/快 50%），是更上游、更普适的配图能力，角度新鲜且影响所有下游 PPT 工具。",
+          "action": "需要矢量图标、可缩放配图或页面内轻动效的，优先用 Images 2.6 出 SVG/GIF 再插入；SVG 在 PPT 里可取消组合改色，比位图更可控，正式稿记得统一描边粗细。"
+        },
+        {
+          "time": "09:45",
+          "source": "WPS 365 官方（近期）AIPPT 股权融资路演功能页",
+          "heat": 80,
+          "category": "工具动态",
+          "title": "WPS AIPPT 上线股权融资路演功能：智能大纲+多轮对话改稿+1000+商用模板+私有化部署",
+          "url": "https://365.wps.cn/content/be32852086554a7e8ee1554aae415850.html",
+          "summary": "WPS AIPPT 推出股权融资路演专项能力：智能大纲自动解析 BP/财务模型生成标准路演结构；智能 PPT 按内容类型匹配版式、布局守卫保专业；多轮对话支持投资人反馈连续校准避免版本断裂；提供 1000+ 正版授权模板覆盖种子轮至 Pre-IPO，并配套演讲稿生成与高级排版美化；专业版需订阅 WPS 365 商业高级版/旗舰版，支持私有化部署保障数据安全与商用版权。",
+          "tags": [
+            "WPS",
+            "AIPPT",
+            "融资路演",
+            "私有化"
+          ],
+          "reason": "雷达此前写过 WPS 灵犀、WPS 移动版与 AIPPT 通用能力，但「股权融资路演」这一垂直场景（BP→路演 PPT、私有化部署、分层呈现）是新的功能定位，对金融/创投场景用户直接有用。",
+          "action": "做 BP、路演材料的团队可先用 AIPPT 出分层版（深度版/标准版）初稿再人工校准估值口径；Pre-IPO 等合规敏感场景务必以招股书/尽调口径为准，并优先选私有化部署避开数据出域。"
+        },
+        {
+          "time": "10:00",
+          "source": "RecodeX（2026-11-02）Amity 获 Krungsri Finnovate 战略投资报道",
+          "heat": 76,
+          "category": "行业新闻",
+          "title": "东南亚企业级 AI 集团 Amity 获 Krungsri Finnovate 战略投资，D 轮扩展超 1 亿美元",
+          "url": "https://recodex.ai/startup/ai/890130.html",
+          "summary": "2026 年 11 月 2 日，泰国企业级 AI 集团 Amity 宣布获 Krungsri Finnovate（通过 Finnoventure Private Equity Trust I）战略投资，被定义为此前超 1 亿美元 D 轮融资的扩展轮，用于强化财务并与 Krungsri 生态展开数据合作。Amity 以「收购—改造—垂直化」为增长路径，是东南亚最大生成式 AI 融资轮之一。这折射出企业级 AI（含办公/演示场景）正靠收购整合做垂直模型。",
+          "tags": [
+            "Amity",
+            "融资",
+            "企业级 AI",
+            "收购整合"
+          ],
+          "reason": "近两日 PPT 垂直领域并购新闻不多，而 Amity 这条企业级 AI 收购整合并购路线，与演示/办公工具「靠整合求垂直化」的赛道趋势同源，可作为行业背景纳入雷达。",
+          "action": "关注演示/办公工具赛道的，可把「收购整合做垂直模型」视为选型信号——工具背后是否有可持续的数据与模型整合能力，比单次功能更新更能决定长期可用性。"
+        },
+        {
+          "time": "10:15",
+          "source": "文档资源网（2026 趋势版）PPT 幻灯片设计原则 5 技巧",
+          "heat": 78,
+          "category": "设计趋势",
+          "title": "2026 PPT 设计趋势版：Bento Grid + 玻璃拟态 + 暗色数据图，核心是「克制中的质感」",
+          "url": "https://h.sjds.net/a/496533.html",
+          "summary": "2026 趋势版设计原则强调三大核心：①克制中的质感——极浅灰蓝背景（RGB 248,250,252）叠加轻微玻璃感卡片、1-2px 模糊阴影，是有层次的留白而非简单删减；②数据即故事——每个图表讲清一个发现，从「有一堆数据」升级到「数据告诉我们一个重要结论」；③人机协作设计——AI 出草稿、人做创意与策略。文中用销售复盘案例对比传统做法与 Bento Grid/暗色区域对比图/玻璃拟态路线图，称决策效率可提升明显。",
+          "tags": [
+            "设计趋势",
+            "Bento Grid",
+            "玻璃拟态",
+            "暗色"
+          ],
+          "reason": "雷达 11-10 写过「游戏化交互」趋势，本次是另一组互补趋势（克质感/Bento/玻璃拟态/暗色数据），且给出具体 RGB 与落地案例，实操性更强，角度未重复。",
+          "action": "做商务/复盘 PPT 的，可先套 Bento Grid 首页（核心指标+亮点图+数据摘要），再用暗色背景突出关键对比图；玻璃拟态卡片别堆太多，保持边缘 1-2px 模糊即可，投影环境注意对比度。"
+        },
+        {
+          "time": "10:30",
+          "source": "WPS 官方（2026）AI 制作 PPT 实操：提示词四要素与改稿三步",
+          "heat": 79,
+          "category": "教程观点",
+          "title": "WPS 官方教程：AI 做 PPT 提示词写清四要素，改稿先结构→填内容→校数据",
+          "url": "https://www.wps.cn/article/ban-gong-xiao-lv-wps-ai-2026-LJJ1zdmf.html",
+          "summary": "WPS 官方给出 AI 做 PPT 的实操框架：提示词四要素＝主题、听众、页数、结构要求（再补一句风格，如「简洁商务、蓝灰配色、每页不超三条要点」）；改稿分四遍——先改结构（删无关页、调顺序、改结论句标题）、再填真实内容与截图、三调视觉统一配色字体、四逐页校对数字与错别字。明确三类页面必须自己做：数据页（图表数字来自真实报表）、方案页（AI 编不出业务流程）、结论页（判断取舍是你的责任）。",
+          "tags": [
+            "提示词",
+            "改稿",
+            "AI PPT",
+            "数据核对"
+          ],
+          "reason": "雷达多次写「先大纲后生成/人主导」，本次是 WPS 官方给出的更具体、可照抄的四要素+四遍改稿 SOP，且把「数据页/方案页/结论页必须自己做」说透，对实战最直接。",
+          "action": "把四要素做成自己的固定模板，生成后严格按「先改结构再填内容」顺序走，别让 AI 反复重生成整份；数据页务必回到源表重新插一次图表，这是最容易被抓住的低级错误。"
+        }
+      ]
+    },
     {
       "date": "2026-11-10",
       "items": [
