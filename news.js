@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-11-11",
-    "updatedAt": "2026-11-11 09:10"
+    "updated": "2026-11-12",
+    "updatedAt": "2026-11-12 09:11"
   },
   "days": [
+    {
+      "date": "2026-11-12",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "Anthropic 官方（2026-11-10）Claude Sheets/Whiteboards/Data 发布说明",
+          "heat": 90,
+          "category": "工具动态",
+          "title": "Anthropic 发布 Claude 全家桶：补上 Sheets/Whiteboards/Data，PPT 与文档设计早已可用，现可用 Claude Motion 把内容转动画短片",
+          "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+          "summary": "Anthropic 11 月 10 日上线 Claude Sheets（协作电子表）、Claude Whiteboards（团队白板）、Claude Data（原 Dashboards，已 GA），并升级交互式连接器；原有的文档、幻灯片（slide decks）、设计（Design）与 Claude Motion（beta，把报告/图表转成代码驱动的短动画、导出 MP4）一起构成完整生产力套件。白板可直接变文档、PPT 或导入 Lucid/Miro，思路可从白板→表格→看板一路贯通，Claude 全程携带上下文。对做 PPT 的人而言，Claude 已不是问答框，而是能从脑暴一路出稿、再把静态页转动画演示的协作平台。",
+          "tags": [
+            "Claude",
+            "全家桶",
+            "Claude Motion",
+            "办公套件"
+          ],
+          "reason": "此前雷达写过 Claude Docs/Slides/Design 离开 beta（10-08）、Claude for Excel↔PowerPoint 共享上下文（11-02），本次是 11-10 正式补齐电子表格与白板、并把 Motion 动画纳入全家桶，是「Claude 成整套办公平台」的最新一步，角度未覆盖。",
+          "action": "常做对外宣讲、产品 demo 的，可先试用 Claude Motion 把季度报告转 30 秒讲解动画（Team/Enterprise 计划），但要注意它不用视频生成模型、出不了真人实拍；正式汇报稿仍导出后在 PowerPoint 里过品牌与数据。"
+        },
+        {
+          "time": "09:15",
+          "source": "网易 数据Wave（2026-11-11）AI 办公战争升级报道",
+          "heat": 88,
+          "category": "行业新闻",
+          "title": "Claude 全家桶奇袭微软 Office，微软股价 11-11 跌 2.20%、市值报 3.96 万亿美元，AI 办公战争升级",
+          "url": "https://www.163.com/dy/article/LBFCFRN40511FQ39.html",
+          "summary": "11 月 10 日 Anthropic 一口气放出 Claude 白板、表格、数据及此前测试的会议功能，加上早就在用的文档生成、PPT 制作、设计图与动画 Claude Motion，Claude 已成覆盖办公全场景的生产力平台。消息一出，截至 11-11 美股收盘微软股价下跌 2.20%，市值报 3.96 万亿美元，社交媒体上「Claude 是不是杀死了微软」成为热议。报道指出 AI 办公竞争从「单点助手」升级为「平台级对抗」，战场正从聊天框移向文件本身。",
+          "tags": [
+            "Anthropic",
+            "微软",
+            "Office 战争",
+            "资本市场"
+          ],
+          "reason": "11-11 当日硬新闻，且是 Claude 全家桶对外释放的资本市场反应，比单纯功能发布更能说明赛道格局变化；此前雷达只写功能，未写市场与股价层面的冲击波。",
+          "action": "做 PPT 工具选型别只盯微软系：若团队已在用 Claude，可顺势把出稿/动画/数据看板收进同一上下文，减少在 Office 与 AI 工具间来回倒；企业管理员应评估 Copilot 与 Claude 的预算与权限分配。"
+        },
+        {
+          "time": "09:30",
+          "source": "Microsoft Learn（2026-11）What's new in Copilot Cowork + M365 消息中心 MC1530611/MC1536065",
+          "heat": 86,
+          "category": "软件更新",
+          "title": "Microsoft 365 Copilot 11 月中更新：Cowork 新增 Planner 插件/GPT-6.1 Sol/Grok 4.7/Projects，Office in Copilot 中旬 GA",
+          "url": "https://learn.microsoft.com/en-us/copilot/cowork/whats-new",
+          "summary": "Microsoft 365 11 月更新：Copilot Cowork 新增 Planner 插件（连接 Planner 管任务）、模型选择器加入 GPT-6.1 Sol（替换 GPT-6 Sol）与 Grok 4.7（xAI 提供，长文档/多步任务）、Projects（把相关任务/指令/上下文收进项目）、并扩展 Power Platform 与第三方连接器及事件驱动触发器；消息中心 MC1530611 确认 Office in Copilot（Word/Excel/PowerPoint 进 Copilot app 内创建编辑）中旬全球 GA，MC1536065 则让 Chat 在合适时建议切换到 Cowork 等更匹配的体验并保留上下文。",
+          "tags": [
+            "Copilot",
+            "Cowork",
+            "Office in Copilot",
+            "模型更新"
+          ],
+          "reason": "11-02 写过 UBB 在 PPT 模型选择器落地、11-11 写过 Office in Copilot 详述，本次补的是 Cowork 11 月具体新增能力（Planner 插件/新模型/Projects/连接器）与「跨模式建议切换」这一中旬推送的体验升级，角度更细且新鲜。",
+          "action": "高频用 Copilot 出 PPT 的，可在 Cowork 里建一个「周报/月报」项目沉淀指令与上下文，接 Planner 管发布节奏；管理员确认 Entra ID 组分配与用量计费（UBB）策略，避免中旬 GA 后额度意外触顶。"
+        },
+        {
+          "time": "09:45",
+          "source": "微信公众号「AI 技巧」聚合（2026-11）11 月 AI 办公密集上新盘点",
+          "heat": 84,
+          "category": "工具动态",
+          "title": "11 月国内 AI 办公密集上新：四个能直接出 PPT 的新入口——华为小艺 Work、千问办公 2.0、魅族超级 Aicy、谷歌 Gemini 4 Carbon",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzYzNjk2MjgyMw==&mid=2247484343&idx=1&sn=2930d71e6c3ceb0758e49dad79d96887&chksm=f1129fe0bb0331d86aa38515ec8537fe9a9ff7d537666a3d3d573c62e79e64e8eb0316b30162#rd",
+          "summary": "11 月这波 AI 办公更新挤成一团：11-06 华为小艺 Work 正式版上鸿蒙电脑应用商店（一句话交办、关键节点停下确认、免费 31 天+1000 点数、接钉钉/飞书）；11-09 阿里千问办公 2.0 发布，关键词 Team Agent（把 Agent 拉进工作群协作）；11-10 魅族超级 Aicy 升级（手机端内置 Word/Excel/PPT/PDF 互转、接飞书，适合应急改稿）；11-11 谷歌 Gemini 4 Carbon 开放。共同方向是从「帮你写内容」变成「帮你交文件」，选工具要看它能不能少让你导出几次、少返工几轮。",
+          "tags": [
+            "小艺 Work",
+            "千问办公",
+            "Gemini 4 Carbon",
+            "出 PPT 入口"
+          ],
+          "reason": "这是 11 月国内/国际 AI 办公「能直接出 PPT」入口的集中盘点，时间窗（11-06~11-11）正好落在 24-48h 优先区间内，且此前雷达未集中覆盖这批「办公套件原生出稿」新入口。",
+          "action": "应急改稿优先手机端 Aicy/小艺；团队共创用千问办公 2.0 的 Team Agent 把 Agent 拉进群；无论哪个工具，交付前务必确认导出 PPTX 路径与模板匹配度，AI 生成的数据和结论一定自己核。"
+        },
+        {
+          "time": "10:00",
+          "source": "WPS 官网（2026）WPS AI 功能全解析（2026 新版）",
+          "heat": 82,
+          "category": "软件更新",
+          "title": "WPS AI 2026 新版：演示智能配色（按文稿内容生成专业配色）+ AIPPT 提示词一键优化 + AI 格式复用",
+          "url": "https://www.wps.cn/article/wps-wps-ai-2026-UJINJI4f.html",
+          "summary": "WPS 发布 2026 新版 AI 能力盘点：演示（PPT）侧新增「智能配色」——AI 根据文稿内容生成个性化专业配色、色彩和谐统一，入口在演示→设计→配色方案→智能生成；AIPPT 独立站首页主题生成支持「一键优化」用户输入的提示词，让人简单输入也能高效表达；另含 AI 格式复用（批量同步相似段落格式）、图表联动动态数组、PDF 全文+图片翻译等。整体是把「设计感」与「改稿痛点的自动化」进一步下沉到本地 Office 套件内。",
+          "tags": [
+            "WPS AI",
+            "智能配色",
+            "AIPPT",
+            "提示词优化"
+          ],
+          "reason": "此前雷达写过 WPS 灵犀技能库（11-02）、WPS 灵犀 1.3.31（11-09）、WPS AIPPT 股权融资路演（11-11），本次补的是 WPS AI 2026 新版里面向普通用户的演示配色与提示词优化能力，是更底层、更高频的易用性升级，角度新鲜。",
+          "action": "配色没把握的，先在演示里用智能配色出一套和谐方案再细调；写 AIPPT 提示词懒得措辞时，先用一句话粗述再点一键优化，比反复改 prompt 更省事。模板匹配度仍建议生成后人工套一遍单位母版。"
+        },
+        {
+          "time": "10:15",
+          "source": "Microsoft PowerPoint 官方（2026）PowerPoint 设计理念和技巧",
+          "heat": 80,
+          "category": "设计趋势",
+          "title": "Microsoft 官方 2026 PowerPoint 设计理念：Copilot 生成 AI 图像（摄影/插画/3D/抽象）+ 3D 图标主流化 + AI 设计建议窗格",
+          "url": "https://powerpoint.cloud.microsoft/create/zh-hans/blog/powerpoint-design-ideas",
+          "summary": "微软官方 2026 设计指南提出：用 Copilot 在聊天里按描述生成所需图像（摄影/插画/3D/抽象风格，如「用快乐攀登梯子表现新员工入职历程」），下载后插入幻灯片；3D 图标、插图与对象已从新奇元素变为主流设计风格，能为专业演示增添深度与立体感；另可用 Copilot 设计建议窗格浏览布局变体、一键应用不同文本/图像位置。指南强调极简适合内部规划与汇报，大胆设计适合营销与主题演讲。",
+          "tags": [
+            "PowerPoint",
+            "Copilot AI 图像",
+            "3D 图标",
+            "设计建议"
+          ],
+          "reason": "此前雷达的设计趋势多来自第三方（Slidesgo/Presentations.ai/24Slides），本次是微软官方一手口径，且把「Copilot 出图+3D 图标+AI 设计建议」打包成 2026 设计理念，权威且未重复。",
+          "action": "做内部汇报追求清晰用极简、对外宣讲追求吸引用大胆设计；配图优先让 Copilot 按氛围词出原创图避免图库撞图；版式拿不准就用 AI 设计建议窗格试几个变体，再落定。"
+        },
+        {
+          "time": "10:30",
+          "source": "Presentations.AI（2026）2026 年 AI 演示趋势：真材实料 vs 炒作",
+          "heat": 78,
+          "category": "教程观点",
+          "title": "2026 演示趋势收敛：受众自适应切换、自适应模板、交付后分析闭环——比「生成更快」更重要的是「改得动、用得准」",
+          "url": "https://www.presentations.ai/zh/blog/ai-presentation-trends",
+          "summary": "Presentations.AI 梳理 2026 年 AI 演示八大趋势：在提示里指定受众特征，工具据观看者调整内容/框架/深度（财务受众多看数字、创意团队多看视觉）；模板从固定布局转向「自适应」——加一条项目符号布局自动重排、删一块其余元素重分布，不再因编辑破坏版式；并在幻灯片上下文给内容建议（数据页稀疏时提示补数据点）；更前沿的是「交付后分析」——发出去之后用数据反馈闭环看哪页被停留、哪页被跳过，反哺下一版。核心判断：全自动尚未成熟，但「基础稿+AI 精修多版本」已比从零搭快得多。",
+          "tags": [
+            "受众自适应",
+            "自适应模板",
+            "交付后分析",
+            "工作流"
+          ],
+          "reason": "11-04 写过「AI 演示从快速生成转向完整工作流/决策工具」，11-06 写过「受众自适应/自适应模板/交付后分析闭环」收口，但本次是 Presentations.AI 一手的趋势拆解（含具体机制与案例），可补作方法论层面的教程观点，且落点在「改得动、用得准」而非「生成快」。",
+          "action": "别只追生成速度：先出一份综合基础稿，再用 AI 按不同受众（老板/客户/团队）精修出差异版本；版式用自适应模板少和布局搏斗；对外重要 deck 跑完后看浏览数据，哪页被跳就重做哪页。"
+        }
+      ]
+    },
     {
       "date": "2026-11-11",
       "items": [
