@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-11-12",
-    "updatedAt": "2026-11-12 09:11"
+    "updated": "2026-11-17",
+    "updatedAt": "2026-11-17 09:28"
   },
   "days": [
+    {
+      "date": "2026-11-17",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "Pondero（2026-11-16）Microsoft 消息中心 MC1536062/MC1530611 解读",
+          "heat": 88,
+          "category": "软件更新",
+          "title": "微软下架 Copilot 里独立的 Word/Excel/PowerPoint 智能体：11 月中起并入 Copilot Chat，旧对话线程无法继续改文档",
+          "url": "https://pondero.ai/news/2026-11-16-copilot-office-agents-retired",
+          "summary": "两条 Microsoft 365 消息中心公告（MC1536062 发布于 11-03、MC1530611）确认：微软正把 Copilot 左侧栏里独立的 Word、Excel、PowerPoint 智能体移除，不再并列保留，全球推送窗口为 11 月中至 12 月末。更新后这三个智能体从侧栏与智能体发现里消失，用户不能再单独查找、固定、@ 提及或调用它们；建文档改文档统一收进普通 Copilot Chat。已生成的文件仍留在原 OneDrive/SharePoint 位置、权限不变，但旧智能体线程停止续改，需新开一个 Copilot Chat 对话接着做。承接它们的正是 Office in Copilot（在 Copilot app 内创建编辑 PPT 并实时同步回原 Office）。",
+          "tags": [
+            "Microsoft 365",
+            "Copilot",
+            "Office in Copilot",
+            "智能体退役"
+          ],
+          "reason": "此前雷达写的是 Office in Copilot 中旬 GA 这一「加法」，本次是同期把独立 Office 智能体退役的「减法」，属 11-16 新鲜解读且角度相反；对已把 @PowerPoint 智能体写进流程和培训材料的团队是直接影响。",
+          "action": "公司若做过「打开 Excel 智能体 / @提及 PowerPoint 智能体」的操作手册、固定工作流或提示词，趁推送前改成「在 Copilot Chat 里直接说」，并提醒同事旧线程只能只读、续改要新开对话；文件本身安全，不用迁移。"
+        },
+        {
+          "time": "09:05",
+          "source": "AI Tools Report《AI Tools Digest: Week of November 16, 2026》援引 Anthropic 交互连接器公告",
+          "heat": 84,
+          "category": "工具动态",
+          "title": "Canva 以「交互连接器」进驻 Claude 侧边面板：Claude 直接改设计、你逐项批准，文案到 PPT 不用来回切标签页",
+          "url": "https://aitoolsreport.ai/ai-tools-digest-november-16-2026",
+          "summary": "Anthropic 推出 interactive connectors（交互连接器），Canva 与 Asana、monday.com、Webflow 等可作为交互应用直接在 Claude 对话旁的面板里打开：Claude 负责编辑，每一步改动由用户逐项批准。这意味着在 Claude 里写好文案或大纲后，可以推到 Canva 设计稿里继续做，而不必切换标签页。同周报还提到 Google 把 Gemini 4 Hydrogen 设为 AI Mode 默认模型、ChatGPT 上线企业商家名录等动向。",
+          "tags": [
+            "Canva",
+            "Claude",
+            "交互连接器",
+            "设计工作流"
+          ],
+          "reason": "11-05 写过 Canva 扩展 Claude 连接器做 on-brand 设计（静态调用），本次是 11-16 周报里的 interactive connector 新形态——面板内打开 + 逐项批准，交互方式和可控性都变了，是同一条产品线的下一步，值得单独记一笔。",
+          "action": "文案已在 Claude 里打磨的，可以试着把它直接推进 Canva 出图，但一定逐项看批准提示，别一键全过；对外提案的封面和数据页最后仍导出 PPTX 在自己的模板里核一遍品牌与数字。"
+        },
+        {
+          "time": "09:10",
+          "source": "Noxi（2026-11-15 读取）11 月 AI 演示工具横评 + Microsoft Ignite 2026（11/17-20）前瞻",
+          "heat": 82,
+          "category": "工具动态",
+          "title": "赶在 Ignite 开幕：Noxi 11 月横评记录四处厂商更新，Gamma「Create with Agent」即使关掉 Research 也能联网速搜",
+          "url": "https://noxi.ai/blog/best-ai-presentation-generators",
+          "summary": "Noxi 在 11-15 复核的「12 款工具 7 条规则」横评里，列出近期四个厂商页面的变动：Google 的 Gemini in Google Slides 可一次编辑多页乃至整份演示（10-30，英文先行、限 Business/Enterprise Standard/Plus 与 Google AI Pro/Ultra）；微软 PowerPoint 的 Copilot 新建演示提示框加了 Brand Kit 选择器与模型选择器；OpenAI 的 ChatGPT Slides 在 Work 里生成、Space 里编辑、导出 .pptx（限 Pro/Business/Enterprise）；Gamma 的 Create with Agent 帮助页（11 月 15 日当周更新）显示，即便 Research 关闭，智能体也能做一次快速联网搜索，Research 功能在 Pro 及以上。文章还点名 Microsoft Ignite 2026（11/17-20）为最大变量：若微软官方确认 Copilot 在幻灯片保留网络来源、支持从右到左镜像，其评分可升 15 分。当前榜首为 Claude 与 Gamma 并列 82。",
+          "tags": [
+            "横评",
+            "Gamma",
+            "Ignite 2026",
+            "Gemini Slides"
+          ],
+          "reason": "横评本身是常有的，但这次四个 vendor 页面都在 10/11 月更新、且把 11/17-20 Ignite 当作即将到来的评分转折点，等于给今天开局提供了一个「接下来看什么」的前瞻视角，与 11-09 那份以财务演示为主的专项榜角度不同。",
+          "action": "这几天别急着锁定选型：Ignite（11/17-20）后微软若放出 Copilot 保留来源、RTL 镜像等实锤，榜单会变；要用 Gamma 的先确认自己套餐有没有 Research，Pro 以上才稳。"
+        },
+        {
+          "time": "09:15",
+          "source": "Yahoo Finance / Business Wire（2026-11-16）Noeri 融资公告",
+          "heat": 86,
+          "category": "行业新闻",
+          "title": "斯坦福两位教授创办的 Noeri 融资 1.1 亿美元：主打企业「拥有并自我改进」的专用 AI，底层转向或传导到办公与 PPT 工具",
+          "url": "https://finance.yahoo.com/technology/ai/articles/noeri-founded-leading-stanford-ai-171500410.html",
+          "summary": "11-16，由斯坦福计算机教授 Yejin Choi 与 Carlos Guestrin（XGBoost 共同作者、Stanford AI Lab 主任）联合创办的 Noeri 宣布完成 1.1 亿美元融资，Menlo Ventures 领投，Madrona、Kindred、Wing、NEA 参投，Cisco Investments、NVIDIA、Snowflake 作为战略投资方入局。Noeri 主张「智能应该是分布式的」：不租一个巨无霸通用模型，而是让企业用自己的数据与工作流训练、拥有并持续改进专用模型与智能体，每项改动都像代码评审一样交人批准。公司称已有企业与科研领域的早期概念验证合作，但未披露客户、营收、价格与上市时间。",
+          "tags": [
+            "融资",
+            "企业 AI",
+            "专用模型",
+            "底层趋势"
+          ],
+          "reason": "11-16 的硬新闻，且是把「办公 AI 从租通用大模型转向企业自有专用系统」这条路线推到 1.1 亿美元量级的新信号；雷达此前写过 OpenAI/Fal 等底层融资，本次角度换到「企业自有专用模型」，与 PPT 工具的私有化、品牌合规选型直接相关。",
+          "action": "做选型时多问一句：工具跑的是公有大模型还是能接企业自己的知识库与模型？涉及合同、报价、经营数据的 PPT，优先选支持私有化或可挂接内部模型的方案，别把敏感材料喂给免费在线工具。"
+        },
+        {
+          "time": "09:20",
+          "source": "一见财经（Gamma 增长与市场营销负责人 Kristin Fracchia 访谈）",
+          "heat": 83,
+          "category": "行业新闻",
+          "title": "Gamma 高管提「AI 成第二买家」：用户破亿、80% 在海外，用户行为从空白提示转向喂深度上下文",
+          "url": "https://news.yiqijian.com/article/6af5329b8e9f0972da3e76a6",
+          "summary": "Gamma 增长与市场营销负责人 Kristin Fracchia 指出，营销首次要面对人类之外的「第二买家」——AI 正成为购买流程里的关键中间环节，通用型全栈营销时代走向尾声。她披露 Gamma 用户已超 1 亿、其中 80% 在美国境外；公司 2020 年成立、2023 年转型 AI 后爆发，2025 年 11 月以 21 亿美元估值融资，现员工逾 100 人、营销团队约 10 人，企业版一年前推出后增长迅速。基于每月生成的 3000 万份内容，Gamma 观察到用户行为从最初「一句话让 AI 生成」转向「提供更多自有材料、上下文和数据」；近期重构后端推出 Gamma 5，并把新版本发布后的用户回流率当作关键指标。",
+          "tags": [
+            "Gamma",
+            "行业观点",
+            "AI 搜索",
+            "内容策略"
+          ],
+          "reason": "不是功能发布，而是 1 亿用户体量产品的一线观察：用户从「空白提示」走向「喂上下文」，与雷达近期反复强调的「先给真实材料再生成」方法论互为印证；「AI 成第二买家」也是首次出现的角度，对做对外提案、内容分发的人有实操含义。",
+          "action": "以后做对外方案别只想着给人看：结论页写清、关键数字带单位和来源，让 AI 检索也能准确抓到你的要点；同时把真实素材喂给工具而非只给一句话，出稿返工会明显变少。"
+        },
+        {
+          "time": "09:25",
+          "source": "Accio《trendy presentation template》（2026 演示模板趋势分析，引 Canva 2026 图形设计趋势）",
+          "heat": 78,
+          "category": "设计趋势",
+          "title": "2026 演示设计风向：Canva「Imperfect by Design」走红，反过度完美 + 一页一观点 + 无障碍字号成硬指标",
+          "url": "https://www.accio.com/business/trendy-presentation-template",
+          "summary": "该趋势分析把 2026 演示设计的主线概括为「清晰优先于装饰」：一页一个观点、大留白、短标题；数据从「堆数字」转向「讲数据故事」；视觉上偏好全屏图、短视频与真实而非图库味的照片。字体方面粗体几何字成为主角，叠加微妙 3D、层次与阴影做深度，非对称版式添动感。无障碍从加分项变基线：正文建议 24-32pt、标题 44-64pt，强对比、层级清晰。配色走暖中性、大地绿、深紫，用 Transformative Teal 点重点。Canva 2026 图形趋势里的「Imperfect by Design」（涂鸦、混排字体、手作感）、Texture Check、Notes App Chic 也在向演示渗透；同时强调混合场景设计（现场/笔记本/手机都要能读）。",
+          "tags": [
+            "设计趋势",
+            "无障碍",
+            "粗体几何字",
+            "混合场景"
+          ],
+          "reason": "与此前偏「极简/ bento /暗色」的趋势盘点相比，本次抓的是 Canva 2026 具体趋势名（Imperfect by Design 等）与可量化的无障碍字号基线，更具体、更能直接照着改。",
+          "action": "改稿时给自己两条硬线：正文不小于 24pt、每页只留一个观点；想摆脱 AI 味，可以适度用点手绘感涂鸦或真实照片替代精修图库图，但别牺牲对比度。"
+        },
+        {
+          "time": "09:30",
+          "source": "iSlide 博客《PPT 放多少字才算对：信息密度控制》",
+          "heat": 80,
+          "category": "教程观点",
+          "title": "一页到底放多少字？iSlide 三步控密法：先定轻/中/重档，再分页定额，页内分层砍掉四成文字",
+          "url": "https://www.islide.cc/blog/787",
+          "summary": "iSlide 把「每页放多少字」拆成三个变量后给出三步法：第一步定总档——高层汇报走轻档（每页 1-2 个核心点、留白多），常规工作汇报走中档（标题+正文+图表齐全），培训课件与归档材料走重档（背景、分析、结论都保留，单看 PPT 能自学）；第二步分页定额——结构性页面享受轻档，内容页按主题档位走，会被单独发出去的材料整体比现场讲的版本重一档；第三步页内分层——划掉不影响核心的修饰语与重复说明，按逻辑分组提炼短语，保留「动词+名词」骨架，通常能砍掉四成文字而信息不丢。排版上补三招：开参考线建网格分区、按 F/Z 型动线排重点、用三层颜色给密页降噪。交付前把 PPT 缩到缩略图通翻一遍，哪页「黑度」突兀就该减字了。",
+          "tags": [
+            "教程",
+            "信息密度",
+            "排版",
+            "汇报"
+          ],
+          "reason": "把长期靠感觉判断的「放多少字」变成可执行的档位与页内分层步骤，还给了缩略图查黑度这种 30 秒自查动作，是可立刻上手的方法论，与此前的提示词类教程角度不同。",
+          "action": "下一次做汇报先花两分钟给全篇定档：给领导看就轻档、留档自学才重档；定完按页内分层删一轮修饰词，交付前缩略图通翻一遍，哪页发黑就继续删。"
+        }
+      ]
+    },
     {
       "date": "2026-11-12",
       "items": [
