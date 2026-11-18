@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-11-17",
-    "updatedAt": "2026-11-17 09:28"
+    "updated": "2026-11-18",
+    "updatedAt": "2026-11-18 09:05"
   },
   "days": [
+    {
+      "date": "2026-11-18",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "Unite.AI / Daily AI Brief（2026-11-17）Microsoft Ignite 2026 开幕主题演讲报道",
+          "heat": 93,
+          "category": "软件更新",
+          "title": "Ignite 2026 实锤：Word/Excel/PowerPoint 在 Copilot 内正式 GA，纳德拉称「新的工作操作系统」，做 PPT 不再额外计用量",
+          "url": "https://www.unite.ai/microsoft-makes-office-and-home-generally-available-in-copilot",
+          "summary": "11-17 旧金山 Ignite 2026 开幕，纳德拉宣布 Home 与 Office in Copilot 正式 GA：Word、Excel、PowerPoint 直接搬进 Copilot 应用，让 Copilot 建文档，文件就在对话旁打开，可手动或借 AI 继续改，协作内容存 OneDrive 并继承企业 M365 权限、敏感度标签与合规管控。关键计费点：微软称创建 PowerPoint 演示文稿与 Excel 表格已包含在 Copilot 订阅里，不单独触发用量计费。纳德拉把这套架构称为「新的工作操作系统」——智能体驱动工作，应用退为插件组件，由组织知识层（邮件、会议、日历、聊天、文件）提供上下文。同期还有 Auto 模式按任务自动选模型与推理力度，用户也可手动切 OpenAI 或 Anthropic 模型。Home 把 Chat 与 Cowork 合成一个入口。",
+          "tags": [
+            "Microsoft 365",
+            "Copilot",
+            "Ignite 2026",
+            "Office in Copilot"
+          ],
+          "reason": "昨天记的是 11-16 解读里「独立 Office 智能体下架」这条减法与 Office in Copilot 的承接关系；今天是 Ignite 舞台上的正式 GA 实锤，且给出昨天没有的计费细节（建 PPT 不额外扣量）与权限继承说明，是同一条产品线的里程碑节点，必须单独记一笔。",
+          "action": "公司已买 M365 Copilot 的，可以放心把「在 Copilot 里直接说一句话出 PPT」写进流程——建 PPT/Excel 不额外扣用量；但要确认文件落在受管的 OneDrive、敏感度标签继承正确，别图方便把材料建在个人云里。"
+        },
+        {
+          "time": "09:05",
+          "source": "腾讯搜索 / CNMO 科技（2026-11-18）OpenAI 发布公告",
+          "heat": 90,
+          "category": "工具动态",
+          "title": "OpenAI 11-18 发布 GPT-6.2 Astra 与 Sol：旗舰 API 降价约 20%，官方点名「能生成设计质量更高的 PowerPoint」",
+          "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_7426afce01f75652",
+          "summary": "11-18，OpenAI 同步推出旗舰 GPT-6.2 Astra 与高性价比日常模型 GPT-6.2 Sol，登陆 ChatGPT Work、Codex 与 API。Astra 在 Agents' Last Exam 复杂多步骤专业工作流测试里比上代 GPT-6 Astra 提升 5.2%，单项成本不到上代三分之一；对比 Claude Fable 5.2 高 5.5 个百分点，单项任务成本约为其 5%。官方特别强调：Astra 在专业办公场景的实用性增强，能生成设计质量更高的 PowerPoint 演示文稿、Excel 表格与文档，并更精准遵循现有模板和行业规范；计算机操作与视觉推理也升级。Sol 在 FrontierCode 2.0 仅落后 Astra 0.5 个百分点，成本约五分之一。背景是 Claude Fable 5.2、Gemini 4 Carbon 在基准与价格上逼近，OpenAI 以「更强更便宜」回击。",
+          "tags": [
+            "OpenAI",
+            "GPT-6.2",
+            "底层模型",
+            "PPT 生成"
+          ],
+          "reason": "当天（11-18）硬新闻，且是底层模型首次把「更高质量 PPT + 更精准遵循模板/行业规范」写进官方卖点——雷达此前多次记录的「底层降价传导到 PPT 工具」这次有明确指向，对所有套壳 AI PPT 工具的输出质量与成本都是直接变量。",
+          "action": "别急着为「更强模型」换工具：先拿自己那份真实周报/方案做同一提示词 A/B，看新模型在「遵循公司模板」上是否真比旧版好；成本降了，但也意味着免费额度可能收紧，重度用 PPT 的盯一下套餐用量。"
+        },
+        {
+          "time": "09:10",
+          "source": "Geekiki（2026-11-17）Ignite 2026 插件目录上线报道",
+          "heat": 83,
+          "category": "软件更新",
+          "title": "Copilot 插件目录 aka.ms/plugins 上线：技能、工具、智能体打包上架，可按「设计」等行业筛选",
+          "url": "https://www.geekiki.com/blog/catalogo-plugins-do-copilot-ignite-2026?lang=zh-CN",
+          "summary": "11-17 Ignite 主题演讲上，微软上线公开的 Copilot 插件目录（aka.ms/plugins），把适用于 Copilot 的插件集中一处：从常见应用到为 Copilot Cowork 打造的功能。微软定义插件 = 技能（教 Copilot 稳定执行任务）+ 工具（检索信息或执行操作）+ 智能体（推理并朝目标行动）。用户可按任务、行业、插件、发布者搜索，并有金融、法务、销售、服务、营销、人力资源、生产力、设计和数据等筛选条件，每条都带「Get in Copilot」按钮。首批含 Box、monday.com、Rovo，以及面向 Cowork 的会计、资本市场、财务插件。这是 9 月插件注册表的公开目录延伸，配合新版 Copilot Home（Chat 与 Cowork 合一），插件出现在导航里，IT 管理体验不变。同期发布还有 Salesforce in Copilot（Copilotforce，38+ 预置销售技能）、Microsoft IQ、Autopilot 等。",
+          "tags": [
+            "Copilot",
+            "插件目录",
+            "Ignite 2026",
+            "技能复用"
+          ],
+          "reason": "9 月写插件注册表时还是后台治理概念，这次是面向用户的公开目录 + 按「设计」筛选，意味着「找现成技能来出 PPT」开始有应用商店式入口，是工作流层面的新变化，与昨天写的连接器、插件注册表角度都不同。",
+          "action": "做演示前先去目录按「设计/生产力」翻一眼有没有现成插件或技能，能省掉自己写复杂提示词；但装之前让 IT 确认权限范围，别把有无界权限的第三方智能体接进能读内部文档的 Copilot。"
+        },
+        {
+          "time": "09:15",
+          "source": "Daily AI Brief（2026-11-17）Ignite 2026 Autopilot 报道",
+          "heat": 82,
+          "category": "工具动态",
+          "title": "Copilot Autopilot 开始推送：有独立身份、能在 Teams/Outlook 被 @ 的常驻智能体，做 deck 从「下指令」转向「派任务」",
+          "url": "https://dailyaibrief.com/news/microsoft-adds-autopilot-app-building-copilot-KyahQ1EP",
+          "summary": "Ignite 2026 上微软开始向 Frontier 早期客户推送 Autopilot——一个常驻、主动、只服务单个用户的云端智能体，住在客户租户里，有自己的身份、记忆和工具。它能在 Teams 频道里被 @、盯群消息、跟邮件、跑周期性工作、管理项目，不必等用户逐条下提示词；每个 Autopilot 有 Microsoft Entra Agent ID 和指定管理人，IT 可限定权限或直接封禁，登录与操作都以其身份记录。按 Copilot Credits 用量计费，正式定价未公布。Workspaces（Notebooks 演进而来）提供人与智能体共用上下文的协作空间，后续可把个人 Autopilot 加进去。微软称近 80% 的财富 500 强在用 Cowork。",
+          "tags": [
+            "Copilot Autopilot",
+            "智能体",
+            "工作流",
+            "Ignite 2026"
+          ],
+          "reason": "这是 Ignite 里对「人怎么做 PPT」影响最根本、但容易被 GA 新闻盖过的一条：从人写提示词驱动生成，转向给一个常驻智能体派活、它主动把资料与初稿备好。与 11-10 写的「捏智能体复用」是同一趋势的官方产品化落地。",
+          "action": "现阶段别指望它自动交成稿——Autopilot 还在 Frontier 早期、定价未定。可以先想清楚哪些重复环节（每周收数据、盯群里的修改意见）适合派给带身份的智能体，等开放后小范围试用，同时要求 IT 把权限和审计打开。"
+        },
+        {
+          "time": "09:20",
+          "source": "速盈信息（2026-11）爱设计 & AiPPT.cn B1 轮融资报道",
+          "heat": 80,
+          "category": "行业新闻",
+          "title": "视觉中国领投爱设计 & AiPPT.cn B1 轮：版权素材 + AI 出稿 + 算力闭环，国产 AI PPT 走上生态化竞争",
+          "url": "http://www.suyinginfo.com/product/14.html",
+          "summary": "一站式在线设计平台爱设计及其旗下 AI 演示文稿工具 AiPPT.cn 宣布完成 B1 轮融资，视觉中国集团领投、多家产业资本跟投，资金用于产品研发、AI 技术深化与市场拓展。爱设计面向中小企业、营销人员和内容创作者提供模板与协作工具，AiPPT.cn 主打输入主题或关键词即由 AI 生成结构完整、设计精美的演示初稿。视觉中国作为国内视觉影像内容与整合营销服务商，拥有图片、视频、音乐版权库；此次投资被解读为把版权内容与 AI 设计工具、平台流量打通，让用户创作时更便捷合规地调用正版素材，AI 也能基于更大素材库学习生成。报道将其概括为「内容资源 + AI 工具 + 算力支撑」重塑创意生产链，AIGC 从辅助走向生成，软件与云算力协同。",
+          "tags": [
+            "融资",
+            "AiPPT.cn",
+            "国产工具",
+            "版权素材"
+          ],
+          "reason": "雷达此前融资条目多为海外（Prezent、Fal、Noeri、Hatz 等），这次是国产 AI PPT 直接融资且领投方自带版权素材库——「正版素材 + AI 出稿」这条路线对国企、正规企业做对外 material 的合规诉求尤其对口，是新的角度。",
+          "action": "做对外提案、投标材料时，优先选能直接调用正版图库的 AI PPT 工具，省掉自己找图、查授权的麻烦，也降低版权风险；但仍要核对生成页里出现的品牌 Logo、人物肖像和数据来源。"
+        },
+        {
+          "time": "09:25",
+          "source": "Smallppt《15 Presentation Design Ideas 2026 and 2027》趋势指南",
+          "heat": 78,
+          "category": "设计趋势",
+          "title": "2026→2027 演示设计风向：从「装饰」转向「表达性层级 + 聚焦数据故事」，重点是搭可复用视觉系统而非每页重做",
+          "url": "https://smallppt.com/blog/design-inspiration/presentation-design-ideas-2026-2027-trends-styles-examples",
+          "summary": "该指南把 2026 已确立、2027 将延续的设计方向概括为四条：一是粗体标题，用一句有意义的结论（如「改版后留存提升」）当视觉中心，而非「Results」这类标签，标题字体一种表现力强的配一种易读的正文即可；二是克制的数据可视化，去掉多余边框、图例、装饰，只高亮支撑观点的那一组对比，但单位、时间、来源、基线必须保留；三是非对称版式，靠底层的网格、对齐与留白撑住，全出血图片适合但要有放文字的负空间；四是 AI 辅助从大纲、版式探索引入，但人把控可读性与叙事。关键判断：趋势只有当它改善层级、理解或情感冲击时才用；好设计是「系统」——字号、间距、图片处理、图表配色、重复页结构要跨整份统一，才能在本页做变化而不显碎。2027 预测为模块化 bento 网格、编辑式节奏、层次化图像与更克制的动效。",
+          "tags": [
+            "设计趋势",
+            "数据故事",
+            "视觉系统",
+            "粗体标题"
+          ],
+          "reason": "昨天写的是 Canva 具体趋势名与无障碍字号硬线；这篇把重心放在「trends 是可选设计决策而非死规则」和「搭可复用视觉系统」，还明确 2026→2027 的演进方向，对要长期维护一套部门模板的人更有落地价值。",
+          "action": "别逐页追新趋势：先花一次时间把部门模板的字号阶梯、配色、图表色、页眉页脚固定成系统，之后只替换内容；做数据页时问自己「这一页要人记住哪一条对比」，只把那一条高亮。"
+        },
+        {
+          "time": "09:30",
+          "source": "博客园 zzppt《季度汇报材料太散，四款 AI 工具怎么拼成 PPT》",
+          "heat": 79,
+          "category": "教程观点",
+          "title": "季度汇报别指望一款工具通吃：图转 PPT、WPS AI、讯飞智文、KiMi PPT 各管一段，边界要自己补",
+          "url": "https://www.cnblogs.com/zzppt/p/23699424",
+          "summary": "针对「季度汇报材料太散」的实战拆解，把四款工具按各自强项分工：①图转 PPT 类解决旧课件截图、同事样稿、手绘板书、扫描页转可编辑幻灯片，无编辑锁、PowerPoint/WPS 里可自由改文字图表版式；边界是超长图片要按页拆、复杂图表和艺术字仍需人工校对。②WPS AI 强在办公生态连贯，支持 Word/PDF/思维导图/Excel/大纲生成可编辑演示，内置教育、咨询、营销、金融投研、法律模板，企业版可套自有模板适配品牌；但复杂图文混排的图片还原后图层要手动调。③讯飞智文强在中文理解，支持主题/语音/文档输入、顺手生成演讲备注；短板是模板偏保守、图片类材料不支持还原为可编辑版式。④KiMi PPT 模板现代统一、可按指定模板生成、能把照片截图复刻为可编辑 PPT；复杂设计稿复刻不完美、导出后要二次调整。核心观点：工具负责骨架和排版，行业深度论证与专业判断必须人补。",
+          "tags": [
+            "实战教程",
+            "工具分工",
+            "季度汇报",
+            "可编辑 PPTX"
+          ],
+          "reason": "市面横评多按「谁排第一」写，这篇按「一份真实季度汇报里哪段用哪个工具」拆，并明确每款的失败边界，正好接住雷达近期反复强调的「可编辑 PPTX / 事实回源」，对做正式汇报的国企职场人可直接照搬。",
+          "action": "下次季度汇报按材料形态分工：旧截图、扫描页走图转 PPT，Word/Excel 材料走 WPS AI，要语音口述先成稿用讯飞智文，统一视觉用 KiMi PPT 套模板；最后一定自己核对图表数字和还原后的图文混排页，别让工具替你背书。"
+        }
+      ]
+    },
     {
       "date": "2026-11-17",
       "items": [
