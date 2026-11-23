@@ -2,10 +2,134 @@ window.PPT_RADAR = {
   "site": {
     "name": "PPT 每日雷达",
     "slogan": "每天帮企业人盯紧 PPT 工具、软件与设计动态，附一条能落地的建议",
-    "updated": "2026-11-20",
-    "updatedAt": "2026-11-20 09:06"
+    "updated": "2026-11-23",
+    "updatedAt": "2026-11-23 09:11"
   },
   "days": [
+    {
+      "date": "2026-11-23",
+      "items": [
+        {
+          "time": "09:00",
+          "source": "什么值得买社区（2026-11-22 前后 Ignite 2026 收官复盘）",
+          "heat": 88,
+          "category": "软件更新",
+          "title": "Ignite 2026 收官算账：59 项发布藏着 215 个功能，今天能用的只有 76 个——Office in Copilot 与 Copilot Home 是普通人先摸的两件",
+          "url": "https://post.smzdm.com/p/aggw2lkm",
+          "summary": "微软 Ignite 2026 于 11-17 至 11-21 在旧金山举行。Office Watch 逐项统计：59 项发布里含 215 个功能，今天真正能上手的只有 76 个（35%），其余百余个仍在预览、内测或分阶段开放。现在能用的主要是三件：Copilot Home 把 Chat 与 Cowork 合并成一个入口，全球推送、无需申请，Auto 自动选模型和推理强度，任务复杂时建议转给 Cowork 并带走上下文；Office in Copilot 让 Word、Excel、PowerPoint 直接在聊天框里创建和编辑，文件存进 OneDrive 并继承敏感度标签，可回原应用继续改；MAI Code 2 已进入 GitHub Copilot 模型选择器。Autopilot、Copilot Today 等仍只在 Frontier 早期计划中。微软没有说清 Office in Copilot 适用哪些许可证，别默认已包含在现有订阅里。",
+          "tags": [
+            "Microsoft Ignite",
+            "Copilot Home",
+            "Office in Copilot",
+            "许可证"
+          ],
+          "reason": "11-18 记过纳德拉宣布 Office in Copilot GA，这条是大会收官后的落地清单，把「发布」和「能用」分开：对做 PPT 的人最实用的是知道哪件现在就能点开、哪件还得等。",
+          "action": "先去管理中心确认自己订阅有没有 Office in Copilot 开关，别照宣传语排工作流；想用 Cowork 一口气出表格＋演示＋邮件，要先让管理员设好 Copilot Credits 支出上限。"
+        },
+        {
+          "time": "09:02",
+          "source": "Data Studios（2026-11-22 复核）/ KbWorks（2026-11-21 微软 Message Center）",
+          "heat": 90,
+          "category": "软件更新",
+          "title": "GPT-6.2 Sol / Astra 11-20 进 PowerPoint 模型选择器：Sol 全球推给合资格用户，Astra 在 Office 端只给 Frontier ＋ UBB",
+          "url": "https://www.datastudios.org/post/microsoft-copilot-gpt-6-2-sol-office-apps-astra-cowork-studio",
+          "summary": "微软自 2026-11-20 起在 Copilot 上线 OpenAI 11-17 发布的两款模型。GPT-6.2 Sol 面向合资格用户全球推送，覆盖 Copilot Chat、Cowork、Copilot Studio 以及 Word、Excel、PowerPoint 中的 Copilot；体量更大的 Astra 只在 Cowork 和 Studio 对合资格用户开放，在 Chat 和 Office 应用（含 PowerPoint）里仅限 Frontier 早期计划用户。11-21 的 Message Center 补充：Astra 全线访问还要求启用 OpenAI 作为子处理商，用户订阅须登记 Frontier 并开启按量计费（UBB）；满足条件的合资格用户默认启用，管理员无需额外操作。两款模型都通过 Work IQ 接入用户文件、会议、聊天和业务数据，且受既有权限约束。截至 11-22 微软部分参考文档尚未同步，模型选择器里看到的列表可能与文档不一致。",
+          "tags": [
+            "GPT-6.2",
+            "PowerPoint",
+            "模型选择器",
+            "Frontier"
+          ],
+          "reason": "与 11-18 记的模型发布不同，这是微软侧真正的落地规则：做 PPT 时下拉框里能选哪个模型、要不要额外花钱，取决于 Frontier、UBB、子处理商三个开关。",
+          "action": "打开 PowerPoint Copilot 的模型下拉框先看一眼实际可选哪些；想试 Astra 先问管理员两件事——OpenAI 子处理商开没开、自己账号是否登记 Frontier，别到开会时才发模型是灰的。"
+        },
+        {
+          "time": "09:04",
+          "source": "Noxi（2026-11-22 07:32 UTC 帮助页核查）",
+          "heat": 83,
+          "category": "工具动态",
+          "title": "Gamma 5 导出细节被第三方逐条核实：选中文本字体带进 PPTX、表格默认可编辑，客户母版可存成工作区模板",
+          "url": "https://noxi.ai/blog/gamma-arabic",
+          "summary": "Noxi 在 11-22 07:32 与 08:23 UTC 复核多家厂商帮助页并记录五处变化：Gamma 的从右到左文章重新标注更新日期，但混合文本仍可能要手动调整；Gamma 导出页说明 Gamma 5 会把选中文本上设置的字体一起带进 PowerPoint，表格默认导出为可编辑表格而非图片；Gamma 5 重做导入流程、保留布局，可把客户提供的 PPT 存为可复用的工作区模板；微软「用 Copilot 保持品牌一致」页面更新于 2026 年 11 月，明确 Copilot 会从你的 PowerPoint 模板学习；Canva 的镜像页面需要付费档。其多语言规则评分中 PowerPoint＋Copilot 为 71、Canva 60、Claude 35、Google Slides 33、ChatGPT Slides 25。Canva 称可生成 20 种语言演示、编辑器自动右到左，但字体上传限 Pro 及以上，且 PPT 下载「可能看起来不同」。",
+          "tags": [
+            "Gamma 5",
+            "PPTX 导出",
+            "字体保真",
+            "可编辑表格"
+          ],
+          "reason": "此前雷达记过 Gamma 5 导入保真与图表变静态图的第三方实测，这次是 24 小时内帮助页更新的逐条核查，补上字体和表格两个此前没被正面回答的细节。",
+          "action": "交付前用客户原始 PPT 做一次往返：上传→改一页→导回 PowerPoint，看字体和表格是否还活着。要做 RTL 或多语混合稿的，先承认混合文本仍需手工调，别把它当全自动翻译排版。"
+        },
+        {
+          "time": "09:06",
+          "source": "怀化新闻网（2026-11-19 报道）",
+          "heat": 78,
+          "category": "工具动态",
+          "title": "百度「库库」11-12 品牌升级：一句话并行调度 PPT / Word / Excel 三个智能体，先把三份产物口径对齐",
+          "url": "https://www.0745news.cn/folder3287/folder2068/folder4532/2026-11-19/1230002.html",
+          "summary": "报道称百度文库与百度网盘联合推出的 AI 生产力平台于 2026-08-14 公布中文名「库库 AI」，11-12 品牌升级为「库库」，主张「库库干活，你放心」。做 PPT 的差异点是：一句指令可并行调度 PPT、Word、Excel 三个 Agent——分析底稿由 Excel Agent 算、报告框架由 Word Agent 写、演示文件由 PPT Agent 排，三份产物口径一致；网盘和文库资料可一键导入做素材；常用版式能沉淀为个人技能、创建个人专家。平台称已接入 500 多家专业机构共建的技能生态，覆盖 55 类投资角色、71 类研究场景，并引入 100 多位金融专家及相关 Skill；首页「智能 PPT」快捷入口点开即用，不需写复杂提示词。以上多为厂商侧口径，第三方独立实测仍少。",
+          "tags": [
+            "库库",
+            "百度文库",
+            "Office Agent",
+            "多智能体"
+          ],
+          "reason": "此前雷达记的国产入口多集中在「一句话出 deck」，这条的差别是把 Word／Excel／PPT 三个 Agent 并行跑、先对齐数据口径，正好戳中「汇报材料和底稿对不上」这个老问题。",
+          "action": "可以拿一份现成 Excel 底稿试它的三件套，重点看 PPT 里的数字是否和表格一致。厂商宣传数字先当参考，正式汇报前仍要自己回源核对；别把未确认数据政策的材料往里传。"
+        },
+        {
+          "time": "09:08",
+          "source": "腾讯新闻《AI 创投周报》（2026-11-21）",
+          "heat": 87,
+          "category": "行业新闻",
+          "title": "Model ML 完成 2.5 亿美元 B 轮、估值 15 亿：AI 智能体按机构模板自动出 Excel 与 PPT，每项数据可点击溯源",
+          "url": "https://news.qq.com/rain/a/20261121A064U800",
+          "summary": "11-21 创投周报披露：伦敦公司 Model ML 完成 2.5 亿美元 B 轮，估值 15 亿美元，由 General Atlantic 与 QED Investors 联合领投，上一轮 7500 万美元 A 轮距今约一年。公司面向投行、咨询和资管机构开发专属 AI Agent，自动更新财务模型、起草尽调报告、制作推介材料；平台接入机构授权邮件、交易资料室、CRM 以及 FactSet、标普 Capital IQ 等外部数据源，支持私有化部署且不用客户数据训练模型。财报或新闻触发任务后，系统按机构模板生成 Excel 与 PPT 成果，每项数据可点击溯源，Excel 改动支持逐格审阅；部分任务交给自研微调的开源模型，推理成本约为前沿闭源模型的 2%、速度约快 5 倍。汇丰、FT Partners 及德勤、普华永道、安永均已部署，今年三季度 ARR 同比增至 12 倍、日活增至 26 倍。",
+          "tags": [
+            "融资",
+            "Model ML",
+            "路演材料",
+            "数据溯源"
+          ],
+          "reason": "这是近期少见的直接替你「更新 PPT」的融资条目，而且把可溯源、逐格审阅、私有化部署做成了卖点——说明企业级 AI 演示的采购标准正从「生成得快」转向「敢拿去给客户看」。",
+          "action": "看方向就够：以后选 AI 做汇报，重点问两件事——每个数字能不能点回原始出处、能不能套用自己公司的模板。这两条比「一分钟出 30 页」更能决定材料能不能过审。"
+        },
+        {
+          "time": "09:10",
+          "source": "文档资源网（2026-11 开源项目观察）",
+          "heat": 80,
+          "category": "设计趋势",
+          "title": "「视觉演示锻造炉」开源：5 套带纪律的风格系统，核心规则是先搞清这页在说什么，再决定放什么图",
+          "url": "https://h.sjds.net/a/549474.html",
+          "summary": "作者因受够 AI 做 PPT「像开盲盒」，开源了一套视觉演示风格系统，内含五套成体系风格：近黑终端表面＋薄荷青信号（面向技术、安全、系统流程，明确禁霓虹灯、代码墙、游戏 HUD 和赛博朋克噪声）；暖白纸张＋黑色编辑网格＋深青（战略、咨询、研究、公共议题）；冷白＋海玻璃青＋瑞士网格（气候、ESG，禁叶子图标、发光地球和过度鲜艳的绿色）；奶油纸＋窄体大标题＋衬线＋酒红焦糖（法式商业编辑）；深紫茄＋象牙白＋淡金（本次新增的主打风格「语义未来」）。最关键的一条不是配色而是规则：先理解页面命题再决定主视觉——讲选择用岔路、门廊或分支，讲协同用连接与共建，讲系统演化用生长、层叠；机器人与机械手图片默认不超过整套的 20%，因为「未来」不该永远等于一只发光机械手。",
+          "tags": [
+            "设计系统",
+            "去AI味",
+            "语义配图",
+            "开源"
+          ],
+          "reason": "雷达此前记的设计趋势多集中在 Bento、暗色、无障碍等版式词，这条往上游走了一步：把风格写成带禁令的规则文件，让 AI 按页面命题选图而不是套模板，是「去 AI 味」的可执行版本。",
+          "action": "别只抄配色。先给每页写一句它到底在证明什么，再按这句话挑图；顺手给自己定两条禁令（比如禁发光地球、禁机器人握手），比换十套模板更能拉开差距。"
+        },
+        {
+          "time": "09:12",
+          "source": "LLMs Blog（2026-11 定价横切）",
+          "heat": 84,
+          "category": "教程观点",
+          "title": "一份 deck 三套计费表：点数制、订阅内含、席位插件——AI 演示工具的标价为什么算不清",
+          "url": "https://www.llms.blog/posts/three-billing-meters-for-one-slide-deck-what-ai-presentations-actually-cost-in-late-2026",
+          "summary": "文章把 2026 年末 AI 演示市场归为三种互不兼容的计费方式。点数制：Gamma 免费 400 点一次性发放、单次最多 10 页，Plus 每月 1500 点、单次 100 页且导出去水印，Pro 每月 4000 点带自定义品牌与分析，Ultra 20000 点，Business 每席每月 10000 点，未用完可滚存至月额两倍，每个 AI 动作扣点且消耗随模型与复杂度变化；Beautiful.ai Pro 年付约 $14.5/月、无免费档、14 天试用需绑卡，Team 年付 $40 覆盖 3 人；Plus AI Basic 每席每月 $10 含 1500 点，而单次生成约耗 40–170 点。订阅内含：Google Slides 整份生成自 6-29 起随 Workspace Business Standard（$14/人/月）及以上开放，边际成本为零但要先跨许可证门槛，上线时仅桌面端且限英文；Copilot in PowerPoint 企业版为 $30/人/月的加购项，300 席以下促销价 $18 至 2026-12-31，之后为 $21。结论：标价看不出单位成本，点数制对每周做一份的人友好，对一下午重做五份的人很不友好。",
+          "tags": [
+            "定价",
+            "选型",
+            "Gamma",
+            "Copilot"
+          ],
+          "reason": "此前雷达记过多篇工具横评，但多在比功能；这条把「同一件事花多少钱」摊开，尤其点数制与订阅内含的差别，直接决定哪款工具适配你的使用频率。",
+          "action": "先估自己一年做几份、每份几页、要改几轮，再倒推额度：低频对外展示选点数制，高频日常汇报算订阅内含。看到「免费」先确认可编辑 PPTX 要不要会员，别做完才发现卡在下载那一步。"
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "items": [
